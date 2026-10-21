@@ -12,6 +12,14 @@
     border: none !important;
   }
 
+  /* content-based iframe sizing; the height fallback above stays for unsupported browsers */
+  @supports (frame-sizing: content-height) {
+    iframe.pp-blocker {
+      height: auto !important;
+      frame-sizing: content-height !important;
+    }
+  }
+
   #ppop-port {
     display: none;
   }

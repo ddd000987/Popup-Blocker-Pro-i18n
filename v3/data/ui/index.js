@@ -77,6 +77,7 @@ function remove(div, url) {
   const hasFocus = div.querySelector(':focus');
 
   div.remove();
+  requestSize();
   // focus the previous one
   if (e && hasFocus) {
     e.querySelector('[data-cmd=popup-close]').focus();
@@ -115,6 +116,7 @@ function onClick(e) {
 
             target.confirm = false;
             target.value = chrome.i18n.getMessage('ui_button_trust_value');
+            requestSize();
           }
           else {
             target.confirm = true;
@@ -122,8 +124,10 @@ function onClick(e) {
             target.timeout = setTimeout(() => {
               target.confirm = false;
               target.value = chrome.i18n.getMessage('ui_button_trust_value');
+              requestSize();
             }, 3000);
             target.value = chrome.i18n.getMessage('ui_button_trust_confirm');
+            requestSize();
 
             return;
           }
@@ -157,6 +161,7 @@ const doTimer = (div, button, countdown) => {
     countdown -= 1;
     if (countdown) {
       button.value = label + ` (${countdown})`;
+      requestSize();
     }
     else {
       window.clearInterval(id);
@@ -292,6 +297,7 @@ const onPopupRequest = async request => {
       timestamp: Date.now()
     };
     document.getElementById('container').appendChild(clone);
+    requestSize();
     if (prefs['focus-popup']) {
       div.querySelector('[data-cmd=popup-close]').focus();
     }
@@ -332,6 +338,17 @@ config.changed(ps => {
 });
 
 /* resize */
+// content-based sizing (Chrome 154+): the browser derives the iframe height
+// from this document's intrinsic height; dynamic changes request a new
+// size calculation instead of measuring and messaging the service worker
+const requestSize = () => {
+  if ('requestResize' in window) {
+    window.requestResize();
+  }
+};
+const canObserve = !('requestResize' in window);
+console.log(canObserve);
+
 const resizeObserver = new ResizeObserver(entries => {
   try {
     const height = entries[0].borderBoxSize[0].blockSize;
@@ -342,7 +359,9 @@ const resizeObserver = new ResizeObserver(entries => {
   }
   catch (e) {}
 });
-resizeObserver.observe(document.body);
+if (canObserve) {
+  resizeObserver.observe(document.body);
+}
 
 const message = (request, sender, response) => {
   // only accept requests from bg page
