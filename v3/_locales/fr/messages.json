@@ -1,0 +1,296 @@
+{
+  "app_description": {
+    "message": "Bloquer toutes les demandes de popup depuis n'importe quel site"
+  },
+  "context_item2": {
+    "message": "Autoriser la dernière demande de popup"
+  },
+  "context_item3": {
+    "message": "Refuser la dernière demande de popup"
+  },
+  "context_item4": {
+    "message": "Ouvrir la dernière demande de popup dans un onglet d'arrière"
+  },
+  "context_item5": {
+    "message": "Rediriger l'onglet actuel vers la demande de popup"
+  },
+  "context_item6": {
+    "message": "Déplacer le focus de la page vers la dernière demande de popup"
+  },
+  "options_item1": {
+    "message": "Nombre maximal de demande de popup pour une seule page"
+  },
+  "options_item2": {
+    "message": "Délai d'affichage pour chaque popup (en secondes)"
+  },
+  "options_item3": {
+    "message": "Ne pas bloquer les demandes de popup d'une même origine"
+  },
+  "options_item5": {
+    "message": "Afficher le nombre total de demandes bloquées sur l'icône de la barre d'outils"
+  },
+  "options_item6": {
+    "message": "Ne pas bloquer les popups ayant ces origines:"
+  },
+  "options_item7": {
+    "message": "Ne pas bloquer les popups sur ces pages:"
+  },
+  "options_item8": {
+    "message": "Pour que ce changement prenne effet, rafraîchir l'onglet."
+  },
+  "options_item9": {
+    "message": "Décompte pour réaliser la dernière action (en secondes)"
+  },
+  "options_item10": {
+    "message": "Utiliser un zéro pour désactiver le décompte pour réaliser la dernière action."
+  },
+  "options_item13": {
+    "message": "Liste noire de sources (mode de fonctionnement inverse):"
+  },
+  "options_item15": {
+    "message": "Empêcher la redirection des pages pendant 2 secondes après qu'une demande de popup est faite"
+  },
+  "options_item17": {
+    "message": "Action par défaut quand une demande de popup est faite"
+  },
+  "options_item18": {
+    "message": "Ne rien faire"
+  },
+  "options_item19": {
+    "message": "Refuser la demande de popup"
+  },
+  "options_item20": {
+    "message": "Ouvrir en arrière-plan"
+  },
+  "options_item21": {
+    "message": "Rediriger la page"
+  },
+  "options_item22": {
+    "message": "Couleur d'arrière-plan du badge"
+  },
+  "options_item23": {
+    "message": "Ignorer les notifications popup quand c'est possible (déconseillé)"
+  },
+  "options_item25": {
+    "message": "Descriptions"
+  },
+  "options_item26": {
+    "message": "Afficher la page des FAQ lors de mises à jour"
+  },
+  "options_item27": {
+    "message": "Ne pas bloquer ces protocoles:"
+  },
+  "options_item28": {
+    "message": "Autoriser la redirection de page vers les origines suivantes:"
+  },
+  "options_item29": {
+    "message": "Autoriser la redirection de page vers la même origine"
+  },
+  "options_item30": {
+    "message": "Simuler le bouton \"Autoriser\" pour empêcher le bloqueur de popop interne de votre navigateur de bloquer ces demandes"
+  },
+  "options_item31": {
+    "message": "Quand le bouton \"Faire confiance\" est cliqué:"
+  },
+  "options_item32": {
+    "message": "Ne plus bloquer l'origine de la popup dans le futur"
+  },
+  "options_item33": {
+    "message": "Autoriser la page d'acceuil à ouvrir les popups"
+  },
+  "options_item34": {
+    "message": "Masquer les notifications provenant de ces noms d'hôtes"
+  },
+  "options_item35": {
+    "message": "Appliquer les règles CSS personnalisées suivantes à l'interface de popup"
+  },
+  "options_item40": {
+    "message": "Mettre le focus sur l'interface popup nouvellement générée. Vous pouvez ensuite utliser des raccourcis ou la touche Échap pour la cacher"
+  },
+  "options_item36": {
+    "message": "Activer la détection d'IFrames statiques agressives"
+  },
+  "options_item37": {
+    "message": "Lorsque ce mode est activé, l'extension installe un observateur de mutation qui surveille les IFrames statiques avec les attributs sources \"JavaScript\". Ce mode améliore le blocage mais a des inconvénient en terme de performance."
+  },
+  "options_item38": {
+    "message": "Redirection de page"
+  },
+  "options_item39": {
+    "message": "Divers"
+  },
+  "options_item41": {
+    "message": "Action sur une nouvelle demande de popup"
+  },
+  "options_item42": {
+    "message": "Position de la popup sur la page"
+  },
+  "options_item43": {
+    "message": "En haut à gauche"
+  },
+  "options_item44": {
+    "message": "En haut à droite"
+  },
+  "options_item45": {
+    "message": "En bas à gauche"
+  },
+  "options_item46": {
+    "message": "En bas à droite"
+  },
+  "options_item47": {
+    "message": "Étendu de la protection"
+  },
+  "options_item48": {
+    "message": "Lire la documentation à propos de la configuration du champ d'application de l'extension."
+  },
+  "options_item49": {
+    "message": "Largeur de la popup (en pixels)"
+  },
+  "options_item50": {
+    "message": "Bloquer les redirections automatiques sans interaction utilisateur"
+  },
+  "options_sync": {
+    "message": "Synchroniser cette préférence"
+  },
+  "options_support": {
+    "message": "Soutenir le développement"
+  },
+  "options_import": {
+    "message": "Importer vos préférences"
+  },
+  "options_export": {
+    "message": "Exporter vos préférences"
+  },
+  "options_reset": {
+    "message": "Rétablir les paramètres par défaut"
+  },
+  "options_save": {
+    "message": "Enregistrer les options"
+  },
+  "options_msg": {
+    "message": "Les options ont été enregistrées"
+  },
+  "options_review": {
+    "message": "Critique sur YouTube"
+  },
+  "options_page": {
+    "message": "Page de FAQ"
+  },
+  "options_t_1": {
+    "message": "Liste de noms d'hôtes séparés par des virgules (par exemple: www.google.com, www.yahoo.com)"
+  },
+  "options_t_2": {
+    "message": "Liste de domaines séparés par des virgules (par exemple: google.com, yahoo.com)"
+  },
+  "options_t_3": {
+    "message": "Un objet JSON qui guide l'extension dans l'éxécution d'une action spécifique en réponse à une demande de popup, selon son URL. Lire la page FAQ pour des exemples."
+  },
+  "options_t_4": {
+    "message": "Saisissez une liste de motifs séparés par des virgules pour définir le champ d'action global. Ne modifiez ce paramètre uniquement que si vous savez ce que vous faites, car des valeurs incorrectes pourraient faire dysfonctionner l'extension. Lire la page FAQ pour plus d'informations"
+  },
+  "ui_msg": {
+    "message": "La popup est demandée pour"
+  },
+  "ui_button_allow": {
+    "message": "Autoriser cette popup (Alt + Shift + A ou Control + Option + A)"
+  },
+  "ui_button_allow_value": {
+    "message": "autoriser"
+  },
+  "ui_button_redirect": {
+    "message": "Rediriger la page actuelle vers la nouvelle destination au lieu de l'ouvrir dans un nouvel ongle ou une popup (Alt + Shift + R ou Control + Option + R)"
+  },
+  "ui_button_redirect_value": {
+    "message": "rediriger"
+  },
+  "ui_button_background": {
+    "message": "Ouvrir le lien dans un onglet en arrière-plan (Alt + Shift + B ou Control + Option + B)"
+  },
+  "ui_button_background_value": {
+    "message": "arrière-plan"
+  },
+  "ui_button_deny": {
+    "message": "Refuser la popup ou l'ouverture d'onglet  (Alt + Shift + D ou Control + Option + D)"
+  },
+  "ui_button_deny_value": {
+    "message": "refuser"
+  },
+  "ui_button_trust": {
+    "message": "Ajouter ce domaine à liste blanche des domaines autorisés à ouvrir des popups  (Alt + Shift + T ou Control + Option + T)"
+  },
+  "ui_button_trust_value": {
+    "message": "faire confiance"
+  },
+  "ui_button_trust_confirm": {
+    "message": "Cliquer pour confirmer"
+  },
+  "bg_msg_state_0": {
+    "message": "Popup Blocker est actif globalement, mais pas sur cet onglet—probablement parce que c'est une page interne, une page hors du champ d'action ou qu'elle est en train de charger."
+  },
+  "bg_msg_state_1": {
+    "message": "Popup Blocker est actif globalement et protège cet onglet"
+  },
+  "bg_msg_state_2": {
+    "message": "Popup Blocker est actif globalement mais ne protège pas cet onglet"
+  },
+  "bg_msg_state_3": {
+    "message": "Popup Blocker est inactif globalement et ne protège pas cet onglet"
+  },
+  "bg_msg_state_4": {
+    "message": "Popup Blocker est inactif globalement mais protège cet onglet"
+  },
+  "bg_msg_reg": {
+    "message": "L'enregistrement du filtre de blocage a échoué à cause d'une règle mal formattée. Utilisez la page des options pour régler le problème."
+  },
+  "pp_enabled_g": {
+    "message": "Acitif (Globalement)"
+  },
+  "pp_enabled_c": {
+    "message": "Actif (Ce Domaine)"
+  },
+  "pp_enabled_cf": {
+    "message": "Inclure/Exclure les sub-frames"
+  },
+  "pp_silent": {
+    "message": "Afficher les Notifications"
+  },
+  "pp_ignore": {
+    "message": "Éxécuter l'Action lorsque c'est possible"
+  },
+  "pp_redirect": {
+    "message": "Bloquer la redirection de la page"
+  },
+  "pp_last_request": {
+    "message": "La dernière demande"
+  },
+  "pp_test": {
+    "message": "Bloqueur test"
+  },
+  "pp_homepage": {
+    "message": "Page d'acceuil"
+  },
+  "pp_options": {
+    "message": "Options"
+  },
+  "pp_shadow": {
+    "message": "Utliser l'ombre"
+  },
+  "pp_allow": {
+    "message": "Autoriser"
+  },
+  "pp_block": {
+    "message": "Bloquer"
+  },
+  "pp_health": {
+    "message": "Le script d'arrière-plan semble avoir planté. Voulez-vous essayer de redémarrer l'extension?"
+  },
+  "pp_block_redirect": {
+    "message": "Modéré"
+  },
+  "pp_block_automated": {
+    "message": "Stricte"
+  },
+  "pp_redirect_info": {
+    "message": "Le mode modéré empêche les redirections 2 seconds après une interaction utilisateur. Le mode strict bloque en plus les redirections non-interactives."
+  }
+}
