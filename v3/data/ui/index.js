@@ -347,7 +347,6 @@ const requestSize = () => {
   }
 };
 const canObserve = !('requestResize' in window);
-console.log(canObserve);
 
 const resizeObserver = new ResizeObserver(entries => {
   try {
