@@ -1,4 +1,4 @@
-/* global config, tldjs, URLPattern */
+/* global config, i18n, tldjs, URLPattern */
 
 // links
 for (const a of [...document.querySelectorAll('[data-href]')]) {
@@ -8,13 +8,16 @@ for (const a of [...document.querySelectorAll('[data-href]')]) {
 }
 
 // localization
-[...document.querySelectorAll('[data-i18n]')].forEach(e => {
-  if (e.tagName === 'INPUT') {
-    e.value = chrome.i18n.getMessage(e.dataset.i18n);
-  }
-  else {
-    e[e.dataset.i18nv || 'textContent'] = chrome.i18n.getMessage(e.dataset.i18n);
-  }
+i18n.ready.then(() => {
+  document.documentElement.lang = i18n.lang();
+  [...document.querySelectorAll('[data-i18n]')].forEach(e => {
+    if (e.tagName === 'INPUT') {
+      e.value = i18n.get(e.dataset.i18n);
+    }
+    else {
+      e[e.dataset.i18nv || 'textContent'] = i18n.get(e.dataset.i18n);
+    }
+  });
 });
 
 // Global

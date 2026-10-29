@@ -1,0 +1,308 @@
+{
+  "app_description": {
+    "message": "嚴格封鎖任何網站的所有彈出視窗請求"
+  },
+  "context_item2": {
+    "message": "允許最近一次的彈出視窗請求"
+  },
+  "context_item3": {
+    "message": "拒絕最近一次的彈出視窗請求"
+  },
+  "context_item4": {
+    "message": "在背景分頁開啟最近一次的彈出視窗請求"
+  },
+  "context_item5": {
+    "message": "將目前分頁重新導向至最近一次的彈出視窗請求"
+  },
+  "context_item6": {
+    "message": "將焦點從頁面移至最近一次的彈出視窗請求"
+  },
+  "options_item1": {
+    "message": "單一頁面的彈出視窗請求數量上限"
+  },
+  "options_item2": {
+    "message": "每個彈出視窗的顯示時間上限（秒）"
+  },
+  "options_item3": {
+    "message": "不封鎖來自同源的彈出視窗請求"
+  },
+  "options_item5": {
+    "message": "在工具列圖示上顯示已封鎖請求的總數"
+  },
+  "options_item6": {
+    "message": "不封鎖下列來源的彈出視窗："
+  },
+  "options_item7": {
+    "message": "在下列頁面不封鎖任何彈出視窗："
+  },
+  "options_item8": {
+    "message": "若要讓此變更生效，請重新整理分頁。"
+  },
+  "options_item9": {
+    "message": "執行上一個動作的倒數時間（秒）"
+  },
+  "options_item10": {
+    "message": "輸入 0 可停用自動執行上一個動作的倒數計時。"
+  },
+  "options_item13": {
+    "message": "黑名單來源（反向運作模式）："
+  },
+  "options_item15": {
+    "message": "在彈出視窗請求後的 2 秒內，防止頁面重新導向"
+  },
+  "options_item17": {
+    "message": "收到彈出視窗請求時的預設動作"
+  },
+  "options_item18": {
+    "message": "不做任何事"
+  },
+  "options_item19": {
+    "message": "拒絕請求"
+  },
+  "options_item20": {
+    "message": "在背景開啟"
+  },
+  "options_item21": {
+    "message": "重新導向頁面"
+  },
+  "options_item22": {
+    "message": "工具列圖示數字的背景色"
+  },
+  "options_item23": {
+    "message": "盡可能略過彈出視窗通知（不建議）"
+  },
+  "options_item25": {
+    "message": "說明"
+  },
+  "options_item26": {
+    "message": "更新後顯示常見問題頁面"
+  },
+  "options_item27": {
+    "message": "不封鎖下列通訊協定："
+  },
+  "options_item28": {
+    "message": "允許頁面重新導向至下列來源："
+  },
+  "options_item29": {
+    "message": "允許頁面重新導向至同源"
+  },
+  "options_item30": {
+    "message": "模擬「允許」按鈕，以避免瀏覽器內建的彈出視窗封鎖功能攔截這些請求"
+  },
+  "options_item31": {
+    "message": "按下「信任」按鈕時："
+  },
+  "options_item32": {
+    "message": "不再封鎖該彈出視窗的來源"
+  },
+  "options_item33": {
+    "message": "允許頂層頁面顯示任何彈出視窗"
+  },
+  "options_item34": {
+    "message": "在下列主機名稱上不顯示通知："
+  },
+  "options_item35": {
+    "message": "將下列自訂 CSS 規則套用至彈出視窗介面："
+  },
+  "options_item40": {
+    "message": "將焦點移至新產生的彈出視窗介面。之後可使用快速鍵或 Escape 鍵將其隱藏"
+  },
+  "options_item36": {
+    "message": "啟用積極的靜態 IFrame 偵測"
+  },
+  "options_item37": {
+    "message": "啟用此模式後，擴充功能會安裝 mutation observer，監控 src 屬性為 'JavaScript:' 的靜態 IFrame。這會增強封鎖能力，但會影響效能。"
+  },
+  "options_item38": {
+    "message": "頁面重新導向"
+  },
+  "options_item39": {
+    "message": "其他"
+  },
+  "options_item41": {
+    "message": "收到新的彈出視窗請求時的動作"
+  },
+  "options_item42": {
+    "message": "彈出視窗在頁面上的位置"
+  },
+  "options_item43": {
+    "message": "左上"
+  },
+  "options_item44": {
+    "message": "右上"
+  },
+  "options_item45": {
+    "message": "左下"
+  },
+  "options_item46": {
+    "message": "右下"
+  },
+  "options_item47": {
+    "message": "保護範圍"
+  },
+  "options_item48": {
+    "message": "閱讀如何設定擴充功能保護範圍的說明文件。"
+  },
+  "options_item49": {
+    "message": "彈出視窗寬度（像素）"
+  },
+  "options_item50": {
+    "message": "封鎖沒有使用者操作的自動頁面重新導向"
+  },
+  "options_sync": {
+    "message": "同步此偏好設定"
+  },
+  "options_support": {
+    "message": "支持開發"
+  },
+  "options_import": {
+    "message": "匯入偏好設定"
+  },
+  "options_export": {
+    "message": "匯出偏好設定"
+  },
+  "options_reset": {
+    "message": "重設為預設值"
+  },
+  "options_save": {
+    "message": "儲存設定"
+  },
+  "options_msg": {
+    "message": "設定已儲存"
+  },
+  "options_review": {
+    "message": "YouTube 評論"
+  },
+  "options_page": {
+    "message": "常見問題頁面"
+  },
+  "options_t_1": {
+    "message": "以逗號分隔的主機名稱清單（例如：www.google.com, www.yahoo.com）"
+  },
+  "options_t_2": {
+    "message": "以逗號分隔的網域清單（例如：google.com, yahoo.com）"
+  },
+  "options_t_3": {
+    "message": "一個 JSON 物件，用來讓擴充功能依據彈出視窗請求的網址執行特定動作。範例請參閱常見問題頁面。"
+  },
+  "options_t_4": {
+    "message": "輸入以逗號分隔的比對模式清單，以定義全域範圍。除非您清楚自己在做什麼，否則請勿修改，錯誤的值可能導致擴充功能無法運作。詳情請參閱常見問題頁面"
+  },
+  "ui_msg": {
+    "message": "收到彈出視窗請求："
+  },
+  "ui_button_allow": {
+    "message": "允許此彈出視窗（Alt + Shift + A 或 Control + Option + A）"
+  },
+  "ui_button_allow_value": {
+    "message": "允許"
+  },
+  "ui_button_redirect": {
+    "message": "將目前頁面重新導向至新的目的地，而不是在新分頁或彈出視窗中開啟（Alt + Shift + R 或 Control + Option + R）"
+  },
+  "ui_button_redirect_value": {
+    "message": "轉址"
+  },
+  "ui_button_background": {
+    "message": "在背景分頁開啟連結（Alt + Shift + B 或 Control + Option + B）"
+  },
+  "ui_button_background_value": {
+    "message": "背景開啟"
+  },
+  "ui_button_deny": {
+    "message": "拒絕開啟彈出視窗或分頁（Alt + Shift + D 或 Control + Option + D）"
+  },
+  "ui_button_deny_value": {
+    "message": "拒絕"
+  },
+  "ui_button_trust": {
+    "message": "將此網域加入白名單，允許其開啟彈出視窗（Alt + Shift + T 或 Control + Option + T）"
+  },
+  "ui_button_trust_value": {
+    "message": "信任"
+  },
+  "ui_button_trust_confirm": {
+    "message": "按一下確認"
+  },
+  "bg_msg_state_0": {
+    "message": "Popup Blocker 已全域啟用，但未在此分頁生效，可能是因為這是內部頁面、超出保護範圍的頁面，或仍在載入中。"
+  },
+  "bg_msg_state_1": {
+    "message": "Popup Blocker 已全域啟用，並保護此分頁"
+  },
+  "bg_msg_state_2": {
+    "message": "Popup Blocker 已全域啟用，但未保護此分頁"
+  },
+  "bg_msg_state_3": {
+    "message": "Popup Blocker 已全域停用，且未保護此分頁"
+  },
+  "bg_msg_state_4": {
+    "message": "Popup Blocker 已全域停用，但仍保護此分頁"
+  },
+  "bg_msg_reg": {
+    "message": "由於規則格式不正確，註冊封鎖篩選器失敗。請前往設定頁面修正。"
+  },
+  "pp_enabled_g": {
+    "message": "已啟用（全域）"
+  },
+  "pp_enabled_c": {
+    "message": "已啟用（此網域）"
+  },
+  "pp_enabled_cf": {
+    "message": "包含／排除子框架"
+  },
+  "pp_silent": {
+    "message": "顯示通知"
+  },
+  "pp_ignore": {
+    "message": "盡可能直接執行動作"
+  },
+  "pp_redirect": {
+    "message": "封鎖頁面重新導向"
+  },
+  "pp_last_request": {
+    "message": "最近一次請求"
+  },
+  "pp_test": {
+    "message": "測試封鎖功能"
+  },
+  "pp_homepage": {
+    "message": "首頁"
+  },
+  "pp_options": {
+    "message": "設定"
+  },
+  "pp_shadow": {
+    "message": "使用替身視窗"
+  },
+  "pp_allow": {
+    "message": "允許"
+  },
+  "pp_block": {
+    "message": "封鎖"
+  },
+  "pp_health": {
+    "message": "背景指令碼似乎沒有回應。要嘗試重新啟動擴充功能嗎？"
+  },
+  "pp_block_redirect": {
+    "message": "輕度"
+  },
+  "pp_block_automated": {
+    "message": "嚴格"
+  },
+  "pp_redirect_info": {
+    "message": "輕度模式會在使用者操作後的 2 秒內防止重新導向；嚴格模式則會連同沒有使用者操作的頁面重新導向一併封鎖。"
+  },
+  "options_item51": {
+    "message": "介面與通知語言"
+  },
+  "options_item52": {
+    "message": "跟隨瀏覽器"
+  },
+  "ui_button_close": {
+    "message": "關閉此通知"
+  },
+  "ui_button_close_value": {
+    "message": "關閉"
+  }
+}

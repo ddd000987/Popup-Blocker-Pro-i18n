@@ -292,5 +292,17 @@
   },
   "pp_redirect_info": {
     "message": "Le mode modéré empêche les redirections 2 secondes après une interaction utilisateur. Le mode strict bloque en plus les redirections non-interactives."
+  },
+  "options_item51": {
+    "message": "Langue de l'interface et des notifications"
+  },
+  "options_item52": {
+    "message": "Langue du navigateur"
+  },
+  "ui_button_close": {
+    "message": "Fermer cette notification"
+  },
+  "ui_button_close_value": {
+    "message": "fermer"
   }
 }

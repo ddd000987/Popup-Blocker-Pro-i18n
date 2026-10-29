@@ -1,15 +1,24 @@
-/* global config  */
+/* global config, i18n */
 'use strict';
 
 // localization
-[...document.querySelectorAll('[data-i18n]')].forEach(e => {
-  if (e.dataset.i18nValue) {
-    e.setAttribute(e.dataset.i18nValue, chrome.i18n.getMessage(e.dataset.i18n));
-  }
-  else {
-    e.textContent = chrome.i18n.getMessage(e.dataset.i18n);
-  }
-});
+const localize = () => {
+  document.documentElement.lang = i18n.lang();
+  [...document.querySelectorAll('[data-i18n]')].forEach(e => {
+    if (e.dataset.i18nValue) {
+      e.setAttribute(e.dataset.i18nValue, i18n.get(e.dataset.i18n));
+    }
+    else {
+      e.textContent = i18n.get(e.dataset.i18n);
+    }
+  });
+};
+i18n.ready.then(localize);
+
+// languages (each one is displayed in its own language)
+for (const [locale, name] of Object.entries(i18n.locales)) {
+  document.getElementById('locale').append(new Option(name, locale));
+}
 
 async function restore(defaults = false) {
   document.getElementById('user-styling').value = localStorage.getItem('user-styling') || '';
@@ -29,7 +38,7 @@ async function restore(defaults = false) {
     'block-page-redirection', 'block-page-redirection-same-origin',
     'block-page-redirection-hostnames', 'block-automated-redirection',
     'top-hosts', 'protocols', 'silent', 'default-action',
-    'whitelist-mode', 'immediate-action', 'rules', 'placement', 'scope', 'width'
+    'whitelist-mode', 'immediate-action', 'rules', 'placement', 'scope', 'width', 'locale'
   ]);
 
   document.getElementById('rules').value = JSON.stringify(prefs.rules, undefined, '  ');
@@ -57,6 +66,7 @@ async function restore(defaults = false) {
   document.getElementById('placement').value = prefs['placement'];
   document.getElementById('scope').value = prefs['scope'].join(', ');
   document.getElementById('width').value = prefs['width'];
+  document.getElementById('locale').value = prefs['locale'];
 }
 
 const prepare = str => str.split(/\s*,\s*/)
@@ -119,7 +129,8 @@ async function save() {
     'whitelist-mode': document.getElementById('whitelist-mode').value,
     'immediate-action': document.getElementById('immediate-action').checked,
     'placement': document.getElementById('placement').value,
-    'scope': scopes
+    'scope': scopes,
+    'locale': document.getElementById('locale').value
   };
 
   let orules = '';
@@ -133,9 +144,15 @@ async function save() {
 
   localStorage.setItem('user-styling', document.getElementById('user-styling').value || '');
 
-  config.set(settings).then(() => {
+  config.set(settings).then(async () => {
+    // apply the new language to this page right away
+    if (settings.locale !== i18n.locale) {
+      i18n.ready = i18n.load(settings.locale);
+      await i18n.ready;
+      localize();
+    }
     const status = document.getElementById('status');
-    status.textContent = chrome.i18n.getMessage('options_msg');
+    status.textContent = i18n.get('options_msg');
     restore();
     setTimeout(() => {
       status.textContent = '';

@@ -1,5 +1,5 @@
 const check = () => {
-  if (confirm(chrome.i18n.getMessage('pp_health'))) {
+  if (confirm(i18n.get('pp_health'))) {
     chrome.runtime.reload();
   }
 };

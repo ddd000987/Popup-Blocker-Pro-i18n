@@ -292,5 +292,17 @@
   },
   "pp_redirect_info": {
     "message": "Light mode prevents redirects for 2 seconds after user interaction. Strict mode also blocks non-interactive page redirects."
+  },
+  "options_item51": {
+    "message": "Interface and notification language"
+  },
+  "options_item52": {
+    "message": "Browser default"
+  },
+  "ui_button_close": {
+    "message": "Close this notification"
+  },
+  "ui_button_close_value": {
+    "message": "close"
   }
 }

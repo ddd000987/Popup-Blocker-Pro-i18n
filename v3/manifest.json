@@ -15,6 +15,7 @@
     "service_worker": "worker.js",
     "scripts": [
       "config.js",
+      "i18n.js",
       "badge.js",
       "worker.js"
     ]

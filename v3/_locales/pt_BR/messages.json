@@ -292,5 +292,17 @@
   },
   "pp_redirect_info": {
     "message": "O modo Leve impede redirecionamentos por 2 segundos após a interação do usuário. O modo Rigoroso também bloqueia redirecionamentos de página não interativos."
+  },
+  "options_item51": {
+    "message": "Idioma da interface e das notificações"
+  },
+  "options_item52": {
+    "message": "Padrão do navegador"
+  },
+  "ui_button_close": {
+    "message": "Fechar esta notificação"
+  },
+  "ui_button_close_value": {
+    "message": "fechar"
   }
 }

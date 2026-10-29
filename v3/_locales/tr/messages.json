@@ -292,5 +292,17 @@
   },
   "pp_redirect_info": {
     "message": "Hafif mod, kullanıcı etkileşiminden sonra 2 saniye boyunca yönlendirmeleri engeller. Katı mod ise buna ek olarak kullanıcı etkileşimi olmadan gerçekleşen sayfa yönlendirmelerini de engeller."
+  },
+  "options_item51": {
+    "message": "Arayüz ve bildirim dili"
+  },
+  "options_item52": {
+    "message": "Tarayıcı varsayılanı"
+  },
+  "ui_button_close": {
+    "message": "Bu bildirimi kapat"
+  },
+  "ui_button_close_value": {
+    "message": "kapat"
   }
 }

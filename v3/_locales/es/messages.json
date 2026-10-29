@@ -280,5 +280,17 @@
    },
    "ui_msg": {
       "message": "Se solicita una ventana emergente para"
-   }
+   },
+  "options_item51": {
+    "message": "Idioma de la interfaz y de las notificaciones"
+  },
+  "options_item52": {
+    "message": "Predeterminado del navegador"
+  },
+  "ui_button_close": {
+    "message": "Cerrar esta notificación"
+  },
+  "ui_button_close_value": {
+    "message": "cerrar"
+  }
 }

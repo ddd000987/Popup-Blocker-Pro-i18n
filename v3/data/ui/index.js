@@ -1,4 +1,4 @@
-/* global config, URLPattern */
+/* global config, i18n, URLPattern */
 'use strict';
 
 const args = new URLSearchParams(location.search);
@@ -115,7 +115,7 @@ function onClick(e) {
             chrome.runtime.sendMessage(msg);
 
             target.confirm = false;
-            target.value = chrome.i18n.getMessage('ui_button_trust_value');
+            target.value = i18n.get('ui_button_trust_value');
             requestSize();
           }
           else {
@@ -123,10 +123,10 @@ function onClick(e) {
 
             target.timeout = setTimeout(() => {
               target.confirm = false;
-              target.value = chrome.i18n.getMessage('ui_button_trust_value');
+              target.value = i18n.get('ui_button_trust_value');
               requestSize();
             }, 3000);
-            target.value = chrome.i18n.getMessage('ui_button_trust_confirm');
+            target.value = i18n.get('ui_button_trust_confirm');
             requestSize();
 
             return;
@@ -284,9 +284,9 @@ const onPopupRequest = async request => {
     }
     // localization
     [...clone.querySelectorAll('[data-i18n]')].forEach(e => {
-      e[e.dataset.i18nValue || 'title'] = chrome.i18n.getMessage(e.dataset.i18n);
+      e[e.dataset.i18nValue || 'title'] = i18n.get(e.dataset.i18n);
       if (e.type === 'button') {
-        e.value = chrome.i18n.getMessage(e.dataset.i18n + '_value');
+        e.value = i18n.get(e.dataset.i18n + '_value');
       }
     });
     // hide on timeout
@@ -327,6 +327,8 @@ const prepare = async c => {
     'issue', 'numbers', 'timeout', 'countdown', 'default-action',
     'immediate-action', 'simulate-allow', 'focus-popup', 'rules'
   ]);
+  await i18n.ready;
+  document.documentElement.lang = i18n.lang();
   c();
 };
 

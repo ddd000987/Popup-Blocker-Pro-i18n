@@ -1,7 +1,8 @@
-/* global config */
+/* global config, i18n */
 
 if (typeof importScripts !== 'undefined') {
   self.importScripts('config.js');
+  self.importScripts('i18n.js');
   self.importScripts('badge.js');
 }
 
@@ -110,7 +111,7 @@ const activate = async () => {
 
     chrome.action.setBadgeBackgroundColor({color: '#b16464'});
     chrome.action.setBadgeText({text: 'E'});
-    chrome.action.setTitle({title: chrome.i18n.getMessage('bg_msg_reg') + '\n\n' + e.message});
+    chrome.action.setTitle({title: i18n.get('bg_msg_reg') + '\n\n' + e.message});
     console.error('Blocker Registration Failed', e);
   }
   activate.busy = false;
