@@ -1,9 +1,9 @@
 /* global config, i18n, tldjs, URLPattern */
 
-// links
+// links (the original project's FAQ still documents every setting)
 for (const a of [...document.querySelectorAll('[data-href]')]) {
   if (a.hasAttribute('href') === false) {
-    a.href = chrome.runtime.getManifest().homepage_url + '#' + a.dataset.href;
+    a.href = 'https://webextension.org/listing/popup-blocker.html#' + a.dataset.href;
   }
 }
 

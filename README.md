@@ -17,16 +17,18 @@ Popup Blocker Pro i18n is an unofficial fork of [Popup Blocker (strict)](https:/
 | Help for settings | Short labels only | Hover any setting on the options page to see what it does, in every bundled language |
 | "Mute notifications on these hostnames" | Has no effect (the check was removed in upstream commit `1cfbf2e`) | Works again: popups on listed pages are still blocked, but no notification is shown |
 | Close button of the notification | Always in English | Translated |
+| Pages opened by the extension | The author's website on install, after updates and on uninstall | None |
+| Icon | Blue | Green, same shape, so it is not mistaken for the original |
 
 Details:
 
 - **Language switch.** The selected language applies to the options page, the toolbar popup, the in-page notification and the toolbar icon's tooltip, and changes take effect without reloading. Text that has no translation yet falls back to English. The extension's name, description and keyboard shortcut descriptions are shown by the browser itself, so they always follow the browser's language.
 - **Setting descriptions.** They are written from the actual code, so they cover details the labels leave out. For example, the countdown presses the action you chose for that site in the last 10 days, "Simulate allow" can break login popups, and "Reset to Defaults" only takes effect after you press Save.
-- **Options page.** Basic settings: language, default action, countdown, display time, position, the "trust" button, toolbar counter, same-site popups, FAQ page and the two allow lists. Advanced settings, collapsed until you open them: the notification box, muted sites, custom CSS, protocols, URL rules, protection scope and page redirection.
+- **Options page.** Basic settings: language, default action, countdown, display time, position, the "trust" button, toolbar counter, same-site popups and the two allow lists. Advanced settings, collapsed until you open them: the notification box, muted sites, custom CSS, protocols, URL rules, protection scope and page redirection.
 - **Right-to-left.** In Arabic the pages are mirrored, while addresses, hostname lists and code keep left-to-right text.
 - **Muted hostnames.** Matching uses the page's exact hostname, the same as before the upstream regression. Rules and the default action still run on those pages.
 
-This fork is based on upstream commit [`c680634`](https://github.com/schomery/popup-blocker/commit/c680634) (version 0.9.2). Only the Manifest V3 version in [`v3/`](v3) has been changed; [`v2/`](v2) is the original legacy version, left as is.
+This fork is based on upstream commit [`c680634`](https://github.com/schomery/popup-blocker/commit/c680634) (version 0.9.2); its own version numbers start at 1.0.0. Only the Manifest V3 version in [`v3/`](v3) has been changed; [`v2/`](v2) is the original legacy version, left as is.
 
 ---
 
@@ -85,7 +87,7 @@ To use this fork, install it from source. If you already have the store version,
 
 **Firefox**
 
-Release versions of Firefox only install extensions signed by Mozilla. To try the fork, open `about:debugging`, choose **This Firefox**, click **Load Temporary Add-on…** and select `v3/manifest.json`. A temporary add-on is removed when Firefox restarts. For a permanent install you would need to sign your own build on [addons.mozilla.org](https://addons.mozilla.org/developers/), which requires changing the add-on ID in `v3/manifest.json` (it is still the original extension's ID).
+Release versions of Firefox only install extensions signed by Mozilla. To try the fork, open `about:debugging`, choose **This Firefox**, click **Load Temporary Add-on…** and select `v3/manifest.json`. A temporary add-on is removed when Firefox restarts. For a permanent install you would need to sign your own build on [addons.mozilla.org](https://addons.mozilla.org/developers/); the fork already has its own add-on ID.
 
 ### Building a package
 
@@ -112,7 +114,7 @@ The original project collects translations on [Transifex](https://explore.transi
 
 ### Links
 
-These pages belong to the original project. The extension also opens the original FAQ page when it is installed and after updates (at most once every 45 days; this can be turned off in the options), and a feedback page when it is uninstalled.
+These pages belong to the original project. The "FAQs Page" button and the links next to the settings lead to the original FAQ, which still describes every setting. Unlike the original, this fork never opens a page by itself (not on install, after updates or on uninstall).
 
 - FAQ: https://webextension.org/listing/popup-blocker.html
 - Test page: https://webbrowsertools.com/popup-blocker/
