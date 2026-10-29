@@ -168,9 +168,10 @@ async function save() {
 document.addEventListener('DOMContentLoaded', () => restore());
 document.getElementById('save').addEventListener('click', save);
 
+// footnote links open the notes
 document.addEventListener('click', e => {
-  if (e.target.href && e.target.href.indexOf('#') !== -1) {
-    document.querySelector('details').open = true;
+  if (e.target.href && e.target.href.indexOf('#n') !== -1) {
+    document.getElementById('notes').open = true;
   }
 });
 
@@ -229,6 +230,9 @@ document.getElementById('review').addEventListener('click', () => chrome.tabs.cr
 document.getElementById('page').addEventListener('click', () => chrome.tabs.create({
   url: chrome.runtime.getManifest().homepage_url
 }));
+
+// version
+document.getElementById('version').textContent = 'v' + chrome.runtime.getManifest().version;
 
 // links
 for (const a of [...document.querySelectorAll('[data-href]')]) {

@@ -394,5 +394,26 @@
   },
   "options_tip_reset": {
     "message": "Remplit le formulaire avec les valeurs par défaut. Rien ne change tant que vous n'appuyez pas sur \"Enregistrer les modifications\"."
+  },
+  "options_basic": {
+    "message": "Paramètres de base"
+  },
+  "options_advanced": {
+    "message": "Paramètres avancés"
+  },
+  "options_advanced_hint": {
+    "message": "Rarement nécessaires. Ne les modifiez que si vous savez ce qu'ils font."
+  },
+  "options_section_general": {
+    "message": "Général"
+  },
+  "options_section_lists": {
+    "message": "Listes d'autorisation"
+  },
+  "options_section_notification": {
+    "message": "Boîte de notification"
+  },
+  "options_section_rules": {
+    "message": "Règles et protocoles"
   }
 }

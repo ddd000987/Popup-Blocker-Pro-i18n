@@ -394,5 +394,26 @@
   },
   "options_tip_reset": {
     "message": "ملء النموذج بالقيم الافتراضية. لا يتغير شيء حتى تضغط على \"حفظ الإعدادات\"."
+  },
+  "options_basic": {
+    "message": "الإعدادات الأساسية"
+  },
+  "options_advanced": {
+    "message": "الإعدادات المتقدمة"
+  },
+  "options_advanced_hint": {
+    "message": "نادرًا ما تحتاج إليها. غيّرها فقط إذا كنت تعرف وظيفتها."
+  },
+  "options_section_general": {
+    "message": "عام"
+  },
+  "options_section_lists": {
+    "message": "قوائم السماح"
+  },
+  "options_section_notification": {
+    "message": "مربع الإشعارات"
+  },
+  "options_section_rules": {
+    "message": "القواعد والبروتوكولات"
   }
 }

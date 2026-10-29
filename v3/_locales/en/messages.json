@@ -394,5 +394,26 @@
   },
   "options_tip_reset": {
     "message": "Fill the form with the default values. Nothing changes until you press \"Save Options\"."
+  },
+  "options_basic": {
+    "message": "Basic settings"
+  },
+  "options_advanced": {
+    "message": "Advanced settings"
+  },
+  "options_advanced_hint": {
+    "message": "Rarely needed. Change these only if you know what they do."
+  },
+  "options_section_general": {
+    "message": "General"
+  },
+  "options_section_lists": {
+    "message": "Allow lists"
+  },
+  "options_section_notification": {
+    "message": "Notification box"
+  },
+  "options_section_rules": {
+    "message": "Rules and protocols"
   }
 }

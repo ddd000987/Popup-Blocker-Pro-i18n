@@ -394,5 +394,26 @@
   },
   "options_tip_reset": {
     "message": "Formu varsayılan değerlerle doldurur. \"Ayarları Kaydet\" düğmesine basana kadar hiçbir şey değişmez."
+  },
+  "options_basic": {
+    "message": "Temel ayarlar"
+  },
+  "options_advanced": {
+    "message": "Gelişmiş ayarlar"
+  },
+  "options_advanced_hint": {
+    "message": "Nadiren gerekir. Yalnızca ne işe yaradıklarını biliyorsanız değiştirin."
+  },
+  "options_section_general": {
+    "message": "Genel"
+  },
+  "options_section_lists": {
+    "message": "İzin listeleri"
+  },
+  "options_section_notification": {
+    "message": "Bildirim kutusu"
+  },
+  "options_section_rules": {
+    "message": "Kurallar ve protokoller"
   }
 }

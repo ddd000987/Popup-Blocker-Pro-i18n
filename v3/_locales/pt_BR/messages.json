@@ -394,5 +394,26 @@
   },
   "options_tip_reset": {
     "message": "Preenche o formulário com os valores padrão. Nada muda até você pressionar \"Salvar opções\"."
+  },
+  "options_basic": {
+    "message": "Configurações básicas"
+  },
+  "options_advanced": {
+    "message": "Configurações avançadas"
+  },
+  "options_advanced_hint": {
+    "message": "Raramente necessárias. Altere-as apenas se souber o que fazem."
+  },
+  "options_section_general": {
+    "message": "Geral"
+  },
+  "options_section_lists": {
+    "message": "Listas de permissões"
+  },
+  "options_section_notification": {
+    "message": "Caixa de notificação"
+  },
+  "options_section_rules": {
+    "message": "Regras e protocolos"
   }
 }

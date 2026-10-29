@@ -394,5 +394,26 @@
   },
   "options_tip_reset": {
     "message": "把表單填回預設值。按下「儲存設定」前不會有任何變更。"
+  },
+  "options_basic": {
+    "message": "基礎設定"
+  },
+  "options_advanced": {
+    "message": "進階設定"
+  },
+  "options_advanced_hint": {
+    "message": "一般不需要調整，請在了解用途後再修改。"
+  },
+  "options_section_general": {
+    "message": "一般"
+  },
+  "options_section_lists": {
+    "message": "白名單"
+  },
+  "options_section_notification": {
+    "message": "通知框"
+  },
+  "options_section_rules": {
+    "message": "規則與通訊協定"
   }
 }

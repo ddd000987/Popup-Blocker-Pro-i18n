@@ -382,5 +382,26 @@
   },
   "options_tip_reset": {
     "message": "Rellena el formulario con los valores predeterminados. No cambia nada hasta que pulses \"Guardar Opciones\"."
+  },
+  "options_basic": {
+    "message": "Ajustes básicos"
+  },
+  "options_advanced": {
+    "message": "Ajustes avanzados"
+  },
+  "options_advanced_hint": {
+    "message": "Rara vez hace falta. Cámbialos solo si sabes lo que hacen."
+  },
+  "options_section_general": {
+    "message": "General"
+  },
+  "options_section_lists": {
+    "message": "Listas de permitidos"
+  },
+  "options_section_notification": {
+    "message": "Cuadro de notificación"
+  },
+  "options_section_rules": {
+    "message": "Reglas y protocolos"
   }
 }
