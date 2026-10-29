@@ -225,19 +225,19 @@
     "message": "クリックで確認"
   },
   "bg_msg_state_0": {
-    "message": "Popup Blocker はグローバルで有効ですが、このタブでは動作していません。内部ページ、適用範囲外のページ、または読み込み中の可能性があります。"
+    "message": "Popup Blocker Pro i18n はグローバルで有効ですが、このタブでは動作していません。内部ページ、適用範囲外のページ、または読み込み中の可能性があります。"
   },
   "bg_msg_state_1": {
-    "message": "Popup Blocker はグローバルで有効であり、このタブを保護しています"
+    "message": "Popup Blocker Pro i18n はグローバルで有効であり、このタブを保護しています"
   },
   "bg_msg_state_2": {
-    "message": "Popup Blocker はグローバルで有効ですが、このタブは保護していません"
+    "message": "Popup Blocker Pro i18n はグローバルで有効ですが、このタブは保護していません"
   },
   "bg_msg_state_3": {
-    "message": "Popup Blocker はグローバルで無効であり、このタブは保護していません"
+    "message": "Popup Blocker Pro i18n はグローバルで無効であり、このタブは保護していません"
   },
   "bg_msg_state_4": {
-    "message": "Popup Blocker はグローバルで無効ですが、このタブは保護しています"
+    "message": "Popup Blocker Pro i18n はグローバルで無効ですが、このタブは保護しています"
   },
   "bg_msg_reg": {
     "message": "形式が正しくないルールのため、ブロックフィルターの登録に失敗しました。オプションページで修正してください。"

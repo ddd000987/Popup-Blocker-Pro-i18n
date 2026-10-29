@@ -225,19 +225,19 @@
     "message": "Bestätigen"
   },
   "bg_msg_state_0": {
-    "message": "Popup Blocker ist global aktiviert, aber in diesem Tab nicht aktiv – wahrscheinlich, weil es eine interne Seite, eine Seite außerhalb des Bereichs ist oder noch lädt."
+    "message": "Popup Blocker Pro i18n ist global aktiviert, aber in diesem Tab nicht aktiv – wahrscheinlich, weil es eine interne Seite, eine Seite außerhalb des Bereichs ist oder noch lädt."
   },
   "bg_msg_state_1": {
-    "message": "Popup Blocker ist global aktiviert und schützt diesen Tab"
+    "message": "Popup Blocker Pro i18n ist global aktiviert und schützt diesen Tab"
   },
   "bg_msg_state_2": {
-    "message": "Popup Blocker ist global aktiviert, schützt diesen Tab aber nicht"
+    "message": "Popup Blocker Pro i18n ist global aktiviert, schützt diesen Tab aber nicht"
   },
   "bg_msg_state_3": {
-    "message": "Popup Blocker ist global deaktiviert und schützt diesen Tab nicht"
+    "message": "Popup Blocker Pro i18n ist global deaktiviert und schützt diesen Tab nicht"
   },
   "bg_msg_state_4": {
-    "message": "Popup Blocker ist global deaktiviert, schützt diesen Tab aber"
+    "message": "Popup Blocker Pro i18n ist global deaktiviert, schützt diesen Tab aber"
   },
   "bg_msg_reg": {
     "message": "Registrieren des Blockierfilters fehlgeschlagen wegen einer falsch formatierten Regel. Die Optionsseite verwenden, um das Problem zu beheben."

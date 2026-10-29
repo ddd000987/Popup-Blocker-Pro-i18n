@@ -225,19 +225,19 @@
     "message": "Konfirmasi"
   },
   "bg_msg_state_0": {
-    "message": "Popup Blocker diaktifkan secara global, tetapi tidak aktif di tab ini—kemungkinan karena ini halaman internal, halaman di luar cakupan, atau masih dimuat."
+    "message": "Popup Blocker Pro i18n diaktifkan secara global, tetapi tidak aktif di tab ini—kemungkinan karena ini halaman internal, halaman di luar cakupan, atau masih dimuat."
   },
   "bg_msg_state_1": {
-    "message": "Popup Blocker diaktifkan secara global dan melindungi tab ini"
+    "message": "Popup Blocker Pro i18n diaktifkan secara global dan melindungi tab ini"
   },
   "bg_msg_state_2": {
-    "message": "Popup Blocker diaktifkan secara global tetapi tidak melindungi tab ini"
+    "message": "Popup Blocker Pro i18n diaktifkan secara global tetapi tidak melindungi tab ini"
   },
   "bg_msg_state_3": {
-    "message": "Popup Blocker dinonaktifkan secara global dan tidak melindungi tab ini"
+    "message": "Popup Blocker Pro i18n dinonaktifkan secara global dan tidak melindungi tab ini"
   },
   "bg_msg_state_4": {
-    "message": "Popup Blocker dinonaktifkan secara global tetapi melindungi tab ini"
+    "message": "Popup Blocker Pro i18n dinonaktifkan secara global tetapi melindungi tab ini"
   },
   "bg_msg_reg": {
     "message": "Pendaftaran filter pemblokiran gagal karena aturan yang formatnya salah. Gunakan halaman opsi untuk memperbaikinya."

@@ -225,19 +225,19 @@
     "message": "클릭하여 확인"
   },
   "bg_msg_state_0": {
-    "message": "Popup Blocker가 전역적으로 사용 설정되어 있지만 이 탭에서는 활성화되지 않았습니다. 내부 페이지이거나 범위 밖의 페이지이거나 아직 로드 중이기 때문일 수 있습니다."
+    "message": "Popup Blocker Pro i18n이 전역적으로 사용 설정되어 있지만 이 탭에서는 활성화되지 않았습니다. 내부 페이지이거나 범위 밖의 페이지이거나 아직 로드 중이기 때문일 수 있습니다."
   },
   "bg_msg_state_1": {
-    "message": "Popup Blocker가 전역적으로 사용 설정되어 있으며 이 탭을 보호합니다"
+    "message": "Popup Blocker Pro i18n이 전역적으로 사용 설정되어 있으며 이 탭을 보호합니다"
   },
   "bg_msg_state_2": {
-    "message": "Popup Blocker가 전역적으로 사용 설정되어 있지만 이 탭은 보호하지 않습니다"
+    "message": "Popup Blocker Pro i18n이 전역적으로 사용 설정되어 있지만 이 탭은 보호하지 않습니다"
   },
   "bg_msg_state_3": {
-    "message": "Popup Blocker가 전역적으로 사용 중지되어 있으며 이 탭을 보호하지 않습니다"
+    "message": "Popup Blocker Pro i18n이 전역적으로 사용 중지되어 있으며 이 탭을 보호하지 않습니다"
   },
   "bg_msg_state_4": {
-    "message": "Popup Blocker가 전역적으로 사용 중지되어 있지만 이 탭은 보호합니다"
+    "message": "Popup Blocker Pro i18n이 전역적으로 사용 중지되어 있지만 이 탭은 보호합니다"
   },
   "bg_msg_reg": {
     "message": "형식이 잘못된 규칙으로 인해 차단 필터 등록에 실패했습니다. 옵션 페이지에서 수정하세요."

@@ -225,19 +225,19 @@
     "message": "点击确认"
   },
   "bg_msg_state_0": {
-    "message": "Popup Blocker 已全局启用，但在此标签页中处于非活动状态——可能是因为这是内部页面、超出范围的页面或仍在加载中。"
+    "message": "Popup Blocker Pro i18n 已全局启用，但在此标签页中处于非活动状态——可能是因为这是内部页面、超出范围的页面或仍在加载中。"
   },
   "bg_msg_state_1": {
-    "message": "Popup Blocker 已全局启用，并正在保护此标签页"
+    "message": "Popup Blocker Pro i18n 已全局启用，并正在保护此标签页"
   },
   "bg_msg_state_2": {
-    "message": "Popup Blocker 已全局启用，但未保护此标签页"
+    "message": "Popup Blocker Pro i18n 已全局启用，但未保护此标签页"
   },
   "bg_msg_state_3": {
-    "message": "Popup Blocker 已全局禁用，且未保护此标签页"
+    "message": "Popup Blocker Pro i18n 已全局禁用，且未保护此标签页"
   },
   "bg_msg_state_4": {
-    "message": "Popup Blocker 已全局禁用，但仍在保护此标签页"
+    "message": "Popup Blocker Pro i18n 已全局禁用，但仍在保护此标签页"
   },
   "bg_msg_reg": {
     "message": "由于规则格式不正确，注册阻止筛选器失败。请使用选项页面进行修复。"

@@ -225,19 +225,19 @@
     "message": "Conferma"
   },
   "bg_msg_state_0": {
-    "message": "Popup Blocker è abilitato globalmente, ma non attivo in questa scheda—probabilmente perché è una pagina interna, fuori ambito o ancora in caricamento."
+    "message": "Popup Blocker Pro i18n è abilitato globalmente, ma non attivo in questa scheda—probabilmente perché è una pagina interna, fuori ambito o ancora in caricamento."
   },
   "bg_msg_state_1": {
-    "message": "Popup Blocker è abilitato globalmente e protegge questa scheda"
+    "message": "Popup Blocker Pro i18n è abilitato globalmente e protegge questa scheda"
   },
   "bg_msg_state_2": {
-    "message": "Popup Blocker è abilitato globalmente ma non protegge questa scheda"
+    "message": "Popup Blocker Pro i18n è abilitato globalmente ma non protegge questa scheda"
   },
   "bg_msg_state_3": {
-    "message": "Popup Blocker è disabilitato globalmente e non protegge questa scheda"
+    "message": "Popup Blocker Pro i18n è disabilitato globalmente e non protegge questa scheda"
   },
   "bg_msg_state_4": {
-    "message": "Popup Blocker è disabilitato globalmente ma protegge questa scheda"
+    "message": "Popup Blocker Pro i18n è disabilitato globalmente ma protegge questa scheda"
   },
   "bg_msg_reg": {
     "message": "Registrazione del filtro di blocco non riuscita a causa di una regola formattata male. Usa la pagina delle opzioni per correggerla."

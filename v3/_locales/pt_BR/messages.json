@@ -225,19 +225,19 @@
     "message": "Clique para confirmar"
   },
   "bg_msg_state_0": {
-    "message": "O Popup Blocker está habilitado globalmente, mas não está ativo nesta aba, provavelmente porque é uma página interna, fora do escopo ou ainda está carregando."
+    "message": "O Popup Blocker Pro i18n está habilitado globalmente, mas não está ativo nesta aba, provavelmente porque é uma página interna, fora do escopo ou ainda está carregando."
   },
   "bg_msg_state_1": {
-    "message": "O Popup Blocker está habilitado globalmente e protege esta aba"
+    "message": "O Popup Blocker Pro i18n está habilitado globalmente e protege esta aba"
   },
   "bg_msg_state_2": {
-    "message": "O Popup Blocker está ativado globalmente, mas não protege esta aba"
+    "message": "O Popup Blocker Pro i18n está ativado globalmente, mas não protege esta aba"
   },
   "bg_msg_state_3": {
-    "message": "O Popup Blocker está desativado globalmente e não protege esta aba"
+    "message": "O Popup Blocker Pro i18n está desativado globalmente e não protege esta aba"
   },
   "bg_msg_state_4": {
-    "message": "O Popup Blocker está desabilitado globalmente, mas protege esta aba"
+    "message": "O Popup Blocker Pro i18n está desabilitado globalmente, mas protege esta aba"
   },
   "bg_msg_reg": {
     "message": "O registro do filtro de bloqueio falhou devido a uma regra formatada incorretamente. Use a página de opções para corrigi-lo."

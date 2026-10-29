@@ -225,19 +225,19 @@
     "message": "Nhấp để xác nhận"
   },
   "bg_msg_state_0": {
-    "message": "Popup Blocker được bật trên toàn cục, nhưng không hoạt động trong thẻ này — có thể vì đây là trang nội bộ, trang ngoài phạm vi hoặc vẫn đang tải."
+    "message": "Popup Blocker Pro i18n được bật trên toàn cục, nhưng không hoạt động trong thẻ này — có thể vì đây là trang nội bộ, trang ngoài phạm vi hoặc vẫn đang tải."
   },
   "bg_msg_state_1": {
-    "message": "Popup Blocker được bật trên toàn cục và đang bảo vệ thẻ này"
+    "message": "Popup Blocker Pro i18n được bật trên toàn cục và đang bảo vệ thẻ này"
   },
   "bg_msg_state_2": {
-    "message": "Popup Blocker được bật trên toàn cục nhưng không bảo vệ thẻ này"
+    "message": "Popup Blocker Pro i18n được bật trên toàn cục nhưng không bảo vệ thẻ này"
   },
   "bg_msg_state_3": {
-    "message": "Popup Blocker bị tắt trên toàn cục và không bảo vệ thẻ này"
+    "message": "Popup Blocker Pro i18n bị tắt trên toàn cục và không bảo vệ thẻ này"
   },
   "bg_msg_state_4": {
-    "message": "Popup Blocker bị tắt trên toàn cục nhưng vẫn bảo vệ thẻ này"
+    "message": "Popup Blocker Pro i18n bị tắt trên toàn cục nhưng vẫn bảo vệ thẻ này"
   },
   "bg_msg_reg": {
     "message": "Đăng ký bộ lọc chặn không thành công do quy tắc có định dạng không đúng. Dùng trang tùy chọn để sửa."

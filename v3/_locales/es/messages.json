@@ -6,19 +6,19 @@
       "message": "El registro del filtro de bloqueo ha fallado debido a una regla con formato incorrecto. Utiliza la página de opciones para solucionarlo."
    },
    "bg_msg_state_0": {
-      "message": "El bloqueador de ventanas emergentes está habilitado globalmente, pero no está activo en esta pestaña, probablemente porque se trata de una página interna, fuera del rango o aún se está cargando."
+      "message": "Popup Blocker Pro i18n está habilitado globalmente, pero no está activo en esta pestaña, probablemente porque se trata de una página interna, fuera del rango o aún se está cargando."
    },
    "bg_msg_state_1": {
-      "message": "El bloqueador de ventanas emergentes está habilitado globalmente y protege esta pestaña"
+      "message": "Popup Blocker Pro i18n está habilitado globalmente y protege esta pestaña"
    },
    "bg_msg_state_2": {
-      "message": "El bloqueador de ventanas emergentes está habilitado globalmente, pero no protege esta pestaña"
+      "message": "Popup Blocker Pro i18n está habilitado globalmente, pero no protege esta pestaña"
    },
    "bg_msg_state_3": {
-      "message": "El bloqueador de ventanas emergentes está desactivado globalmente y no protege esta pestaña"
+      "message": "Popup Blocker Pro i18n está desactivado globalmente y no protege esta pestaña"
    },
    "bg_msg_state_4": {
-      "message": "El bloqueador de ventanas emergentes está desactivado globalmente, pero protege esta pestaña"
+      "message": "Popup Blocker Pro i18n está desactivado globalmente, pero protege esta pestaña"
    },
    "context_item2": {
       "message": "Permitir la última solicitud emergente"

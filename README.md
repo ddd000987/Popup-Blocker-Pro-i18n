@@ -1,8 +1,8 @@
 **English** | [繁體中文](README.zh-TW.md)
 
-## ![icon](v3/data/icons/32.png) Popup Blocker (strict) — multilingual fork
+## ![icon](v3/data/icons/32.png) Popup Blocker Pro i18n
 
-This is an unofficial fork of [schomery/popup-blocker](https://github.com/schomery/popup-blocker) by Jeremy Schomery. It adds an in-extension language switch with 18 languages and a redesigned options page with detailed help for every setting, and fixes a few bugs. Popup blocking itself works the same as the original.
+Popup Blocker Pro i18n is an unofficial fork of [Popup Blocker (strict)](https://github.com/schomery/popup-blocker) by Jeremy Schomery. It adds an in-extension language switch with 18 languages and a redesigned options page with detailed help for every setting, and fixes a few bugs. Popup blocking itself works the same as the original.
 
 > This fork is not affiliated with or endorsed by the original author. Please report problems with the features listed below in this repository, not upstream.
 
@@ -32,7 +32,7 @@ This fork is based on upstream commit [`c680634`](https://github.com/schomery/po
 
 ### About the extension
 
-Popup Blocker (strict) stops websites from opening new windows and tabs. Most popup blockers react after a popup appears; this one intercepts the request before anything opens and asks you what to do. Different requests are listed in a small box in the corner of the page, and repeated requests to the same address are counted with a badge.
+Popup Blocker Pro i18n stops websites from opening new windows and tabs. Most popup blockers react after a popup appears; this one intercepts the request before anything opens and asks you what to do. Different requests are listed in a small box in the corner of the page, and repeated requests to the same address are counted with a badge.
 
 #### What it blocks
 
@@ -92,7 +92,7 @@ Release versions of Firefox only install extensions signed by Mozilla. To try th
 There is no build step: the `v3` folder is the extension. To create an archive for distribution, zip the contents of `v3` so that `manifest.json` is at the root of the archive:
 
 ```bash
-cd v3 && zip -r ../popup-blocker.zip .
+cd v3 && zip -r ../popup-blocker-pro-i18n.zip .
 ```
 
 ### Languages

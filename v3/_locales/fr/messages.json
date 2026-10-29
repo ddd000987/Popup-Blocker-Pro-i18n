@@ -225,19 +225,19 @@
     "message": "Cliquer pour confirmer"
   },
   "bg_msg_state_0": {
-    "message": "Popup Blocker est actif sur tout le navigateur, mais pas sur cet onglet—probablement parce que c'est une page interne, une page hors du champ d'application ou qu'elle est en train de charger."
+    "message": "Popup Blocker Pro i18n est actif sur tout le navigateur, mais pas sur cet onglet—probablement parce que c'est une page interne, une page hors du champ d'application ou qu'elle est en train de charger."
   },
   "bg_msg_state_1": {
-    "message": "Popup Blocker est actif sur tout le navigateur et protège cet onglet"
+    "message": "Popup Blocker Pro i18n est actif sur tout le navigateur et protège cet onglet"
   },
   "bg_msg_state_2": {
-    "message": "Popup Blocker est actif sur tout le navigateur mais ne protège pas cet onglet"
+    "message": "Popup Blocker Pro i18n est actif sur tout le navigateur mais ne protège pas cet onglet"
   },
   "bg_msg_state_3": {
-    "message": "Popup Blocker est inactif sur tout le navigateur et ne protège pas cet onglet"
+    "message": "Popup Blocker Pro i18n est inactif sur tout le navigateur et ne protège pas cet onglet"
   },
   "bg_msg_state_4": {
-    "message": "Popup Blocker est inactif sur tout le navigateur mais protège cet onglet"
+    "message": "Popup Blocker Pro i18n est inactif sur tout le navigateur mais protège cet onglet"
   },
   "bg_msg_reg": {
     "message": "L'enregistrement du filtre de blocage a échoué à cause d'une règle mal formattée. Allez sur la page des options pour régler le problème."

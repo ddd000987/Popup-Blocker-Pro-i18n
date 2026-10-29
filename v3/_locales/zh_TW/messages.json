@@ -225,19 +225,19 @@
     "message": "按一下確認"
   },
   "bg_msg_state_0": {
-    "message": "Popup Blocker 已全域啟用，但未在此分頁生效，可能是因為這是內部頁面、超出保護範圍的頁面，或仍在載入中。"
+    "message": "Popup Blocker Pro i18n 已全域啟用，但未在此分頁生效，可能是因為這是內部頁面、超出保護範圍的頁面，或仍在載入中。"
   },
   "bg_msg_state_1": {
-    "message": "Popup Blocker 已全域啟用，並保護此分頁"
+    "message": "Popup Blocker Pro i18n 已全域啟用，並保護此分頁"
   },
   "bg_msg_state_2": {
-    "message": "Popup Blocker 已全域啟用，但未保護此分頁"
+    "message": "Popup Blocker Pro i18n 已全域啟用，但未保護此分頁"
   },
   "bg_msg_state_3": {
-    "message": "Popup Blocker 已全域停用，且未保護此分頁"
+    "message": "Popup Blocker Pro i18n 已全域停用，且未保護此分頁"
   },
   "bg_msg_state_4": {
-    "message": "Popup Blocker 已全域停用，但仍保護此分頁"
+    "message": "Popup Blocker Pro i18n 已全域停用，但仍保護此分頁"
   },
   "bg_msg_reg": {
     "message": "由於規則格式不正確，註冊封鎖篩選器失敗。請前往設定頁面修正。"

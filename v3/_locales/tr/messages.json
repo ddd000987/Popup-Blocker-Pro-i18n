@@ -225,19 +225,19 @@
     "message": "Onaylamak için Tıkla"
   },
   "bg_msg_state_0": {
-    "message": "Popup Blocker genel olarak etkin, ancak bu sekmede etkin değil. Bunun nedeni sayfanın dahili bir sayfa olması, kapsam dışında kalması veya hâlâ yükleniyor olması olabilir."
+    "message": "Popup Blocker Pro i18n genel olarak etkin, ancak bu sekmede etkin değil. Bunun nedeni sayfanın dahili bir sayfa olması, kapsam dışında kalması veya hâlâ yükleniyor olması olabilir."
   },
   "bg_msg_state_1": {
-    "message": "Popup Blocker genel olarak etkin ve bu sekmeyi koruyor"
+    "message": "Popup Blocker Pro i18n genel olarak etkin ve bu sekmeyi koruyor"
   },
   "bg_msg_state_2": {
-    "message": "Popup Blocker genel olarak etkin, ancak bu sekmeyi korumuyor"
+    "message": "Popup Blocker Pro i18n genel olarak etkin, ancak bu sekmeyi korumuyor"
   },
   "bg_msg_state_3": {
-    "message": "Popup Blocker genel olarak devre dışı ve bu sekmeyi korumuyor"
+    "message": "Popup Blocker Pro i18n genel olarak devre dışı ve bu sekmeyi korumuyor"
   },
   "bg_msg_state_4": {
-    "message": "Popup Blocker genel olarak devre dışı, ancak bu sekmeyi koruyor."
+    "message": "Popup Blocker Pro i18n genel olarak devre dışı, ancak bu sekmeyi koruyor."
   },
   "bg_msg_reg": {
     "message": "Yanlış biçimlendirilmiş bir kural nedeniyle engelleme filtresinin kaydedilmesi başarısız oldu. Düzeltmek için ayarlar sayfasını kullan."

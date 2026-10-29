@@ -1,8 +1,8 @@
 [English](README.md) | **繁體中文**
 
-## ![icon](v3/data/icons/32.png) Popup Blocker (strict) — 多語言 Fork 版
+## ![icon](v3/data/icons/32.png) Popup Blocker Pro i18n
 
-這是 Jeremy Schomery 的 [schomery/popup-blocker](https://github.com/schomery/popup-blocker) 的非官方 fork。這個版本加入了擴充功能內的語言切換（18 種語言），以及改版後附有每個設定詳細說明的設定頁，並修正了幾個 bug。封鎖彈出視窗的功能本身和原版相同。
+Popup Blocker Pro i18n 是 Jeremy Schomery 的 [Popup Blocker (strict)](https://github.com/schomery/popup-blocker) 的非官方 fork。這個版本加入了擴充功能內的語言切換（18 種語言），以及改版後附有每個設定詳細說明的設定頁，並修正了幾個 bug。封鎖彈出視窗的功能本身和原版相同。
 
 > 這個 fork 與原作者沒有關係，也沒有得到原作者的認可。下列新功能如果有問題，請回報到這個 repository，不要回報給原專案。
 
@@ -32,7 +32,7 @@
 
 ### 關於這個擴充功能
 
-Popup Blocker (strict) 會阻止網站開啟新視窗和新分頁。大多數彈出視窗封鎖工具是在彈出視窗出現之後才處理；這個擴充功能會在任何東西開啟之前就攔下請求，並詢問你要怎麼做。不同的請求會列在頁面角落的小框裡，同一個網址重複請求時會用數字標示次數。
+Popup Blocker Pro i18n 會阻止網站開啟新視窗和新分頁。大多數彈出視窗封鎖工具是在彈出視窗出現之後才處理；這個擴充功能會在任何東西開啟之前就攔下請求，並詢問你要怎麼做。不同的請求會列在頁面角落的小框裡，同一個網址重複請求時會用數字標示次數。
 
 #### 攔截的對象
 
@@ -92,7 +92,7 @@ Popup Blocker (strict) 會阻止網站開啟新視窗和新分頁。大多數彈
 這個專案不需要編譯：`v3` 資料夾本身就是擴充功能。要產生用來發布的壓縮檔，請把 `v3` 裡的內容壓縮起來，讓 `manifest.json` 位於壓縮檔的最上層：
 
 ```bash
-cd v3 && zip -r ../popup-blocker.zip .
+cd v3 && zip -r ../popup-blocker-pro-i18n.zip .
 ```
 
 ### 語言
