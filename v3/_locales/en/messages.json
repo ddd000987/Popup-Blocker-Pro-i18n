@@ -225,19 +225,19 @@
     "message": "Click to Confirm"
   },
   "bg_msg_state_0": {
-    "message": "Popup Blocker is globally enabled, but not active in this tab—likely because it's an internal page, out of scope page or still loading."
+    "message": "Popup Blocker Pro i18n is globally enabled, but not active in this tab—likely because it's an internal page, out of scope page or still loading."
   },
   "bg_msg_state_1": {
-    "message": "Popup Blocker is globally enabled and protects this tab"
+    "message": "Popup Blocker Pro i18n is globally enabled and protects this tab"
   },
   "bg_msg_state_2": {
-    "message": "Popup Blocker is globally enabled but does not protect this tab"
+    "message": "Popup Blocker Pro i18n is globally enabled but does not protect this tab"
   },
   "bg_msg_state_3": {
-    "message": "Popup Blocker is globally disabled and does not protect this tab"
+    "message": "Popup Blocker Pro i18n is globally disabled and does not protect this tab"
   },
   "bg_msg_state_4": {
-    "message": "Popup Blocker is globally disabled but protects this tab"
+    "message": "Popup Blocker Pro i18n is globally disabled but protects this tab"
   },
   "bg_msg_reg": {
     "message": "Registering blocking filter failed due to an improperly formatted rule. Use the options page to fix it."
@@ -292,5 +292,128 @@
   },
   "pp_redirect_info": {
     "message": "Light mode prevents redirects for 2 seconds after user interaction. Strict mode also blocks non-interactive page redirects."
+  },
+  "options_item51": {
+    "message": "Interface and notification language"
+  },
+  "options_item52": {
+    "message": "Browser default"
+  },
+  "ui_button_close": {
+    "message": "Close this notification"
+  },
+  "ui_button_close_value": {
+    "message": "close"
+  },
+  "options_tip_locale": {
+    "message": "Language used by the options page, the toolbar popup and the in-page notifications. \"Browser default\" follows the browser's language. The extension name and the keyboard shortcut descriptions are shown by the browser and always follow its language."
+  },
+  "options_tip_numbers": {
+    "message": "How many popup requests the notification box lists at the same time on one page. When the list is full and a new request arrives, the oldest entry is removed."
+  },
+  "options_tip_timeout": {
+    "message": "Each entry disappears after this many seconds if you do not choose anything (the popup stays blocked). Hovering an entry pauses its timer."
+  },
+  "options_tip_width": {
+    "message": "Width of the in-page notification box. The minimum is 300 pixels."
+  },
+  "options_tip_countdown": {
+    "message": "When an entry already has an action (the action you chose for that popup's site in the last 10 days, or the default action), that button counts down and is pressed automatically at zero. Use 0 to turn this off."
+  },
+  "options_tip_default_action": {
+    "message": "Action suggested for new popup requests. \"Do nothing\" only shows the notification. Other actions are run by the countdown, or immediately when \"Ignore popup notification when possible\" is on. A choice you make for a site is remembered for 10 days and takes priority over this setting."
+  },
+  "options_tip_whitelist_mode": {
+    "message": "What the \"trust\" button does (click it twice within 3 seconds to confirm). First option: the popup's site is added to \"Do not block popups of these origins\". Second option: the current page's site is added to \"Do not block any popup on these pages\" and blocking stops on this page right away."
+  },
+  "options_tip_placement": {
+    "message": "Corner of the page where the notification box appears."
+  },
+  "options_tip_badge_color": {
+    "message": "Background color of the blocked-request counter on the toolbar icon."
+  },
+  "options_tip_domain": {
+    "message": "Allow popups that open a page on the same site as the current page, including subdomains (for example shop.example.com opened from www.example.com)."
+  },
+  "options_tip_badge": {
+    "message": "Show the number of popup requests blocked in the current tab on the toolbar icon."
+  },
+  "options_tip_immediate_action": {
+    "message": "Skip the notification and run the action right away when one is known (a remembered choice or the default action). Not recommended: you will not see what was blocked or allowed."
+  },
+  "options_tip_simulate_allow": {
+    "message": "When a popup is allowed, the extension opens the link in a new tab itself instead of letting the page open it. This gets around the browser's own popup blocker, but the page cannot control the new window, which can break login popups that report back to the page."
+  },
+  "options_tip_focus_popup": {
+    "message": "Move keyboard focus to a new notification so you can use the shortcut keys right away, press Escape to close it, and use the up/down arrow keys to move between entries."
+  },
+  "options_tip_faqs": {
+    "message": "After the extension is updated, open the author's FAQ page (webextension.org) in a new tab, at most once every 45 days."
+  },
+  "options_tip_popup_hosts": {
+    "message": "Popups that open these sites are never blocked, on any page. Subdomains are included (google.com also matches mail.google.com). The \"trust\" button adds sites here in its first mode."
+  },
+  "options_tip_top_hosts": {
+    "message": "The blocker does not run at all on these sites, including their subdomains. Refresh open tabs after changing this list."
+  },
+  "options_tip_protocols": {
+    "message": "Links that use these protocols are never blocked, for example magnet: links that open a torrent app. Each entry must end with a colon."
+  },
+  "options_tip_rules": {
+    "message": "Automatic actions by URL, as a JSON object of \"pattern\": \"action\". Actions: allow, deny, background, redirect, close, interface (only show the notification). A pattern without a prefix must equal the popup URL. Prefixes: r: regular expression on the popup URL, ro: regular expression on the current page URL, p: URL pattern on the popup URL, po: URL pattern on the current page URL.\nExample: {\"p:https://*.example.com/*\": \"deny\", \"ro:youtube\": \"allow\"}"
+  },
+  "options_tip_scope": {
+    "message": "URL match patterns that decide where the blocker runs (the default *://*/* means all websites). Narrow it to protect only some sites, for example *://*.example.com/*. If a pattern is invalid, the default is used instead."
+  },
+  "options_tip_block_page_redirection": {
+    "message": "Many sites send the current tab to an ad when their popup is blocked. With this on, for 2 seconds after a blocked popup, any attempt to leave the page shows the browser's \"Leave site?\" dialog so you can stay."
+  },
+  "options_tip_block_automated_redirection": {
+    "message": "Also stop redirects that the page starts by itself without a click or key press from you, at any time (not only after a popup). Requires the option above and a browser that supports the Navigation API."
+  },
+  "options_tip_block_page_redirection_same_origin": {
+    "message": "Do not stop redirects to the same site as the current page."
+  },
+  "options_tip_block_page_redirection_hostnames": {
+    "message": "Redirects to these sites are never stopped. Enter exact hostnames (subdomains are not included)."
+  },
+  "options_tip_silent": {
+    "message": "Popups requested on these sites are still blocked, but no notification is shown."
+  },
+  "options_tip_user_styling": {
+    "message": "Your own CSS for the in-page notification box, for example to hide or recolor buttons. It is stored only on this device and is not included in exported preferences."
+  },
+  "options_tip_sync": {
+    "message": "Store this list in your browser account's sync storage so it is the same on all your devices."
+  },
+  "options_tip_import": {
+    "message": "Load preferences from a previously exported JSON file. The extension restarts afterwards."
+  },
+  "options_tip_export": {
+    "message": "Save all preferences to a JSON file (the custom CSS is not included)."
+  },
+  "options_tip_reset": {
+    "message": "Fill the form with the default values. Nothing changes until you press \"Save Options\"."
+  },
+  "options_basic": {
+    "message": "Basic settings"
+  },
+  "options_advanced": {
+    "message": "Advanced settings"
+  },
+  "options_advanced_hint": {
+    "message": "Rarely needed. Change these only if you know what they do."
+  },
+  "options_section_general": {
+    "message": "General"
+  },
+  "options_section_lists": {
+    "message": "Allow lists"
+  },
+  "options_section_notification": {
+    "message": "Notification box"
+  },
+  "options_section_rules": {
+    "message": "Rules and protocols"
   }
 }

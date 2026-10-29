@@ -1,0 +1,419 @@
+{
+  "app_description": {
+    "message": "Alle Popup-Anfragen von jeder Website strikt blockieren"
+  },
+  "context_item2": {
+    "message": "Die letzte Popup-Anfrage zulassen"
+  },
+  "context_item3": {
+    "message": "Die letzte Popup-Anfrage ablehnen"
+  },
+  "context_item4": {
+    "message": "Die letzte Popup-Anfrage in einem Hintergrund-Tab öffnen"
+  },
+  "context_item5": {
+    "message": "Den aktuellen Tab zur letzten Popup-Anfrage weiterleiten"
+  },
+  "context_item6": {
+    "message": "Den Fokus von der Seite auf die letzte Popup-Anfrage verschieben"
+  },
+  "options_item1": {
+    "message": "Maximale Anzahl von Popup-Anfragen für eine einzelne Seite"
+  },
+  "options_item2": {
+    "message": "Anzeigedauer für jedes Popup (in Sekunden)"
+  },
+  "options_item3": {
+    "message": "Popup-Anfragen derselben Herkunft nicht blockieren"
+  },
+  "options_item5": {
+    "message": "Gesamtzahl der blockierten Anfragen im Symbol der Symbolleiste anzeigen"
+  },
+  "options_item6": {
+    "message": "Popups dieser Herkunft nicht blockieren:"
+  },
+  "options_item7": {
+    "message": "Keine Popups auf diesen Seiten blockieren:"
+  },
+  "options_item8": {
+    "message": "Damit diese Änderung wirksam wird, den Tab aktualisieren."
+  },
+  "options_item9": {
+    "message": "Countdown zum Ausführen der letzten Aktion (in Sekunden)"
+  },
+  "options_item10": {
+    "message": "Null verwenden, um den Countdown zum Ausführen der vorherigen Aktion zu deaktivieren."
+  },
+  "options_item13": {
+    "message": "Blockierliste für Quellen (Umkehrmodus):"
+  },
+  "options_item15": {
+    "message": "Seitenweiterleitung für 2 Sekunden nach einer Popup-Anfrage verhindern"
+  },
+  "options_item17": {
+    "message": "Standardaktion, wenn ein Popup angefragt wird"
+  },
+  "options_item18": {
+    "message": "Nichts tun"
+  },
+  "options_item19": {
+    "message": "Anfrage ablehnen"
+  },
+  "options_item20": {
+    "message": "Im Hintergrund öffnen"
+  },
+  "options_item21": {
+    "message": "Seite weiterleiten"
+  },
+  "options_item22": {
+    "message": "Hintergrundfarbe des Zählers"
+  },
+  "options_item23": {
+    "message": "Popup-Benachrichtigung wenn möglich ignorieren (nicht empfohlen)"
+  },
+  "options_item25": {
+    "message": "Beschreibungen"
+  },
+  "options_item26": {
+    "message": "FAQ-Seite bei Aktualisierungen anzeigen"
+  },
+  "options_item27": {
+    "message": "Diese Protokolle nicht blockieren:"
+  },
+  "options_item28": {
+    "message": "Seitenweiterleitung zu folgenden Herkünften erlauben:"
+  },
+  "options_item29": {
+    "message": "Seitenweiterleitung zur gleichen Herkunft erlauben"
+  },
+  "options_item30": {
+    "message": "Die Schaltfläche 'zulassen' simulieren, damit der interne Popup-Blocker des Browsers diese Anfragen nicht blockiert"
+  },
+  "options_item31": {
+    "message": "Wenn die Schaltfläche \"vertrauen\" gedrückt wird:"
+  },
+  "options_item32": {
+    "message": "Die Herkunft des Popups nicht mehr blockieren"
+  },
+  "options_item33": {
+    "message": "Der obersten Seite erlauben, alle Popups anzuzeigen"
+  },
+  "options_item34": {
+    "message": "Benachrichtigungen auf diesen Hostnamen stummschalten:"
+  },
+  "options_item35": {
+    "message": "Folgende benutzerdefinierte CSS-Regeln auf die Popup-Oberfläche anwenden:"
+  },
+  "options_item40": {
+    "message": "Die neu erzeugte Popup-Oberfläche fokussieren. Danach können Tastenkombinationen oder die Escape-Taste zum Ausblenden verwendet werden"
+  },
+  "options_item36": {
+    "message": "Aggressive Erkennung statischer IFrame-Elemente aktivieren"
+  },
+  "options_item37": {
+    "message": "Wenn dieser Modus aktiviert ist, installiert die Erweiterung einen Mutation Observer, um statische IFrames mit 'JavaScript:'-src-Attributen zu überwachen. Dies verbessert die Blockierleistung, hat aber Nachteile bei der Leistung."
+  },
+  "options_item38": {
+    "message": "Seitenweiterleitung"
+  },
+  "options_item39": {
+    "message": "Sonstiges"
+  },
+  "options_item41": {
+    "message": "Aktion bei einer neuen Popup-Anfrage"
+  },
+  "options_item42": {
+    "message": "Popup-Position auf der Seite"
+  },
+  "options_item43": {
+    "message": "Oben links"
+  },
+  "options_item44": {
+    "message": "Oben rechts"
+  },
+  "options_item45": {
+    "message": "Unten links"
+  },
+  "options_item46": {
+    "message": "Unten rechts"
+  },
+  "options_item47": {
+    "message": "Schutzbereich"
+  },
+  "options_item48": {
+    "message": "Dokumentation zum Konfigurieren des Bereichs der Erweiterung lesen."
+  },
+  "options_item49": {
+    "message": "Breite des Popups (in Pixeln)"
+  },
+  "options_item50": {
+    "message": "Automatische Seitenweiterleitungen ohne Benutzerinteraktion blockieren"
+  },
+  "options_sync": {
+    "message": "Diese Einstellung synchronisieren"
+  },
+  "options_support": {
+    "message": "Entwicklung unterstützen"
+  },
+  "options_import": {
+    "message": "Einstellungen importieren"
+  },
+  "options_export": {
+    "message": "Einstellungen exportieren"
+  },
+  "options_reset": {
+    "message": "Auf Standardwerte zurücksetzen"
+  },
+  "options_save": {
+    "message": "Optionen speichern"
+  },
+  "options_msg": {
+    "message": "Optionen sind gespeichert"
+  },
+  "options_review": {
+    "message": "YouTube-Bewertung"
+  },
+  "options_page": {
+    "message": "FAQ-Seite"
+  },
+  "options_t_1": {
+    "message": "kommagetrennte Liste von Hostnamen (z. B.: www.google.com, www.yahoo.com)"
+  },
+  "options_t_2": {
+    "message": "kommagetrennte Liste von Domains (z. B.: google.com, yahoo.com)"
+  },
+  "options_t_3": {
+    "message": "Ein JSON-Objekt, das die Erweiterung bei der Ausführung einer bestimmten Aktion als Reaktion auf eine Popup-Anfrage anhand ihrer URL anleitet. Beispiele auf der FAQ-Seite lesen."
+  },
+  "options_t_4": {
+    "message": "Eine kommagetrennte Liste von Mustern eingeben, um den globalen Bereich zu definieren. Nur ändern, wenn klar ist, was getan wird, da falsche Werte die Erweiterung beschädigen können. Weitere Infos auf der FAQ-Seite lesen"
+  },
+  "ui_msg": {
+    "message": "Popup wird angefragt für"
+  },
+  "ui_button_allow": {
+    "message": "Dieses Popup zulassen (Alt + Shift + A oder Control + Option + A)"
+  },
+  "ui_button_allow_value": {
+    "message": "zulassen"
+  },
+  "ui_button_redirect": {
+    "message": "Aktuelle Seite zum neuen Ziel weiterleiten, statt es in einem neuen Tab oder Popup zu öffnen (Alt + Shift + R oder Control + Option + R)"
+  },
+  "ui_button_redirect_value": {
+    "message": "weiterleiten"
+  },
+  "ui_button_background": {
+    "message": "Den Link in einem Hintergrund-Tab öffnen (Alt + Shift + B oder Control + Option + B)"
+  },
+  "ui_button_background_value": {
+    "message": "Hintergrund"
+  },
+  "ui_button_deny": {
+    "message": "Das Öffnen des Popups oder Tabs ablehnen (Alt + Shift + D oder Control + Option + D)"
+  },
+  "ui_button_deny_value": {
+    "message": "ablehnen"
+  },
+  "ui_button_trust": {
+    "message": "Diese Domain zur Allowlist hinzufügen, um Popups zu öffnen (Alt + Shift + T oder Control + Option + T)"
+  },
+  "ui_button_trust_value": {
+    "message": "vertrauen"
+  },
+  "ui_button_trust_confirm": {
+    "message": "Bestätigen"
+  },
+  "bg_msg_state_0": {
+    "message": "Popup Blocker Pro i18n ist global aktiviert, aber in diesem Tab nicht aktiv – wahrscheinlich, weil es eine interne Seite, eine Seite außerhalb des Bereichs ist oder noch lädt."
+  },
+  "bg_msg_state_1": {
+    "message": "Popup Blocker Pro i18n ist global aktiviert und schützt diesen Tab"
+  },
+  "bg_msg_state_2": {
+    "message": "Popup Blocker Pro i18n ist global aktiviert, schützt diesen Tab aber nicht"
+  },
+  "bg_msg_state_3": {
+    "message": "Popup Blocker Pro i18n ist global deaktiviert und schützt diesen Tab nicht"
+  },
+  "bg_msg_state_4": {
+    "message": "Popup Blocker Pro i18n ist global deaktiviert, schützt diesen Tab aber"
+  },
+  "bg_msg_reg": {
+    "message": "Registrieren des Blockierfilters fehlgeschlagen wegen einer falsch formatierten Regel. Die Optionsseite verwenden, um das Problem zu beheben."
+  },
+  "pp_enabled_g": {
+    "message": "Aktiviert (global)"
+  },
+  "pp_enabled_c": {
+    "message": "Aktiviert (diese Domain)"
+  },
+  "pp_enabled_cf": {
+    "message": "Unterframes ein-/ausschließen"
+  },
+  "pp_silent": {
+    "message": "Benachrichtigungen anzeigen"
+  },
+  "pp_ignore": {
+    "message": "Aktion wenn möglich ausführen"
+  },
+  "pp_redirect": {
+    "message": "Seitenweiterleitung blockieren"
+  },
+  "pp_last_request": {
+    "message": "Letzte Anfrage"
+  },
+  "pp_test": {
+    "message": "Blocker testen"
+  },
+  "pp_homepage": {
+    "message": "Homepage"
+  },
+  "pp_options": {
+    "message": "Optionen"
+  },
+  "pp_shadow": {
+    "message": "Ersatzfenster verwenden"
+  },
+  "pp_allow": {
+    "message": "Zulassen"
+  },
+  "pp_block": {
+    "message": "Blockieren"
+  },
+  "pp_health": {
+    "message": "Das Hintergrundskript scheint nicht zu reagieren. Soll versucht werden, die Erweiterung neu zu starten?"
+  },
+  "pp_block_redirect": {
+    "message": "Leicht"
+  },
+  "pp_block_automated": {
+    "message": "Streng"
+  },
+  "pp_redirect_info": {
+    "message": "Der Modus „Leicht“ verhindert Weiterleitungen für 2 Sekunden nach Benutzerinteraktion. Der Modus „Streng“ blockiert zusätzlich nicht interaktive Seitenweiterleitungen."
+  },
+  "options_item51": {
+    "message": "Sprache der Oberfläche und der Benachrichtigungen"
+  },
+  "options_item52": {
+    "message": "Browserstandard"
+  },
+  "ui_button_close": {
+    "message": "Diese Benachrichtigung schließen"
+  },
+  "ui_button_close_value": {
+    "message": "schließen"
+  },
+  "options_tip_locale": {
+    "message": "Sprache der Optionsseite, des Symbolleisten-Popups und der seiteninternen Benachrichtigungen. \"Browserstandard\" folgt der Sprache des Browsers. Der Name der Erweiterung und die Beschreibungen der Tastenkombinationen werden vom Browser angezeigt und folgen immer dessen Sprache."
+  },
+  "options_tip_numbers": {
+    "message": "Wie viele Popup-Anfragen das Benachrichtigungsfeld gleichzeitig auf einer Seite auflistet. Wenn die Liste voll ist und eine neue Anfrage eintrifft, wird der älteste Eintrag entfernt."
+  },
+  "options_tip_timeout": {
+    "message": "Jeder Eintrag verschwindet nach so vielen Sekunden, wenn nichts ausgewählt wird (das Popup bleibt blockiert). Das Zeigen auf einen Eintrag pausiert dessen Timer."
+  },
+  "options_tip_width": {
+    "message": "Breite des seiteninternen Benachrichtigungsfelds. Das Minimum beträgt 300 Pixel."
+  },
+  "options_tip_countdown": {
+    "message": "Wenn ein Eintrag bereits eine Aktion hat (die Aktion, die für die Site dieses Popups in den letzten 10 Tagen gewählt wurde, oder die Standardaktion), zählt diese Schaltfläche herunter und wird bei Null automatisch gedrückt. 0 verwenden, um dies zu deaktivieren."
+  },
+  "options_tip_default_action": {
+    "message": "Vorgeschlagene Aktion für neue Popup-Anfragen. \"Nichts tun\" zeigt nur die Benachrichtigung. Andere Aktionen werden per Countdown ausgeführt, oder sofort, wenn \"Popup-Benachrichtigung wenn möglich ignorieren\" aktiviert ist. Eine für eine Site getroffene Wahl wird 10 Tage lang gespeichert und hat Vorrang vor dieser Einstellung."
+  },
+  "options_tip_whitelist_mode": {
+    "message": "Was die Schaltfläche \"vertrauen\" tut (zur Bestätigung innerhalb von 3 Sekunden zweimal klicken). Erste Option: Die Site des Popups wird zu \"Popups dieser Herkunft nicht blockieren\" hinzugefügt. Zweite Option: Die Site der aktuellen Seite wird zu \"Keine Popups auf diesen Seiten blockieren\" hinzugefügt und das Blockieren stoppt sofort auf dieser Seite."
+  },
+  "options_tip_placement": {
+    "message": "Ecke der Seite, in der das Benachrichtigungsfeld erscheint."
+  },
+  "options_tip_badge_color": {
+    "message": "Hintergrundfarbe des Zählers blockierter Anfragen auf dem Symbolleistensymbol."
+  },
+  "options_tip_domain": {
+    "message": "Popups erlauben, die eine Seite auf derselben Site wie die aktuelle Seite öffnen, einschließlich Subdomains (zum Beispiel shop.example.com geöffnet von www.example.com)."
+  },
+  "options_tip_badge": {
+    "message": "Die Anzahl der im aktuellen Tab blockierten Popup-Anfragen auf dem Symbolleistensymbol anzeigen."
+  },
+  "options_tip_immediate_action": {
+    "message": "Die Benachrichtigung überspringen und die Aktion sofort ausführen, wenn eine bekannt ist (eine gespeicherte Wahl oder die Standardaktion). Nicht empfohlen: Blockiertes oder Zugelassenes ist dann nicht sichtbar."
+  },
+  "options_tip_simulate_allow": {
+    "message": "Wenn ein Popup zugelassen wird, öffnet die Erweiterung den Link selbst in einem neuen Tab, statt ihn von der Seite öffnen zu lassen. Dies umgeht den eigenen Popup-Blocker des Browsers, aber die Seite kann das neue Fenster nicht steuern, was Login-Popups, die an die Seite zurückmelden, beschädigen kann."
+  },
+  "options_tip_focus_popup": {
+    "message": "Den Tastaturfokus auf eine neue Benachrichtigung verschieben, sodass Tastenkombinationen sofort verwendet werden können, Escape zum Schließen drücken und die Pfeiltasten nach oben/unten zum Wechseln zwischen Einträgen verwenden."
+  },
+  "options_tip_faqs": {
+    "message": "Nach Aktualisierung der Erweiterung die FAQ-Seite des Autors (webextension.org) in einem neuen Tab öffnen, höchstens einmal alle 45 Tage."
+  },
+  "options_tip_popup_hosts": {
+    "message": "Popups, die diese Sites öffnen, werden nie blockiert, auf keiner Seite. Subdomains sind eingeschlossen (google.com passt auch auf mail.google.com). Die Schaltfläche \"vertrauen\" fügt in ihrem ersten Modus hier Sites hinzu."
+  },
+  "options_tip_top_hosts": {
+    "message": "Der Blocker läuft auf diesen Sites überhaupt nicht, einschließlich ihrer Subdomains. Offene Tabs nach Änderung dieser Liste aktualisieren."
+  },
+  "options_tip_protocols": {
+    "message": "Links mit diesen Protokollen werden nie blockiert, zum Beispiel magnet:-Links, die eine Torrent-App öffnen. Jeder Eintrag muss mit einem Doppelpunkt enden."
+  },
+  "options_tip_rules": {
+    "message": "Automatische Aktionen anhand der URL, als JSON-Objekt mit \"Muster\": \"Aktion\". Aktionen: allow, deny, background, redirect, close, interface (nur die Benachrichtigung anzeigen). Ein Muster ohne Präfix muss der Popup-URL entsprechen. Präfixe: r: regulärer Ausdruck auf die Popup-URL, ro: regulärer Ausdruck auf die URL der aktuellen Seite, p: URL-Muster auf die Popup-URL, po: URL-Muster auf die URL der aktuellen Seite.\nBeispiel: {\"p:https://*.example.com/*\": \"deny\", \"ro:youtube\": \"allow\"}"
+  },
+  "options_tip_scope": {
+    "message": "URL-Übereinstimmungsmuster, die entscheiden, wo der Blocker läuft (der Standard *://*/* bedeutet alle Websites). Eingrenzen, um nur einige Sites zu schützen, zum Beispiel *://*.example.com/*. Wenn ein Muster ungültig ist, wird stattdessen der Standard verwendet."
+  },
+  "options_tip_block_page_redirection": {
+    "message": "Viele Sites leiten den aktuellen Tab zu Werbung weiter, wenn ihr Popup blockiert wird. Wenn aktiviert, zeigt für 2 Sekunden nach einem blockierten Popup jeder Versuch, die Seite zu verlassen, den Dialog \"Seite verlassen?\" des Browsers an, sodass geblieben werden kann."
+  },
+  "options_tip_block_automated_redirection": {
+    "message": "Auch Weiterleitungen stoppen, die die Seite ohne Klick oder Tastendruck von selbst startet, jederzeit (nicht nur nach einem Popup). Erfordert die obige Option und einen Browser, der die Navigation API unterstützt."
+  },
+  "options_tip_block_page_redirection_same_origin": {
+    "message": "Weiterleitungen zur gleichen Site wie die aktuelle Seite nicht stoppen."
+  },
+  "options_tip_block_page_redirection_hostnames": {
+    "message": "Weiterleitungen zu diesen Sites werden nie gestoppt. Exakte Hostnamen eingeben (Subdomains sind nicht eingeschlossen)."
+  },
+  "options_tip_silent": {
+    "message": "Auf diesen Sites angefragte Popups werden weiterhin blockiert, aber es wird keine Benachrichtigung angezeigt."
+  },
+  "options_tip_user_styling": {
+    "message": "Eigenes CSS für das seiteninterne Benachrichtigungsfeld, zum Beispiel zum Ausblenden oder Umfärben von Schaltflächen. Es wird nur auf diesem Gerät gespeichert und ist nicht in exportierten Einstellungen enthalten."
+  },
+  "options_tip_sync": {
+    "message": "Diese Liste im Sync-Speicher des Browserkontos speichern, sodass sie auf allen Geräten gleich ist."
+  },
+  "options_tip_import": {
+    "message": "Einstellungen aus einer zuvor exportierten JSON-Datei laden. Die Erweiterung startet danach neu."
+  },
+  "options_tip_export": {
+    "message": "Alle Einstellungen in einer JSON-Datei speichern (das benutzerdefinierte CSS ist nicht enthalten)."
+  },
+  "options_tip_reset": {
+    "message": "Das Formular mit den Standardwerten füllen. Es ändert sich nichts, bis \"Optionen speichern\" gedrückt wird."
+  },
+  "options_basic": {
+    "message": "Grundeinstellungen"
+  },
+  "options_advanced": {
+    "message": "Erweiterte Einstellungen"
+  },
+  "options_advanced_hint": {
+    "message": "Selten benötigt. Nur ändern, wenn klar ist, was sie bewirken."
+  },
+  "options_section_general": {
+    "message": "Allgemein"
+  },
+  "options_section_lists": {
+    "message": "Ausnahmelisten"
+  },
+  "options_section_notification": {
+    "message": "Benachrichtigungsfeld"
+  },
+  "options_section_rules": {
+    "message": "Regeln und Protokolle"
+  }
+}

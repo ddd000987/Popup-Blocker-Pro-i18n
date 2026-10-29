@@ -1,0 +1,419 @@
+{
+  "app_description": {
+    "message": "Blokir secara ketat semua permintaan popup dari situs web mana pun"
+  },
+  "context_item2": {
+    "message": "Izinkan permintaan popup terakhir"
+  },
+  "context_item3": {
+    "message": "Tolak permintaan popup terakhir"
+  },
+  "context_item4": {
+    "message": "Buka permintaan popup terakhir di tab latar"
+  },
+  "context_item5": {
+    "message": "Alihkan tab saat ini ke permintaan popup terakhir"
+  },
+  "context_item6": {
+    "message": "Pindahkan fokus dari halaman ke permintaan popup terakhir"
+  },
+  "options_item1": {
+    "message": "Jumlah maksimum permintaan popup untuk satu halaman"
+  },
+  "options_item2": {
+    "message": "Batas waktu menampilkan setiap popup (dalam detik)"
+  },
+  "options_item3": {
+    "message": "Jangan blokir permintaan popup dari origin yang sama"
+  },
+  "options_item5": {
+    "message": "Tampilkan jumlah total permintaan yang diblokir pada ikon bilah alat"
+  },
+  "options_item6": {
+    "message": "Jangan blokir popup dari origin berikut:"
+  },
+  "options_item7": {
+    "message": "Jangan blokir popup apa pun pada halaman berikut:"
+  },
+  "options_item8": {
+    "message": "Agar perubahan ini berlaku, muat ulang tab."
+  },
+  "options_item9": {
+    "message": "Hitung mundur untuk melakukan tindakan terakhir (dalam detik)"
+  },
+  "options_item10": {
+    "message": "Gunakan angka nol untuk menonaktifkan hitung mundur untuk melakukan tindakan sebelumnya."
+  },
+  "options_item13": {
+    "message": "Sumber daftar blokir (mode operasi terbalik):"
+  },
+  "options_item15": {
+    "message": "Cegah pengalihan halaman selama 2 detik setelah popup diminta"
+  },
+  "options_item17": {
+    "message": "Tindakan bawaan saat popup diminta"
+  },
+  "options_item18": {
+    "message": "Tidak melakukan apa-apa"
+  },
+  "options_item19": {
+    "message": "Tolak permintaan"
+  },
+  "options_item20": {
+    "message": "Buka di latar"
+  },
+  "options_item21": {
+    "message": "Alihkan halaman"
+  },
+  "options_item22": {
+    "message": "Warna latar lencana"
+  },
+  "options_item23": {
+    "message": "Abaikan notifikasi popup jika memungkinkan (tidak disarankan)"
+  },
+  "options_item25": {
+    "message": "Deskripsi"
+  },
+  "options_item26": {
+    "message": "Tampilkan halaman FAQ saat pembaruan"
+  },
+  "options_item27": {
+    "message": "Jangan blokir protokol berikut:"
+  },
+  "options_item28": {
+    "message": "Izinkan pengalihan halaman ke origin berikut:"
+  },
+  "options_item29": {
+    "message": "Izinkan pengalihan halaman ke origin yang sama"
+  },
+  "options_item30": {
+    "message": "Simulasikan tombol 'izinkan' agar pemblokir popup internal browser Anda tidak memblokir permintaan ini"
+  },
+  "options_item31": {
+    "message": "Saat tombol \"percayai\" ditekan:"
+  },
+  "options_item32": {
+    "message": "Jangan blokir lagi origin popup tersebut"
+  },
+  "options_item33": {
+    "message": "Izinkan halaman tingkat atas menampilkan popup apa pun"
+  },
+  "options_item34": {
+    "message": "Bisukan notifikasi pada nama host berikut:"
+  },
+  "options_item35": {
+    "message": "Terapkan aturan CSS kustom berikut ke antarmuka popup:"
+  },
+  "options_item40": {
+    "message": "Fokuskan antarmuka popup yang baru dibuat. Anda kemudian dapat menggunakan pintasan atau tombol Escape untuk menyembunyikannya"
+  },
+  "options_item36": {
+    "message": "Aktifkan deteksi IFrame statis yang agresif"
+  },
+  "options_item37": {
+    "message": "Jika mode ini diaktifkan, ekstensi memasang pengamat mutasi untuk memantau IFrame statis dengan atribut src 'JavaScript:'. Ini memperkuat pemblokiran tetapi berdampak pada kinerja."
+  },
+  "options_item38": {
+    "message": "Pengalihan Halaman"
+  },
+  "options_item39": {
+    "message": "Lainnya"
+  },
+  "options_item41": {
+    "message": "Tindakan pada permintaan popup baru"
+  },
+  "options_item42": {
+    "message": "Posisi popup pada halaman"
+  },
+  "options_item43": {
+    "message": "Kiri Atas"
+  },
+  "options_item44": {
+    "message": "Kanan Atas"
+  },
+  "options_item45": {
+    "message": "Kiri Bawah"
+  },
+  "options_item46": {
+    "message": "Kanan Bawah"
+  },
+  "options_item47": {
+    "message": "Cakupan Perlindungan"
+  },
+  "options_item48": {
+    "message": "Baca dokumentasi tentang cara mengonfigurasi cakupan ekstensi."
+  },
+  "options_item49": {
+    "message": "Lebar popup (dalam piksel)"
+  },
+  "options_item50": {
+    "message": "Blokir pengalihan halaman otomatis tanpa interaksi pengguna"
+  },
+  "options_sync": {
+    "message": "Sinkronkan Preferensi ini"
+  },
+  "options_support": {
+    "message": "Dukung Pengembangan"
+  },
+  "options_import": {
+    "message": "Impor Preferensi"
+  },
+  "options_export": {
+    "message": "Ekspor Preferensi"
+  },
+  "options_reset": {
+    "message": "Kembalikan ke Bawaan"
+  },
+  "options_save": {
+    "message": "Simpan Opsi"
+  },
+  "options_msg": {
+    "message": "Opsi telah disimpan"
+  },
+  "options_review": {
+    "message": "Ulasan YouTube"
+  },
+  "options_page": {
+    "message": "Halaman FAQ"
+  },
+  "options_t_1": {
+    "message": "daftar nama host yang dipisahkan koma (mis.: www.google.com, www.yahoo.com)"
+  },
+  "options_t_2": {
+    "message": "daftar domain yang dipisahkan koma (mis.: google.com, yahoo.com)"
+  },
+  "options_t_3": {
+    "message": "Objek JSON yang memandu ekstensi dalam menjalankan tindakan tertentu sebagai respons terhadap permintaan popup, berdasarkan URL-nya. Baca halaman FAQ untuk contoh."
+  },
+  "options_t_4": {
+    "message": "Masukkan daftar pola yang dipisahkan koma untuk menentukan cakupan global. Ubah ini hanya jika Anda tahu apa yang Anda lakukan, karena nilai yang salah dapat merusak ekstensi. Baca halaman FAQ untuk info lebih lanjut"
+  },
+  "ui_msg": {
+    "message": "Popup diminta untuk"
+  },
+  "ui_button_allow": {
+    "message": "Izinkan popup ini (Alt + Shift + A atau Control + Option + A)"
+  },
+  "ui_button_allow_value": {
+    "message": "izinkan"
+  },
+  "ui_button_redirect": {
+    "message": "Alihkan halaman saat ini ke tujuan baru alih-alih membukanya di tab baru atau popup (Alt + Shift + R atau Control + Option + R)"
+  },
+  "ui_button_redirect_value": {
+    "message": "alihkan"
+  },
+  "ui_button_background": {
+    "message": "Buka tautan di tab latar (Alt + Shift + B atau Control + Option + B)"
+  },
+  "ui_button_background_value": {
+    "message": "latar belakang"
+  },
+  "ui_button_deny": {
+    "message": "Tolak popup atau pembukaan tab (Alt + Shift + D atau Control + Option + D)"
+  },
+  "ui_button_deny_value": {
+    "message": "tolak"
+  },
+  "ui_button_trust": {
+    "message": "Masukkan domain ini ke daftar putih untuk membuka popup (Alt + Shift + T atau Control + Option + T)"
+  },
+  "ui_button_trust_value": {
+    "message": "percayai"
+  },
+  "ui_button_trust_confirm": {
+    "message": "Konfirmasi"
+  },
+  "bg_msg_state_0": {
+    "message": "Popup Blocker Pro i18n diaktifkan secara global, tetapi tidak aktif di tab ini—kemungkinan karena ini halaman internal, halaman di luar cakupan, atau masih dimuat."
+  },
+  "bg_msg_state_1": {
+    "message": "Popup Blocker Pro i18n diaktifkan secara global dan melindungi tab ini"
+  },
+  "bg_msg_state_2": {
+    "message": "Popup Blocker Pro i18n diaktifkan secara global tetapi tidak melindungi tab ini"
+  },
+  "bg_msg_state_3": {
+    "message": "Popup Blocker Pro i18n dinonaktifkan secara global dan tidak melindungi tab ini"
+  },
+  "bg_msg_state_4": {
+    "message": "Popup Blocker Pro i18n dinonaktifkan secara global tetapi melindungi tab ini"
+  },
+  "bg_msg_reg": {
+    "message": "Pendaftaran filter pemblokiran gagal karena aturan yang formatnya salah. Gunakan halaman opsi untuk memperbaikinya."
+  },
+  "pp_enabled_g": {
+    "message": "Diaktifkan (Global)"
+  },
+  "pp_enabled_c": {
+    "message": "Diaktifkan (Domain Ini)"
+  },
+  "pp_enabled_cf": {
+    "message": "Sertakan/Kecualikan sub-bingkai"
+  },
+  "pp_silent": {
+    "message": "Tampilkan Notifikasi"
+  },
+  "pp_ignore": {
+    "message": "Jalankan Tindakan jika Memungkinkan"
+  },
+  "pp_redirect": {
+    "message": "Blokir Pengalihan Halaman"
+  },
+  "pp_last_request": {
+    "message": "Permintaan Terakhir"
+  },
+  "pp_test": {
+    "message": "Uji Pemblokir"
+  },
+  "pp_homepage": {
+    "message": "Beranda"
+  },
+  "pp_options": {
+    "message": "Opsi"
+  },
+  "pp_shadow": {
+    "message": "Gunakan jendela pengganti"
+  },
+  "pp_allow": {
+    "message": "Izinkan"
+  },
+  "pp_block": {
+    "message": "Blokir"
+  },
+  "pp_health": {
+    "message": "Skrip latar tampaknya tidak responsif. Apakah Anda ingin mencoba memulai ulang ekstensi?"
+  },
+  "pp_block_redirect": {
+    "message": "Ringan"
+  },
+  "pp_block_automated": {
+    "message": "Ketat"
+  },
+  "pp_redirect_info": {
+    "message": "Mode Ringan mencegah pengalihan selama 2 detik setelah interaksi pengguna. Mode Ketat juga memblokir pengalihan halaman non-interaktif."
+  },
+  "options_item51": {
+    "message": "Bahasa antarmuka dan notifikasi"
+  },
+  "options_item52": {
+    "message": "Bawaan browser"
+  },
+  "ui_button_close": {
+    "message": "Tutup notifikasi ini"
+  },
+  "ui_button_close_value": {
+    "message": "tutup"
+  },
+  "options_tip_locale": {
+    "message": "Bahasa yang digunakan oleh halaman opsi, popup bilah alat, dan notifikasi dalam halaman. \"Bawaan browser\" mengikuti bahasa browser. Nama ekstensi dan deskripsi pintasan keyboard ditampilkan oleh browser dan selalu mengikuti bahasanya."
+  },
+  "options_tip_numbers": {
+    "message": "Berapa banyak permintaan popup yang dicantumkan kotak notifikasi pada saat yang sama pada satu halaman. Jika daftar penuh dan permintaan baru tiba, entri terlama akan dihapus."
+  },
+  "options_tip_timeout": {
+    "message": "Setiap entri akan hilang setelah sekian detik jika Anda tidak memilih apa pun (popup tetap diblokir). Mengarahkan kursor ke entri akan menjeda timernya."
+  },
+  "options_tip_width": {
+    "message": "Lebar kotak notifikasi dalam halaman. Minimumnya adalah 300 piksel."
+  },
+  "options_tip_countdown": {
+    "message": "Jika entri sudah memiliki tindakan (tindakan yang Anda pilih untuk situs popup tersebut dalam 10 hari terakhir, atau tindakan bawaan), tombol itu akan menghitung mundur dan ditekan otomatis saat nol. Gunakan 0 untuk menonaktifkannya."
+  },
+  "options_tip_default_action": {
+    "message": "Tindakan yang disarankan untuk permintaan popup baru. \"Tidak melakukan apa-apa\" hanya menampilkan notifikasi. Tindakan lain dijalankan oleh hitung mundur, atau segera saat \"Abaikan notifikasi popup jika memungkinkan\" aktif. Pilihan yang Anda buat untuk sebuah situs diingat selama 10 hari dan lebih diprioritaskan daripada pengaturan ini."
+  },
+  "options_tip_whitelist_mode": {
+    "message": "Apa yang dilakukan tombol \"percayai\" (klik dua kali dalam 3 detik untuk mengonfirmasi). Opsi pertama: situs popup ditambahkan ke \"Jangan blokir popup dari origin berikut\". Opsi kedua: situs halaman saat ini ditambahkan ke \"Jangan blokir popup apa pun pada halaman berikut\" dan pemblokiran segera berhenti pada halaman ini."
+  },
+  "options_tip_placement": {
+    "message": "Sudut halaman tempat kotak notifikasi muncul."
+  },
+  "options_tip_badge_color": {
+    "message": "Warna latar penghitung permintaan yang diblokir pada ikon bilah alat."
+  },
+  "options_tip_domain": {
+    "message": "Izinkan popup yang membuka halaman pada situs yang sama dengan halaman saat ini, termasuk subdomain (misalnya shop.example.com yang dibuka dari www.example.com)."
+  },
+  "options_tip_badge": {
+    "message": "Tampilkan jumlah permintaan popup yang diblokir di tab saat ini pada ikon bilah alat."
+  },
+  "options_tip_immediate_action": {
+    "message": "Lewati notifikasi dan langsung jalankan tindakan jika sudah diketahui (pilihan yang diingat atau tindakan bawaan). Tidak disarankan: Anda tidak akan melihat apa yang diblokir atau diizinkan."
+  },
+  "options_tip_simulate_allow": {
+    "message": "Saat popup diizinkan, ekstensi membuka tautan di tab baru sendiri alih-alih membiarkan halaman membukanya. Ini mengakali pemblokir popup bawaan browser, tetapi halaman tidak dapat mengontrol jendela baru, yang dapat merusak popup login yang melapor kembali ke halaman."
+  },
+  "options_tip_focus_popup": {
+    "message": "Pindahkan fokus keyboard ke notifikasi baru agar Anda dapat langsung menggunakan tombol pintasan, tekan Escape untuk menutupnya, dan gunakan tombol panah atas/bawah untuk berpindah antar entri."
+  },
+  "options_tip_faqs": {
+    "message": "Setelah ekstensi diperbarui, buka halaman FAQ penulis (webextension.org) di tab baru, paling sering sekali setiap 45 hari."
+  },
+  "options_tip_popup_hosts": {
+    "message": "Popup yang membuka situs ini tidak pernah diblokir, pada halaman mana pun. Subdomain disertakan (google.com juga cocok dengan mail.google.com). Tombol \"percayai\" menambahkan situs di sini dalam mode pertamanya."
+  },
+  "options_tip_top_hosts": {
+    "message": "Pemblokir tidak berjalan sama sekali pada situs ini, termasuk subdomainnya. Muat ulang tab yang terbuka setelah mengubah daftar ini."
+  },
+  "options_tip_protocols": {
+    "message": "Tautan yang menggunakan protokol ini tidak pernah diblokir, misalnya tautan magnet: yang membuka aplikasi torrent. Setiap entri harus diakhiri dengan titik dua."
+  },
+  "options_tip_rules": {
+    "message": "Tindakan otomatis berdasarkan URL, sebagai objek JSON berisi \"pola\": \"tindakan\". Tindakan: allow, deny, background, redirect, close, interface (hanya menampilkan notifikasi). Pola tanpa awalan harus sama dengan URL popup. Awalan: r: ekspresi reguler pada URL popup, ro: ekspresi reguler pada URL halaman saat ini, p: pola URL pada URL popup, po: pola URL pada URL halaman saat ini.\nContoh: {\"p:https://*.example.com/*\": \"deny\", \"ro:youtube\": \"allow\"}"
+  },
+  "options_tip_scope": {
+    "message": "Pola kecocokan URL yang menentukan tempat pemblokir berjalan (bawaan *://*/* berarti semua situs web). Persempit untuk melindungi hanya situs tertentu, misalnya *://*.example.com/*. Jika pola tidak valid, nilai bawaan yang digunakan."
+  },
+  "options_tip_block_page_redirection": {
+    "message": "Banyak situs mengirim tab saat ini ke iklan saat popup mereka diblokir. Jika ini aktif, selama 2 detik setelah popup yang diblokir, setiap upaya meninggalkan halaman akan menampilkan dialog browser \"Tinggalkan situs?\" agar Anda dapat tetap tinggal."
+  },
+  "options_tip_block_automated_redirection": {
+    "message": "Juga hentikan pengalihan yang dimulai halaman sendiri tanpa klik atau penekanan tombol dari Anda, kapan saja (tidak hanya setelah popup). Memerlukan opsi di atas dan browser yang mendukung Navigation API."
+  },
+  "options_tip_block_page_redirection_same_origin": {
+    "message": "Jangan hentikan pengalihan ke situs yang sama dengan halaman saat ini."
+  },
+  "options_tip_block_page_redirection_hostnames": {
+    "message": "Pengalihan ke situs ini tidak pernah dihentikan. Masukkan nama host yang tepat (subdomain tidak disertakan)."
+  },
+  "options_tip_silent": {
+    "message": "Popup yang diminta pada situs ini tetap diblokir, tetapi tidak ada notifikasi yang ditampilkan."
+  },
+  "options_tip_user_styling": {
+    "message": "CSS Anda sendiri untuk kotak notifikasi dalam halaman, misalnya untuk menyembunyikan atau mewarnai ulang tombol. CSS ini hanya disimpan di perangkat ini dan tidak disertakan dalam preferensi yang diekspor."
+  },
+  "options_tip_sync": {
+    "message": "Simpan daftar ini di penyimpanan sinkronisasi akun browser Anda agar sama di semua perangkat Anda."
+  },
+  "options_tip_import": {
+    "message": "Muat preferensi dari file JSON yang sebelumnya diekspor. Ekstensi akan dimulai ulang setelahnya."
+  },
+  "options_tip_export": {
+    "message": "Simpan semua preferensi ke file JSON (CSS kustom tidak disertakan)."
+  },
+  "options_tip_reset": {
+    "message": "Isi formulir dengan nilai bawaan. Tidak ada yang berubah sampai Anda menekan \"Simpan Opsi\"."
+  },
+  "options_basic": {
+    "message": "Pengaturan dasar"
+  },
+  "options_advanced": {
+    "message": "Pengaturan lanjutan"
+  },
+  "options_advanced_hint": {
+    "message": "Jarang diperlukan. Ubah hanya jika Anda tahu fungsinya."
+  },
+  "options_section_general": {
+    "message": "Umum"
+  },
+  "options_section_lists": {
+    "message": "Daftar izin"
+  },
+  "options_section_notification": {
+    "message": "Kotak notifikasi"
+  },
+  "options_section_rules": {
+    "message": "Aturan dan protokol"
+  }
+}

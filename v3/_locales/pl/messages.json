@@ -1,0 +1,419 @@
+{
+  "app_description": {
+    "message": "Ściśle blokuj wszystkie żądania popupów z dowolnej strony internetowej"
+  },
+  "context_item2": {
+    "message": "Zezwól na ostatnie żądanie popupu"
+  },
+  "context_item3": {
+    "message": "Odrzuć ostatnie żądanie popupu"
+  },
+  "context_item4": {
+    "message": "Otwórz ostatnie żądanie popupu w karcie w tle"
+  },
+  "context_item5": {
+    "message": "Przekieruj bieżącą kartę do ostatniego żądania popupu"
+  },
+  "context_item6": {
+    "message": "Przenieś fokus ze strony do ostatniego żądania popupu"
+  },
+  "options_item1": {
+    "message": "Maksymalna liczba żądań popupów dla pojedynczej strony"
+  },
+  "options_item2": {
+    "message": "Limit czasu wyświetlania każdego popupu (w sekundach)"
+  },
+  "options_item3": {
+    "message": "Nie blokuj żądań popupów z tego samego źródła"
+  },
+  "options_item5": {
+    "message": "Wyświetlaj łączną liczbę zablokowanych żądań w ikonie paska narzędzi"
+  },
+  "options_item6": {
+    "message": "Nie blokuj popupów z tych źródeł:"
+  },
+  "options_item7": {
+    "message": "Nie blokuj żadnych popupów na tych stronach:"
+  },
+  "options_item8": {
+    "message": "Aby zmiana zaczęła obowiązywać, odśwież kartę."
+  },
+  "options_item9": {
+    "message": "Odliczanie do wykonania ostatniej akcji (w sekundach)"
+  },
+  "options_item10": {
+    "message": "Użyj liczby zero, aby wyłączyć odliczanie do wykonania poprzedniej akcji."
+  },
+  "options_item13": {
+    "message": "Źródła na czarnej liście (odwrotny tryb działania):"
+  },
+  "options_item15": {
+    "message": "Zapobiegaj przekierowaniu strony przez 2 sekundy po żądaniu popupu"
+  },
+  "options_item17": {
+    "message": "Domyślna akcja, gdy zażądano popupu"
+  },
+  "options_item18": {
+    "message": "Nic nie rób"
+  },
+  "options_item19": {
+    "message": "Odrzuć żądanie"
+  },
+  "options_item20": {
+    "message": "Otwórz w tle"
+  },
+  "options_item21": {
+    "message": "Przekieruj stronę"
+  },
+  "options_item22": {
+    "message": "Kolor tła plakietki"
+  },
+  "options_item23": {
+    "message": "Ignoruj powiadomienia o popupach, gdy to możliwe (niezalecane)"
+  },
+  "options_item25": {
+    "message": "Opisy"
+  },
+  "options_item26": {
+    "message": "Wyświetlaj stronę FAQ po aktualizacjach"
+  },
+  "options_item27": {
+    "message": "Nie blokuj tych protokołów:"
+  },
+  "options_item28": {
+    "message": "Zezwalaj na przekierowanie strony do następujących źródeł:"
+  },
+  "options_item29": {
+    "message": "Zezwalaj na przekierowanie strony do tego samego źródła"
+  },
+  "options_item30": {
+    "message": "Symuluj przycisk 'zezwól', aby wewnętrzna blokada popupów przeglądarki nie blokowała tych żądań"
+  },
+  "options_item31": {
+    "message": "Po naciśnięciu przycisku \"zaufaj\":"
+  },
+  "options_item32": {
+    "message": "Nie blokuj już źródła popupu"
+  },
+  "options_item33": {
+    "message": "Zezwól stronie najwyższego poziomu na wyświetlanie popupów"
+  },
+  "options_item34": {
+    "message": "Wycisz powiadomienia dla tych nazw hostów:"
+  },
+  "options_item35": {
+    "message": "Zastosuj następujące własne reguły CSS do interfejsu popupów:"
+  },
+  "options_item40": {
+    "message": "Skup fokus na nowo utworzonym interfejsie popupu. Możesz wtedy użyć skrótów lub klawisza Escape, aby ukryć"
+  },
+  "options_item36": {
+    "message": "Włącz agresywne wykrywanie statycznych elementów IFrame"
+  },
+  "options_item37": {
+    "message": "Gdy ten tryb jest włączony, rozszerzenie instaluje obserwator mutacji, aby monitorować statyczne elementy IFrame z atrybutami src 'JavaScript:'. Zwiększa to skuteczność blokowania, ale ma wady wydajnościowe."
+  },
+  "options_item38": {
+    "message": "Przekierowanie strony"
+  },
+  "options_item39": {
+    "message": "Różne"
+  },
+  "options_item41": {
+    "message": "Akcja przy nowym żądaniu popupu"
+  },
+  "options_item42": {
+    "message": "Pozycja popupu na stronie"
+  },
+  "options_item43": {
+    "message": "Góra po lewej"
+  },
+  "options_item44": {
+    "message": "Góra po prawej"
+  },
+  "options_item45": {
+    "message": "Dół po lewej"
+  },
+  "options_item46": {
+    "message": "Dół po prawej"
+  },
+  "options_item47": {
+    "message": "Zakres ochrony"
+  },
+  "options_item48": {
+    "message": "Przeczytaj dokumentację o konfigurowaniu zakresu rozszerzenia."
+  },
+  "options_item49": {
+    "message": "Szerokość popupu (w pikselach)"
+  },
+  "options_item50": {
+    "message": "Blokuj automatyczne przekierowania stron bez interakcji użytkownika"
+  },
+  "options_sync": {
+    "message": "Synchronizuj tę preferencję"
+  },
+  "options_support": {
+    "message": "Wesprzyj rozwój"
+  },
+  "options_import": {
+    "message": "Importuj preferencje"
+  },
+  "options_export": {
+    "message": "Eksportuj preferencje"
+  },
+  "options_reset": {
+    "message": "Przywróć domyślne"
+  },
+  "options_save": {
+    "message": "Zapisz opcje"
+  },
+  "options_msg": {
+    "message": "Opcje zostały zapisane"
+  },
+  "options_review": {
+    "message": "Recenzja YouTube"
+  },
+  "options_page": {
+    "message": "Strona FAQ"
+  },
+  "options_t_1": {
+    "message": "lista nazw hostów oddzielonych przecinkami (np.: www.google.com, www.yahoo.com)"
+  },
+  "options_t_2": {
+    "message": "lista domen oddzielonych przecinkami (np.: google.com, yahoo.com)"
+  },
+  "options_t_3": {
+    "message": "Obiekt JSON, który kieruje rozszerzeniem przy wykonywaniu określonej akcji w odpowiedzi na żądanie popupu, określonej przez jego URL. Przykłady znajdziesz na stronie FAQ."
+  },
+  "options_t_4": {
+    "message": "Wprowadź listę wzorców oddzielonych przecinkami, aby zdefiniować globalny zakres. Zmieniaj to tylko, jeśli wiesz, co robisz, ponieważ nieprawidłowe wartości mogą uszkodzić rozszerzenie. Więcej informacji na stronie FAQ"
+  },
+  "ui_msg": {
+    "message": "Zażądano popupu dla"
+  },
+  "ui_button_allow": {
+    "message": "Zezwól na ten popup (Alt + Shift + A lub Control + Option + A)"
+  },
+  "ui_button_allow_value": {
+    "message": "zezwól"
+  },
+  "ui_button_redirect": {
+    "message": "Przekieruj bieżącą stronę do nowego miejsca docelowego zamiast otwierać je w nowej karcie lub popupie (Alt + Shift + R lub Control + Option + R)"
+  },
+  "ui_button_redirect_value": {
+    "message": "przekieruj"
+  },
+  "ui_button_background": {
+    "message": "Otwórz link w karcie w tle (Alt + Shift + B lub Control + Option + B)"
+  },
+  "ui_button_background_value": {
+    "message": "w tle"
+  },
+  "ui_button_deny": {
+    "message": "Odrzuć otwarcie popupu lub karty (Alt + Shift + D lub Control + Option + D)"
+  },
+  "ui_button_deny_value": {
+    "message": "odrzuć"
+  },
+  "ui_button_trust": {
+    "message": "Dodaj tę domenę do białej listy, aby otwierać popupy (Alt + Shift + T lub Control + Option + T)"
+  },
+  "ui_button_trust_value": {
+    "message": "zaufaj"
+  },
+  "ui_button_trust_confirm": {
+    "message": "Potwierdź"
+  },
+  "bg_msg_state_0": {
+    "message": "Popup Blocker Pro i18n jest włączony globalnie, ale nieaktywny w tej karcie—prawdopodobnie dlatego, że jest to strona wewnętrzna, strona poza zakresem lub wciąż się ładuje."
+  },
+  "bg_msg_state_1": {
+    "message": "Popup Blocker Pro i18n jest włączony globalnie i chroni tę kartę"
+  },
+  "bg_msg_state_2": {
+    "message": "Popup Blocker Pro i18n jest włączony globalnie, ale nie chroni tej karty"
+  },
+  "bg_msg_state_3": {
+    "message": "Popup Blocker Pro i18n jest wyłączony globalnie i nie chroni tej karty"
+  },
+  "bg_msg_state_4": {
+    "message": "Popup Blocker Pro i18n jest wyłączony globalnie, ale chroni tę kartę"
+  },
+  "bg_msg_reg": {
+    "message": "Rejestracja filtra blokującego nie powiodła się z powodu nieprawidłowo sformatowanej reguły. Użyj strony opcji, aby to naprawić."
+  },
+  "pp_enabled_g": {
+    "message": "Włączone (globalnie)"
+  },
+  "pp_enabled_c": {
+    "message": "Włączone (ta domena)"
+  },
+  "pp_enabled_cf": {
+    "message": "Uwzględnij/Wyklucz ramki podrzędne"
+  },
+  "pp_silent": {
+    "message": "Wyświetlaj powiadomienia"
+  },
+  "pp_ignore": {
+    "message": "Wykonaj akcję, gdy możliwe"
+  },
+  "pp_redirect": {
+    "message": "Blokuj przekierowanie strony"
+  },
+  "pp_last_request": {
+    "message": "Ostatnie żądanie"
+  },
+  "pp_test": {
+    "message": "Testuj blokowanie"
+  },
+  "pp_homepage": {
+    "message": "Strona główna"
+  },
+  "pp_options": {
+    "message": "Opcje"
+  },
+  "pp_shadow": {
+    "message": "Użyj okna zastępczego"
+  },
+  "pp_allow": {
+    "message": "Zezwól"
+  },
+  "pp_block": {
+    "message": "Blokuj"
+  },
+  "pp_health": {
+    "message": "Skrypt w tle wygląda na nieodpowiadający. Czy chcesz spróbować ponownie uruchomić rozszerzenie?"
+  },
+  "pp_block_redirect": {
+    "message": "Lekki"
+  },
+  "pp_block_automated": {
+    "message": "Ścisły"
+  },
+  "pp_redirect_info": {
+    "message": "Tryb Lekki zapobiega przekierowaniom przez 2 sekundy po interakcji użytkownika. Tryb Ścisły blokuje również nieinteraktywne przekierowania stron."
+  },
+  "options_item51": {
+    "message": "Język interfejsu i powiadomień"
+  },
+  "options_item52": {
+    "message": "Język przeglądarki"
+  },
+  "ui_button_close": {
+    "message": "Zamknij to powiadomienie"
+  },
+  "ui_button_close_value": {
+    "message": "zamknij"
+  },
+  "options_tip_locale": {
+    "message": "Język używany przez stronę opcji, popup paska narzędzi i powiadomienia na stronie. \"Język przeglądarki\" oznacza język przeglądarki. Nazwa rozszerzenia i opisy skrótów klawiszowych są wyświetlane przez przeglądarkę i zawsze używają jej języka."
+  },
+  "options_tip_numbers": {
+    "message": "Ile żądań popupów pole powiadomień wyświetla jednocześnie na jednej stronie. Gdy lista jest pełna i nadejdzie nowe żądanie, najstarszy wpis jest usuwany."
+  },
+  "options_tip_timeout": {
+    "message": "Każdy wpis znika po tylu sekundach, jeśli nic nie wybierzesz (popup pozostaje zablokowany). Najechanie na wpis wstrzymuje jego licznik."
+  },
+  "options_tip_width": {
+    "message": "Szerokość pola powiadomień na stronie. Minimum to 300 pikseli."
+  },
+  "options_tip_countdown": {
+    "message": "Gdy wpis ma już akcję (akcję wybraną dla witryny tego popupu w ciągu ostatnich 10 dni lub akcję domyślną), ten przycisk odlicza i jest naciskany automatycznie przy zerze. Użyj 0, aby to wyłączyć."
+  },
+  "options_tip_default_action": {
+    "message": "Sugerowana akcja dla nowych żądań popupów. \"Nic nie rób\" pokazuje tylko powiadomienie. Inne akcje są wykonywane przez odliczanie lub natychmiast, gdy włączone jest \"Ignoruj powiadomienia o popupach, gdy to możliwe\". Wybór dokonany dla witryny jest zapamiętywany przez 10 dni i ma pierwszeństwo przed tym ustawieniem."
+  },
+  "options_tip_whitelist_mode": {
+    "message": "Co robi przycisk \"zaufaj\" (kliknij go dwukrotnie w ciągu 3 sekund, aby potwierdzić). Pierwsza opcja: witryna popupu jest dodawana do \"Nie blokuj popupów z tych źródeł\". Druga opcja: witryna bieżącej strony jest dodawana do \"Nie blokuj żadnych popupów na tych stronach\", a blokowanie zostaje natychmiast zatrzymane na tej stronie."
+  },
+  "options_tip_placement": {
+    "message": "Róg strony, w którym pojawia się pole powiadomień."
+  },
+  "options_tip_badge_color": {
+    "message": "Kolor tła licznika zablokowanych żądań na ikonie paska narzędzi."
+  },
+  "options_tip_domain": {
+    "message": "Zezwalaj na popupy otwierające stronę w tej samej witrynie co bieżąca strona, w tym subdomeny (na przykład shop.example.com otwarte z www.example.com)."
+  },
+  "options_tip_badge": {
+    "message": "Pokazuj liczbę żądań popupów zablokowanych w bieżącej karcie na ikonie paska narzędzi."
+  },
+  "options_tip_immediate_action": {
+    "message": "Pomiń powiadomienie i wykonaj akcję od razu, gdy jest znana (zapamiętany wybór lub akcja domyślna). Niezalecane: nie zobaczysz, co zostało zablokowane lub dozwolone."
+  },
+  "options_tip_simulate_allow": {
+    "message": "Gdy popup jest dozwolony, rozszerzenie samo otwiera link w nowej karcie zamiast pozwalać stronie go otworzyć. Omija to własną blokadę popupów przeglądarki, ale strona nie może kontrolować nowego okna, co może psuć popupy logowania zgłaszane do strony."
+  },
+  "options_tip_focus_popup": {
+    "message": "Przenieś fokus klawiatury do nowego powiadomienia, aby od razu użyć klawiszy skrótów, naciśnij Escape, aby je zamknąć, i użyj strzałek w górę/w dół, aby poruszać się między wpisami."
+  },
+  "options_tip_faqs": {
+    "message": "Po zaktualizowaniu rozszerzenia otwórz stronę FAQ autora (webextension.org) w nowej karcie, najwyżej raz na 45 dni."
+  },
+  "options_tip_popup_hosts": {
+    "message": "Popupy otwierające te witryny nigdy nie są blokowane, na żadnej stronie. Subdomeny są uwzględnione (google.com pasuje również do mail.google.com). Przycisk \"zaufaj\" dodaje tutaj witryny w pierwszym trybie."
+  },
+  "options_tip_top_hosts": {
+    "message": "Blokada w ogóle nie działa na tych witrynach, w tym ich subdomenach. Odśwież otwarte karty po zmianie tej listy."
+  },
+  "options_tip_protocols": {
+    "message": "Linki używające tych protokołów nigdy nie są blokowane, na przykład linki magnet: otwierające aplikację torrent. Każdy wpis musi kończyć się dwukropkiem."
+  },
+  "options_tip_rules": {
+    "message": "Automatyczne akcje według URL, jako obiekt JSON z \"wzorca\": \"akcja\". Akcje: allow, deny, background, redirect, close, interface (pokazuj tylko powiadomienie). Wzorzec bez prefiksu musi być równy URL popupu. Prefiksy: r: wyrażenie regularne na URL popupu, ro: wyrażenie regularne na URL bieżącej strony, p: wzorzec URL na URL popupu, po: wzorzec URL na URL bieżącej strony.\nPrzykład: {\"p:https://*.example.com/*\": \"deny\", \"ro:youtube\": \"allow\"}"
+  },
+  "options_tip_scope": {
+    "message": "Wzorce dopasowania URL decydujące, gdzie działa blokada (domyślny *://*/* oznacza wszystkie strony). Zawęź, aby chronić tylko niektóre witryny, na przykład *://*.example.com/*. Jeśli wzorzec jest nieprawidłowy, zamiast tego używany jest domyślny."
+  },
+  "options_tip_block_page_redirection": {
+    "message": "Wiele witryn wysyła bieżącą kartę do reklamy, gdy ich popup jest zablokowany. Gdy to jest włączone, przez 2 sekundy po zablokowanym popupie każda próba opuszczenia strony pokazuje dialog przeglądarki \"Opuścić witrynę?\", abyś mógł zostać."
+  },
+  "options_tip_block_automated_redirection": {
+    "message": "Zatrzymuj również przekierowania, które strona rozpoczyna sama bez kliknięcia lub naciśnięcia klawisza, w dowolnym momencie (nie tylko po popupie). Wymaga powyższej opcji i przeglądarki obsługującej Navigation API."
+  },
+  "options_tip_block_page_redirection_same_origin": {
+    "message": "Nie zatrzymuj przekierowań do tej samej witryny co bieżąca strona."
+  },
+  "options_tip_block_page_redirection_hostnames": {
+    "message": "Przekierowania do tych witryn nigdy nie są zatrzymywane. Wprowadź dokładne nazwy hostów (subdomeny nie są uwzględnione)."
+  },
+  "options_tip_silent": {
+    "message": "Popupy żądane na tych witrynach są nadal blokowane, ale nie jest wyświetlane żadne powiadomienie."
+  },
+  "options_tip_user_styling": {
+    "message": "Własny CSS pola powiadomień na stronie, na przykład do ukrywania lub zmiany kolorów przycisków. Jest przechowywany tylko na tym urządzeniu i nie jest uwzględniany w eksportowanych preferencjach."
+  },
+  "options_tip_sync": {
+    "message": "Przechowuj tę listę w magazynie synchronizacji konta przeglądarki, aby była taka sama na wszystkich urządzeniach."
+  },
+  "options_tip_import": {
+    "message": "Wczytaj preferencje z wcześniej wyeksportowanego pliku JSON. Rozszerzenie uruchomi się ponownie."
+  },
+  "options_tip_export": {
+    "message": "Zapisz wszystkie preferencje do pliku JSON (własny CSS nie jest uwzględniany)."
+  },
+  "options_tip_reset": {
+    "message": "Wypełnij formularz wartościami domyślnymi. Nic się nie zmieni, dopóki nie naciśniesz \"Zapisz opcje\"."
+  },
+  "options_basic": {
+    "message": "Ustawienia podstawowe"
+  },
+  "options_advanced": {
+    "message": "Ustawienia zaawansowane"
+  },
+  "options_advanced_hint": {
+    "message": "Rzadko potrzebne. Zmieniaj je tylko, jeśli wiesz, co robią."
+  },
+  "options_section_general": {
+    "message": "Ogólne"
+  },
+  "options_section_lists": {
+    "message": "Listy dozwolone"
+  },
+  "options_section_notification": {
+    "message": "Pole powiadomień"
+  },
+  "options_section_rules": {
+    "message": "Reguły i protokoły"
+  }
+}

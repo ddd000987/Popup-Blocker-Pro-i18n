@@ -1,0 +1,419 @@
+{
+  "app_description": {
+    "message": "Blocca rigorosamente tutte le richieste di popup da qualsiasi sito web"
+  },
+  "context_item2": {
+    "message": "Consenti l'ultima richiesta di popup"
+  },
+  "context_item3": {
+    "message": "Rifiuta l'ultima richiesta di popup"
+  },
+  "context_item4": {
+    "message": "Apri l'ultima richiesta di popup in una scheda in background"
+  },
+  "context_item5": {
+    "message": "Reindirizza la scheda attuale all'ultima richiesta di popup"
+  },
+  "context_item6": {
+    "message": "Sposta lo stato attivo dalla pagina all'ultima richiesta di popup"
+  },
+  "options_item1": {
+    "message": "Numero massimo di richieste di popup per una singola pagina"
+  },
+  "options_item2": {
+    "message": "Tempo di visualizzazione di ciascun popup (in secondi)"
+  },
+  "options_item3": {
+    "message": "Non bloccare le richieste di popup dalla stessa origine"
+  },
+  "options_item5": {
+    "message": "Mostra il numero totale di richieste bloccate nell'icona della barra degli strumenti"
+  },
+  "options_item6": {
+    "message": "Non bloccare i popup di queste origini:"
+  },
+  "options_item7": {
+    "message": "Non bloccare alcun popup in queste pagine:"
+  },
+  "options_item8": {
+    "message": "Per applicare questa modifica, aggiorna la scheda."
+  },
+  "options_item9": {
+    "message": "Conto alla rovescia per eseguire l'ultima azione (in secondi)"
+  },
+  "options_item10": {
+    "message": "Usa lo zero per disattivare il conto alla rovescia per eseguire l'azione precedente."
+  },
+  "options_item13": {
+    "message": "Origini in blacklist (modalità operativa inversa):"
+  },
+  "options_item15": {
+    "message": "Impedisci il reindirizzamento della pagina per 2 secondi dopo la richiesta di un popup"
+  },
+  "options_item17": {
+    "message": "Azione predefinita quando viene richiesto un popup"
+  },
+  "options_item18": {
+    "message": "Non fare nulla"
+  },
+  "options_item19": {
+    "message": "Rifiuta la richiesta"
+  },
+  "options_item20": {
+    "message": "Apri in background"
+  },
+  "options_item21": {
+    "message": "Reindirizza la pagina"
+  },
+  "options_item22": {
+    "message": "Colore di sfondo del badge"
+  },
+  "options_item23": {
+    "message": "Ignora la notifica dei popup quando possibile (sconsigliato)"
+  },
+  "options_item25": {
+    "message": "Descrizioni"
+  },
+  "options_item26": {
+    "message": "Mostra la pagina FAQ agli aggiornamenti"
+  },
+  "options_item27": {
+    "message": "Non bloccare questi protocolli:"
+  },
+  "options_item28": {
+    "message": "Consenti il reindirizzamento della pagina alle seguenti origini:"
+  },
+  "options_item29": {
+    "message": "Consenti il reindirizzamento della pagina alla stessa origine"
+  },
+  "options_item30": {
+    "message": "Simula il pulsante 'consenti' per impedire al blocco popup interno del browser di bloccare queste richieste"
+  },
+  "options_item31": {
+    "message": "Quando viene premuto il pulsante \"fidati\":"
+  },
+  "options_item32": {
+    "message": "Non bloccare più l'origine del popup"
+  },
+  "options_item33": {
+    "message": "Consenti alla pagina di primo livello di mostrare qualsiasi popup"
+  },
+  "options_item34": {
+    "message": "Silenzia le notifiche su questi nomi host:"
+  },
+  "options_item35": {
+    "message": "Applica le seguenti regole CSS personalizzate all'interfaccia dei popup:"
+  },
+  "options_item40": {
+    "message": "Sposta lo stato attivo sulla nuova interfaccia dei popup. Puoi quindi usare le scorciatoie o il tasto Escape per nasconderla"
+  },
+  "options_item36": {
+    "message": "Abilita il rilevamento aggressivo degli IFrame statici"
+  },
+  "options_item37": {
+    "message": "Quando questa modalità è abilitata, l'estensione installa un mutation observer per monitorare gli IFrame statici con attributi src 'JavaScript:'. Questo aumenta la potenza di blocco ma ha svantaggi in termini di prestazioni."
+  },
+  "options_item38": {
+    "message": "Reindirizzamento pagina"
+  },
+  "options_item39": {
+    "message": "Varie"
+  },
+  "options_item41": {
+    "message": "Azione su una nuova richiesta di popup"
+  },
+  "options_item42": {
+    "message": "Posizione del popup nella pagina"
+  },
+  "options_item43": {
+    "message": "In alto a sinistra"
+  },
+  "options_item44": {
+    "message": "In alto a destra"
+  },
+  "options_item45": {
+    "message": "In basso a sinistra"
+  },
+  "options_item46": {
+    "message": "In basso a destra"
+  },
+  "options_item47": {
+    "message": "Ambito di protezione"
+  },
+  "options_item48": {
+    "message": "Leggi la documentazione su come configurare l'ambito dell'estensione."
+  },
+  "options_item49": {
+    "message": "Larghezza del popup (in pixel)"
+  },
+  "options_item50": {
+    "message": "Blocca i reindirizzamenti automatici delle pagine senza interazione dell'utente"
+  },
+  "options_sync": {
+    "message": "Sincronizza questa preferenza"
+  },
+  "options_support": {
+    "message": "Sostieni lo sviluppo"
+  },
+  "options_import": {
+    "message": "Importa preferenze"
+  },
+  "options_export": {
+    "message": "Esporta preferenze"
+  },
+  "options_reset": {
+    "message": "Ripristina predefiniti"
+  },
+  "options_save": {
+    "message": "Salva opzioni"
+  },
+  "options_msg": {
+    "message": "Opzioni salvate"
+  },
+  "options_review": {
+    "message": "Recensione YouTube"
+  },
+  "options_page": {
+    "message": "Pagina FAQ"
+  },
+  "options_t_1": {
+    "message": "elenco di nomi host separati da virgole (es.: www.google.com, www.yahoo.com)"
+  },
+  "options_t_2": {
+    "message": "elenco di domini separati da virgole (es.: google.com, yahoo.com)"
+  },
+  "options_t_3": {
+    "message": "Un oggetto JSON che guida l'estensione nell'eseguire un'azione specifica in risposta a una richiesta di popup, determinata dal suo URL. Leggi la pagina FAQ per esempi."
+  },
+  "options_t_4": {
+    "message": "Inserisci un elenco di modelli separati da virgole per definire l'ambito globale. Modificalo solo se sai cosa stai facendo, poiché valori errati possono danneggiare l'estensione. Leggi la pagina FAQ per maggiori informazioni"
+  },
+  "ui_msg": {
+    "message": "Popup richiesto per"
+  },
+  "ui_button_allow": {
+    "message": "Consenti questo popup (Alt + Shift + A o Control + Option + A)"
+  },
+  "ui_button_allow_value": {
+    "message": "consenti"
+  },
+  "ui_button_redirect": {
+    "message": "Reindirizza la pagina attuale alla nuova destinazione invece di aprirla in una nuova scheda o popup (Alt + Shift + R o Control + Option + R)"
+  },
+  "ui_button_redirect_value": {
+    "message": "reindirizza"
+  },
+  "ui_button_background": {
+    "message": "Apri il link in una scheda in background (Alt + Shift + B o Control + Option + B)"
+  },
+  "ui_button_background_value": {
+    "message": "background"
+  },
+  "ui_button_deny": {
+    "message": "Rifiuta l'apertura del popup o della scheda (Alt + Shift + D o Control + Option + D)"
+  },
+  "ui_button_deny_value": {
+    "message": "rifiuta"
+  },
+  "ui_button_trust": {
+    "message": "Inserisci questo dominio nella allowlist per aprire i popup (Alt + Shift + T o Control + Option + T)"
+  },
+  "ui_button_trust_value": {
+    "message": "fidati"
+  },
+  "ui_button_trust_confirm": {
+    "message": "Conferma"
+  },
+  "bg_msg_state_0": {
+    "message": "Popup Blocker Pro i18n è abilitato globalmente, ma non attivo in questa scheda—probabilmente perché è una pagina interna, fuori ambito o ancora in caricamento."
+  },
+  "bg_msg_state_1": {
+    "message": "Popup Blocker Pro i18n è abilitato globalmente e protegge questa scheda"
+  },
+  "bg_msg_state_2": {
+    "message": "Popup Blocker Pro i18n è abilitato globalmente ma non protegge questa scheda"
+  },
+  "bg_msg_state_3": {
+    "message": "Popup Blocker Pro i18n è disabilitato globalmente e non protegge questa scheda"
+  },
+  "bg_msg_state_4": {
+    "message": "Popup Blocker Pro i18n è disabilitato globalmente ma protegge questa scheda"
+  },
+  "bg_msg_reg": {
+    "message": "Registrazione del filtro di blocco non riuscita a causa di una regola formattata male. Usa la pagina delle opzioni per correggerla."
+  },
+  "pp_enabled_g": {
+    "message": "Abilitato (globalmente)"
+  },
+  "pp_enabled_c": {
+    "message": "Abilitato (questo dominio)"
+  },
+  "pp_enabled_cf": {
+    "message": "Includi/Escludi sotto-frame"
+  },
+  "pp_silent": {
+    "message": "Mostra notifiche"
+  },
+  "pp_ignore": {
+    "message": "Esegui azione quando possibile"
+  },
+  "pp_redirect": {
+    "message": "Blocca reindirizzamento pagina"
+  },
+  "pp_last_request": {
+    "message": "Ultima richiesta"
+  },
+  "pp_test": {
+    "message": "Prova il blocco"
+  },
+  "pp_homepage": {
+    "message": "Homepage"
+  },
+  "pp_options": {
+    "message": "Opzioni"
+  },
+  "pp_shadow": {
+    "message": "Usa finestra sostitutiva"
+  },
+  "pp_allow": {
+    "message": "Consenti"
+  },
+  "pp_block": {
+    "message": "Blocca"
+  },
+  "pp_health": {
+    "message": "Lo script in background sembra non rispondere. Vuoi provare a riavviare l'estensione?"
+  },
+  "pp_block_redirect": {
+    "message": "Leggera"
+  },
+  "pp_block_automated": {
+    "message": "Rigorosa"
+  },
+  "pp_redirect_info": {
+    "message": "La modalità Leggera previene i reindirizzamenti per 2 secondi dopo l'interazione dell'utente. La modalità Rigorosa blocca anche i reindirizzamenti automatici delle pagine."
+  },
+  "options_item51": {
+    "message": "Lingua dell'interfaccia e delle notifiche"
+  },
+  "options_item52": {
+    "message": "Predefinito del browser"
+  },
+  "ui_button_close": {
+    "message": "Chiudi questa notifica"
+  },
+  "ui_button_close_value": {
+    "message": "chiudi"
+  },
+  "options_tip_locale": {
+    "message": "Lingua usata dalla pagina delle opzioni, dal popup della barra degli strumenti e dalle notifiche nella pagina. \"Predefinito del browser\" segue la lingua del browser. Il nome dell'estensione e le descrizioni delle scorciatoie da tastiera sono mostrati dal browser e seguono sempre la sua lingua."
+  },
+  "options_tip_numbers": {
+    "message": "Quante richieste di popup la casella di notifica elenca contemporaneamente in una pagina. Quando l'elenco è pieno e arriva una nuova richiesta, la voce più vecchia viene rimossa."
+  },
+  "options_tip_timeout": {
+    "message": "Ogni voce scompare dopo questo numero di secondi se non scegli nulla (il popup resta bloccato). Passare sopra una voce ne mette in pausa il timer."
+  },
+  "options_tip_width": {
+    "message": "Larghezza della casella di notifica nella pagina. Il minimo è 300 pixel."
+  },
+  "options_tip_countdown": {
+    "message": "Quando una voce ha già un'azione (l'azione scelta per il sito di quel popup negli ultimi 10 giorni, o l'azione predefinita), quel pulsante fa il conto alla rovescia e viene premuto automaticamente a zero. Usa 0 per disattivarlo."
+  },
+  "options_tip_default_action": {
+    "message": "Azione suggerita per le nuove richieste di popup. \"Non fare nulla\" mostra solo la notifica. Le altre azioni vengono eseguite dal conto alla rovescia, o immediatamente quando \"Ignora la notifica dei popup quando possibile\" è attivo. Una scelta fatta per un sito viene ricordata per 10 giorni e ha priorità su questa impostazione."
+  },
+  "options_tip_whitelist_mode": {
+    "message": "Cosa fa il pulsante \"fidati\" (fai clic due volte entro 3 secondi per confermare). Prima opzione: il sito del popup viene aggiunto a \"Non bloccare i popup di queste origini\". Seconda opzione: il sito della pagina attuale viene aggiunto a \"Non bloccare alcun popup in queste pagine\" e il blocco si interrompe subito in questa pagina."
+  },
+  "options_tip_placement": {
+    "message": "Angolo della pagina in cui appare la casella di notifica."
+  },
+  "options_tip_badge_color": {
+    "message": "Colore di sfondo del contatore delle richieste bloccate sull'icona della barra degli strumenti."
+  },
+  "options_tip_domain": {
+    "message": "Consenti i popup che aprono una pagina sullo stesso sito della pagina attuale, inclusi i sottodomini (ad esempio shop.example.com aperto da www.example.com)."
+  },
+  "options_tip_badge": {
+    "message": "Mostra il numero di richieste di popup bloccate nella scheda attuale sull'icona della barra degli strumenti."
+  },
+  "options_tip_immediate_action": {
+    "message": "Salta la notifica ed esegui subito l'azione quando ne è nota una (una scelta ricordata o l'azione predefinita). Sconsigliato: non vedrai cosa è stato bloccato o consentito."
+  },
+  "options_tip_simulate_allow": {
+    "message": "Quando un popup è consentito, l'estensione apre il link in una nuova scheda invece di lasciarlo aprire alla pagina. Questo aggira il blocco popup del browser, ma la pagina non può controllare la nuova finestra, il che può danneggiare i popup di login che rispondono alla pagina."
+  },
+  "options_tip_focus_popup": {
+    "message": "Sposta lo stato attivo della tastiera su una nuova notifica così puoi usare subito i tasti di scelta rapida, premi Escape per chiuderla e usa i tasti freccia su/giù per spostarti tra le voci."
+  },
+  "options_tip_faqs": {
+    "message": "Dopo l'aggiornamento dell'estensione, apri la pagina FAQ dell'autore (webextension.org) in una nuova scheda, al massimo una volta ogni 45 giorni."
+  },
+  "options_tip_popup_hosts": {
+    "message": "I popup che aprono questi siti non vengono mai bloccati, in nessuna pagina. I sottodomini sono inclusi (google.com corrisponde anche a mail.google.com). Il pulsante \"fidati\" aggiunge siti qui nella sua prima modalità."
+  },
+  "options_tip_top_hosts": {
+    "message": "Il blocco non viene eseguito affatto su questi siti, inclusi i loro sottodomini. Aggiorna le schede aperte dopo aver modificato questo elenco."
+  },
+  "options_tip_protocols": {
+    "message": "I link che usano questi protocolli non vengono mai bloccati, ad esempio i link magnet: che aprono un'app torrent. Ogni voce deve terminare con i due punti."
+  },
+  "options_tip_rules": {
+    "message": "Azioni automatiche per URL, come oggetto JSON di \"modello\": \"azione\". Azioni: allow, deny, background, redirect, close, interface (mostra solo la notifica). Un modello senza prefisso deve corrispondere all'URL del popup. Prefissi: r: espressione regolare sull'URL del popup, ro: espressione regolare sull'URL della pagina attuale, p: modello URL sull'URL del popup, po: modello URL sull'URL della pagina attuale.\nEsempio: {\"p:https://*.example.com/*\": \"deny\", \"ro:youtube\": \"allow\"}"
+  },
+  "options_tip_scope": {
+    "message": "Modelli di corrispondenza URL che decidono dove viene eseguito il blocco (il predefinito *://*/* significa tutti i siti web). Restringilo per proteggere solo alcuni siti, ad esempio *://*.example.com/*. Se un modello non è valido, viene usato il predefinito."
+  },
+  "options_tip_block_page_redirection": {
+    "message": "Molti siti inviano la scheda attuale a una pubblicità quando il loro popup è bloccato. Con questa opzione attiva, per 2 secondi dopo un popup bloccato, qualsiasi tentativo di lasciare la pagina mostra il dialogo \"Abbandonare il sito?\" del browser così puoi restare."
+  },
+  "options_tip_block_automated_redirection": {
+    "message": "Interrompi anche i reindirizzamenti che la pagina avvia da sola senza un tuo clic o pressione di tasti, in qualsiasi momento (non solo dopo un popup). Richiede l'opzione sopra e un browser che supporta la Navigation API."
+  },
+  "options_tip_block_page_redirection_same_origin": {
+    "message": "Non interrompere i reindirizzamenti allo stesso sito della pagina attuale."
+  },
+  "options_tip_block_page_redirection_hostnames": {
+    "message": "I reindirizzamenti a questi siti non vengono mai interrotti. Inserisci nomi host esatti (i sottodomini non sono inclusi)."
+  },
+  "options_tip_silent": {
+    "message": "I popup richiesti su questi siti vengono comunque bloccati, ma non viene mostrata alcuna notifica."
+  },
+  "options_tip_user_styling": {
+    "message": "Il tuo CSS per la casella di notifica nella pagina, ad esempio per nascondere o ricolorare i pulsanti. È memorizzato solo su questo dispositivo e non è incluso nelle preferenze esportate."
+  },
+  "options_tip_sync": {
+    "message": "Memorizza questo elenco nello spazio di sincronizzazione del tuo account browser così è uguale su tutti i tuoi dispositivi."
+  },
+  "options_tip_import": {
+    "message": "Carica le preferenze da un file JSON esportato in precedenza. L'estensione si riavvia dopo."
+  },
+  "options_tip_export": {
+    "message": "Salva tutte le preferenze in un file JSON (il CSS personalizzato non è incluso)."
+  },
+  "options_tip_reset": {
+    "message": "Compila il modulo con i valori predefiniti. Nulla cambia finché non premi \"Salva opzioni\"."
+  },
+  "options_basic": {
+    "message": "Impostazioni di base"
+  },
+  "options_advanced": {
+    "message": "Impostazioni avanzate"
+  },
+  "options_advanced_hint": {
+    "message": "Raramente necessario. Modificale solo se sai cosa fanno."
+  },
+  "options_section_general": {
+    "message": "Generale"
+  },
+  "options_section_lists": {
+    "message": "Liste di eccezioni"
+  },
+  "options_section_notification": {
+    "message": "Casella di notifica"
+  },
+  "options_section_rules": {
+    "message": "Regole e protocolli"
+  }
+}

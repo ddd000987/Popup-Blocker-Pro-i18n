@@ -1,15 +1,27 @@
-/* global config  */
+/* global config, i18n */
 'use strict';
 
 // localization
-[...document.querySelectorAll('[data-i18n]')].forEach(e => {
-  if (e.dataset.i18nValue) {
-    e.setAttribute(e.dataset.i18nValue, chrome.i18n.getMessage(e.dataset.i18n));
-  }
-  else {
-    e.textContent = chrome.i18n.getMessage(e.dataset.i18n);
-  }
-});
+const localize = () => {
+  document.documentElement.lang = i18n.lang();
+  document.documentElement.dir = i18n.dir();
+  [...document.querySelectorAll('[data-i18n]')].forEach(e => {
+    if (e.dataset.i18nValue) {
+      e.setAttribute(e.dataset.i18nValue, i18n.get(e.dataset.i18n));
+    }
+    else {
+      e.textContent = i18n.get(e.dataset.i18n);
+    }
+  });
+  // detailed descriptions, shown when hovering a setting
+  [...document.querySelectorAll('[data-i18n-title]')].forEach(e => e.title = i18n.get(e.dataset.i18nTitle));
+};
+i18n.ready.then(localize);
+
+// languages (each one is displayed in its own language)
+for (const [locale, name] of Object.entries(i18n.locales)) {
+  document.getElementById('locale').append(new Option(name, locale));
+}
 
 async function restore(defaults = false) {
   document.getElementById('user-styling').value = localStorage.getItem('user-styling') || '';
@@ -25,11 +37,11 @@ async function restore(defaults = false) {
 
   const prefs = defaults ? config : await config.get([
     'numbers', 'timeout', 'countdown', 'badge', 'badge-color', 'domain',
-    'simulate-allow', 'focus-popup', 'faqs', 'popup-hosts',
+    'simulate-allow', 'focus-popup', 'popup-hosts',
     'block-page-redirection', 'block-page-redirection-same-origin',
     'block-page-redirection-hostnames', 'block-automated-redirection',
     'top-hosts', 'protocols', 'silent', 'default-action',
-    'whitelist-mode', 'immediate-action', 'rules', 'placement', 'scope', 'width'
+    'whitelist-mode', 'immediate-action', 'rules', 'placement', 'scope', 'width', 'locale'
   ]);
 
   document.getElementById('rules').value = JSON.stringify(prefs.rules, undefined, '  ');
@@ -41,7 +53,6 @@ async function restore(defaults = false) {
   document.getElementById('domain').checked = prefs.domain;
   document.getElementById('simulate-allow').checked = prefs['simulate-allow'];
   document.getElementById('focus-popup').checked = prefs['focus-popup'];
-  document.getElementById('faqs').checked = prefs.faqs;
   document.getElementById('block-page-redirection').checked = prefs['block-page-redirection'];
   document.getElementById('block-page-redirection-same-origin').checked = prefs['block-page-redirection-same-origin'];
   document.getElementById('block-automated-redirection').checked = prefs['block-automated-redirection'];
@@ -57,6 +68,7 @@ async function restore(defaults = false) {
   document.getElementById('placement').value = prefs['placement'];
   document.getElementById('scope').value = prefs['scope'].join(', ');
   document.getElementById('width').value = prefs['width'];
+  document.getElementById('locale').value = prefs['locale'];
 }
 
 const prepare = str => str.split(/\s*,\s*/)
@@ -105,7 +117,6 @@ async function save() {
     'domain': document.getElementById('domain').checked,
     'simulate-allow': document.getElementById('simulate-allow').checked,
     'focus-popup': document.getElementById('focus-popup').checked,
-    'faqs': document.getElementById('faqs').checked,
     'block-page-redirection': document.getElementById('block-page-redirection').checked,
     'block-page-redirection-same-origin': document.getElementById('block-page-redirection-same-origin').checked,
     'block-automated-redirection': document.getElementById('block-automated-redirection').checked,
@@ -119,7 +130,8 @@ async function save() {
     'whitelist-mode': document.getElementById('whitelist-mode').value,
     'immediate-action': document.getElementById('immediate-action').checked,
     'placement': document.getElementById('placement').value,
-    'scope': scopes
+    'scope': scopes,
+    'locale': document.getElementById('locale').value
   };
 
   let orules = '';
@@ -133,9 +145,15 @@ async function save() {
 
   localStorage.setItem('user-styling', document.getElementById('user-styling').value || '');
 
-  config.set(settings).then(() => {
+  config.set(settings).then(async () => {
+    // apply the new language to this page right away
+    if (settings.locale !== i18n.locale) {
+      i18n.ready = i18n.load(settings.locale);
+      await i18n.ready;
+      localize();
+    }
     const status = document.getElementById('status');
-    status.textContent = chrome.i18n.getMessage('options_msg');
+    status.textContent = i18n.get('options_msg');
     restore();
     setTimeout(() => {
       status.textContent = '';
@@ -149,9 +167,10 @@ async function save() {
 document.addEventListener('DOMContentLoaded', () => restore());
 document.getElementById('save').addEventListener('click', save);
 
+// footnote links open the notes
 document.addEventListener('click', e => {
-  if (e.target.href && e.target.href.indexOf('#') !== -1) {
-    document.querySelector('details').open = true;
+  if (e.target.href && e.target.href.indexOf('#n') !== -1) {
+    document.getElementById('notes').open = true;
   }
 });
 
@@ -198,9 +217,12 @@ document.getElementById('import').addEventListener('click', () => {
     }
   }
 });
+// the original project's FAQ still documents every setting; donations go to the original author
+const faq = 'https://webextension.org/listing/popup-blocker.html';
+
 // support
 document.getElementById('support').addEventListener('click', () => chrome.tabs.create({
-  url: chrome.runtime.getManifest().homepage_url + '?rd=donate'
+  url: faq + '?rd=donate'
 }));
 // review
 document.getElementById('review').addEventListener('click', () => chrome.tabs.create({
@@ -208,12 +230,15 @@ document.getElementById('review').addEventListener('click', () => chrome.tabs.cr
 }));
 // FAQs Page
 document.getElementById('page').addEventListener('click', () => chrome.tabs.create({
-  url: chrome.runtime.getManifest().homepage_url
+  url: faq
 }));
+
+// version
+document.getElementById('version').textContent = 'v' + chrome.runtime.getManifest().version;
 
 // links
 for (const a of [...document.querySelectorAll('[data-href]')]) {
   if (a.hasAttribute('href') === false) {
-    a.href = chrome.runtime.getManifest().homepage_url + '#' + a.dataset.href;
+    a.href = faq + '#' + a.dataset.href;
   }
 }

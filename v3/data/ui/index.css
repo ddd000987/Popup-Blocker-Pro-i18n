@@ -41,7 +41,7 @@ input[type=button][data-default=true] {
   position: relative;
   text-shadow: none;
   box-sizing: content-box;
-  border-left: solid 5px var(--bd);
+  border-inline-start: solid 5px var(--bd);
   background-color: var(--bg);
   color: var(--fg);
   padding: 5px;
@@ -58,7 +58,7 @@ input[type=button][data-default=true] {
   margin: auto;
 }
 .ppblocker-div:focus-within {
-  border-left-color: var(--bda);
+  border-inline-start-color: var(--bda);
 }
 .ppblocker-div > div {
   display: grid;
@@ -124,4 +124,9 @@ input[type=button][data-default=true] {
   overflow: hidden;
   text-decoration: none;
   color: inherit;
+}
+/* addresses stay left-to-right in right-to-left languages */
+html[dir=rtl] .ppblocker-div a[data-id="info"] {
+  direction: ltr;
+  text-align: right;
 }

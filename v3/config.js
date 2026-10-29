@@ -34,10 +34,9 @@ const config = {
   'block-page-redirection-same-origin': true,
   'target': true,
   'version': null,
-  'faqs': true,
-  'last-update': 0,
   'scope': ['*://*/*'],
-  'width': 420 // popup width in px
+  'width': 420, // popup width in px
+  'locale': 'auto' // interface language; "auto" follows the browser
 };
 
 {

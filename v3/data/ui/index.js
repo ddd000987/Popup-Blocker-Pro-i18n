@@ -1,4 +1,4 @@
-/* global config, URLPattern */
+/* global config, i18n, URLPattern */
 'use strict';
 
 const args = new URLSearchParams(location.search);
@@ -115,7 +115,7 @@ function onClick(e) {
             chrome.runtime.sendMessage(msg);
 
             target.confirm = false;
-            target.value = chrome.i18n.getMessage('ui_button_trust_value');
+            target.value = i18n.get('ui_button_trust_value');
             requestSize();
           }
           else {
@@ -123,10 +123,10 @@ function onClick(e) {
 
             target.timeout = setTimeout(() => {
               target.confirm = false;
-              target.value = chrome.i18n.getMessage('ui_button_trust_value');
+              target.value = i18n.get('ui_button_trust_value');
               requestSize();
             }, 3000);
-            target.value = chrome.i18n.getMessage('ui_button_trust_confirm');
+            target.value = i18n.get('ui_button_trust_confirm');
             requestSize();
 
             return;
@@ -269,8 +269,8 @@ const onPopupRequest = async request => {
       // only perform automatic action when there is no native request
       // to prevent the native popup blocker catch our request
       // the countdown is meaningless when the interface is hidden
-      // ("Display Notifications" is off)
-      if (prefs.issue !== false && prefs.countdown && request.sameContext !== true) {
+      // ("Display Notifications" is off or the page is in the "silent" list)
+      if (prefs.issue !== false && args.get('muted') !== 'true' && prefs.countdown && request.sameContext !== true) {
         if (action) {
           // to prevent internal popup blocker from rejecting the request
           if (action !== 'popup-accepted' || prefs['simulate-allow']) {
@@ -284,9 +284,9 @@ const onPopupRequest = async request => {
     }
     // localization
     [...clone.querySelectorAll('[data-i18n]')].forEach(e => {
-      e[e.dataset.i18nValue || 'title'] = chrome.i18n.getMessage(e.dataset.i18n);
+      e[e.dataset.i18nValue || 'title'] = i18n.get(e.dataset.i18n);
       if (e.type === 'button') {
-        e.value = chrome.i18n.getMessage(e.dataset.i18n + '_value');
+        e.value = i18n.get(e.dataset.i18n + '_value');
       }
     });
     // hide on timeout
@@ -327,6 +327,9 @@ const prepare = async c => {
     'issue', 'numbers', 'timeout', 'countdown', 'default-action',
     'immediate-action', 'simulate-allow', 'focus-popup', 'rules'
   ]);
+  await i18n.ready;
+  document.documentElement.lang = i18n.lang();
+  document.documentElement.dir = i18n.dir();
   c();
 };
 

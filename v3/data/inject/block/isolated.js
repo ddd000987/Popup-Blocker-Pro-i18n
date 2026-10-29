@@ -83,7 +83,7 @@ config.changed(ps => {
   // "Display Notifications" toggles visibility of live containers; the
   // pipeline (rules, default-action) keeps running either way
   if (ps.issue && scope.container) {
-    scope.container.style.display = ps.issue.newValue ? '' : 'none';
+    scope.container.style.display = ps.issue.newValue && !scope.container.muted ? '' : 'none';
   }
 });
 

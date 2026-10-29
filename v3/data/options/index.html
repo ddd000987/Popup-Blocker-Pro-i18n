@@ -1,176 +1,208 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Options Page :: Popup Blocker (strict)</title>
+  <title>Options Page :: Popup Blocker Pro i18n</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <table width=100% class="rtl">
-    <colgroup>
-      <col>
-      <col width="10">
-    </colgroup>
-    <tr>
-      <td><label for="numbers" data-i18n="options_item1"></label></td>
-      <td><input type="number" id="numbers" min=1></td>
-    </tr>
-    <tr>
-      <td><label for="timeout" data-i18n="options_item2"></label><sup><a href="#n1">1</a></sup></td>
-      <td><input type="number" id="timeout" min=5></td>
-    </tr>
-    <tr>
-      <td><label for="width" data-i18n="options_item49"></label></td>
-      <td><input type="number" id="width" min=5></td>
-    </tr>
-    <tr>
-      <td><label for="countdown" data-i18n="options_item9"></label><sup><a href="#n2">2</a></sup></td>
-      <td><input type="number" id="countdown" min=0></td>
-    </tr>
-    <tr>
-      <td><label for="default-action" data-i18n="options_item17"></label></td>
-      <td>
-      <select id="default-action">
-        <option value="ignore" data-i18n="options_item18"></option>
-        <option value="popup-denied" data-i18n="options_item19"></option>
-        <option value="open-tab" data-i18n="options_item20"></option>
-        <option value="popup-redirect" data-i18n="options_item21"></option>
-      </select>
-      </td>
-    </tr>
-    <tr>
-      <td><label for="whitelist-mode" data-i18n="options_item31"></label></td>
-      <td>
-      <select id="whitelist-mode">
-        <option value="popup-hosts" data-i18n="options_item32"></option>
-        <option value="top-hosts" data-i18n="options_item33"></option>
-      </select>
-      </td>
-    </tr>
-    <tr>
-      <td><label for="placement" data-i18n="options_item42"></label></td>
-      <td>
-      <select id="placement">
-        <option value="tl" data-i18n="options_item43"></option>
-        <option value="tr" data-i18n="options_item44"></option>
-        <option value="bl" data-i18n="options_item45"></option>
-        <option value="br" data-i18n="options_item46"></option>
-      </select>
-      </td>
-    </tr>
-    <tr>
-      <td><label for="badge-color" data-i18n="options_item22"></label></td>
-      <td><input type="color" id="badge-color"></td>
-    </tr>
-  </table>
-  <div class="checks">
-    <input type="checkbox" id="domain">
-    <label for="domain"><span data-i18n="options_item3"></span><sup><a href="#n1">1</a></sup></label>
-    <input type="checkbox" id="badge">
-    <label for="badge"><span data-i18n="options_item5"></span><sup><a href="#n1">1</a></sup></label>
-    <input type="checkbox" id="immediate-action">
-    <label for="immediate-action"><a data-href="faq15" target="_blank" data-i18n="options_item23"></a></label>
-    <input type="checkbox" id="simulate-allow">
-    <label for="simulate-allow"><span data-i18n="options_item30"></span></label>
-    <input type="checkbox" id="focus-popup">
-    <label for="focus-popup"><span data-i18n="options_item40"></span></label>
-    <input type="checkbox" id="faqs">
-    <label for="faqs"><span data-i18n="options_item26"></span></label>
-  </div>
-  <p>
-    <div class="ngx">
-      <div>
-        <a target="_blank" data-href="faq19"><span data-i18n="options_item6"></span></a><sup><a href="#n1">1</a></sup>
+  <header class="top">
+    <img src="/data/icons/48.png" alt="" width="40" height="40">
+    <div>
+      <h1>Popup Blocker Pro i18n</h1>
+      <span id="version"></span>
+    </div>
+  </header>
+
+  <!-- basic settings -->
+  <section class="card">
+    <h2 data-i18n="options_basic"></h2>
+
+    <div class="group">
+      <h3 data-i18n="options_section_general"></h3>
+      <div class="row" data-i18n-title="options_tip_locale">
+        <label for="locale" data-i18n="options_item51"></label>
+        <select id="locale">
+          <option value="auto" data-i18n="options_item52"></option>
+        </select>
       </div>
-      <label><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="popup-hosts"></label>
-    </div>
-    <textarea id="popup-hosts" rows="4" data-i18n="options_t_1" data-i18n-value="placeholder"></textarea>
-  </p>
-  <p>
-    <div class="ngx">
-      <div>
-        <a target="_blank" data-href="faq18"><span data-i18n="options_item7"></span></a><sup><a href="#n1">1</a></sup>
+      <div class="row" data-i18n-title="options_tip_default_action">
+        <label for="default-action" data-i18n="options_item17"></label>
+        <select id="default-action">
+          <option value="ignore" data-i18n="options_item18"></option>
+          <option value="popup-denied" data-i18n="options_item19"></option>
+          <option value="open-tab" data-i18n="options_item20"></option>
+          <option value="popup-redirect" data-i18n="options_item21"></option>
+        </select>
       </div>
-      <label><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="top-hosts"></label>
-    </div>
-    <textarea id="top-hosts" rows="4" data-i18n="options_t_2" data-i18n-value="placeholder"></textarea>
-  </p>
-  <p>
-    <div class="ngx">
-      <div>
-        <a target="_blank" data-href="faq20"><span data-i18n="options_item27"></span></a><sup><a href="#n1">1</a></sup>
+      <div class="row" data-i18n-title="options_tip_countdown">
+        <span><label for="countdown" data-i18n="options_item9"></label><sup><a href="#n2">2</a></sup></span>
+        <input type="number" id="countdown" min=0>
       </div>
-      <label><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="protocols"></label>
-    </div>
-    <textarea id="protocols" rows="1"></textarea>
-  </p>
-  <p>
-    <div class="ngx">
-      <div>
-        <a target="_blank" data-href="faq24"><span data-i18n="options_item41"></span></a><sup><a href="#n1">1</a></sup>
+      <div class="row" data-i18n-title="options_tip_timeout">
+        <span><label for="timeout" data-i18n="options_item2"></label><sup><a href="#n1">1</a></sup></span>
+        <input type="number" id="timeout" min=5>
       </div>
-      <label><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="rules"></label>
-    </div>
-    <textarea id="rules" rows="4" data-i18n="options_t_3" data-i18n-value="placeholder"></textarea>
-  </p>
-  <h1 data-i18n="options_item47"></h1>
-  <p>
-    <div class="ngx">
-      <div>
-        <a target="_blank" data-href="faq26" data-i18n="options_item48"></a>
+      <div class="row" data-i18n-title="options_tip_placement">
+        <label for="placement" data-i18n="options_item42"></label>
+        <select id="placement">
+          <option value="tl" data-i18n="options_item43"></option>
+          <option value="tr" data-i18n="options_item44"></option>
+          <option value="bl" data-i18n="options_item45"></option>
+          <option value="br" data-i18n="options_item46"></option>
+        </select>
       </div>
-      <label><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="scope"></label>
+      <div class="row" data-i18n-title="options_tip_whitelist_mode">
+        <label for="whitelist-mode" data-i18n="options_item31"></label>
+        <select id="whitelist-mode">
+          <option value="popup-hosts" data-i18n="options_item32"></option>
+          <option value="top-hosts" data-i18n="options_item33"></option>
+        </select>
+      </div>
+      <div class="check" data-i18n-title="options_tip_badge">
+        <input type="checkbox" id="badge">
+        <label for="badge"><span data-i18n="options_item5"></span><sup><a href="#n1">1</a></sup></label>
+      </div>
+      <div class="check" data-i18n-title="options_tip_domain">
+        <input type="checkbox" id="domain">
+        <label for="domain"><span data-i18n="options_item3"></span><sup><a href="#n1">1</a></sup></label>
+      </div>
     </div>
-    <textarea id="scope" rows="6" data-i18n="options_t_4" data-i18n-value="placeholder"></textarea>
-  </p>
-  <h1 data-i18n="options_item38"></h1>
-  <div class="checks">
-    <input type="checkbox" id="block-page-redirection">
-    <label for="block-page-redirection"><a data-href="faq13" target="_blank" data-i18n="options_item15"></a></label>
-    <span></span>
-    <div class="checks">
-      <input type="checkbox" id="block-automated-redirection">
-      <label for="block-automated-redirection" data-i18n="options_item50"></label>
+
+    <div class="group">
+      <h3 data-i18n="options_section_lists"></h3>
+      <div class="field">
+        <div class="field-head">
+          <span><a target="_blank" data-href="faq19"><span data-i18n="options_item6" data-i18n-title="options_tip_popup_hosts"></span></a><sup><a href="#n1">1</a></sup></span>
+          <label class="sync" data-i18n-title="options_tip_sync"><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="popup-hosts"></label>
+        </div>
+        <textarea id="popup-hosts" data-i18n-title="options_tip_popup_hosts" rows="3" data-i18n="options_t_1" data-i18n-value="placeholder"></textarea>
+      </div>
+      <div class="field">
+        <div class="field-head">
+          <span><a target="_blank" data-href="faq18"><span data-i18n="options_item7" data-i18n-title="options_tip_top_hosts"></span></a><sup><a href="#n1">1</a></sup></span>
+          <label class="sync" data-i18n-title="options_tip_sync"><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="top-hosts"></label>
+        </div>
+        <textarea id="top-hosts" data-i18n-title="options_tip_top_hosts" rows="3" data-i18n="options_t_2" data-i18n-value="placeholder"></textarea>
+      </div>
     </div>
-    <input type="checkbox" id="block-page-redirection-same-origin">
-    <label for="block-page-redirection-same-origin" data-i18n="options_item29"></label>
-  </div>
-  <p>
-    <a target="_blank" data-href="faq23"><span data-i18n="options_item28"></span></a><sup><a href="#n1">1</a></sup>
-    <textarea id="block-page-redirection-hostnames" rows="3" data-i18n="options_t_1" data-i18n-value="placeholder"></textarea>
-  </p>
-  <h1 data-i18n="options_item39"></h1>
-  <p>
-    <a data-href="faq22" target="_blank"><span data-i18n="options_item34"></span></a>
-    <textarea id="silent" rows="4" data-i18n="options_t_1" data-i18n-value="placeholder"></textarea>
-  </p>
-  <p>
-    <span data-i18n="options_item35"></span>
-    <textarea id="user-styling" rows="5" placeholder="e.g.:
+  </section>
+
+  <!-- advanced settings (collapsed by default) -->
+  <details class="card advanced" id="advanced">
+    <summary>
+      <h2 data-i18n="options_advanced"></h2>
+      <span class="hint" data-i18n="options_advanced_hint"></span>
+    </summary>
+
+    <div class="group">
+      <h3 data-i18n="options_section_notification"></h3>
+      <div class="row" data-i18n-title="options_tip_numbers">
+        <label for="numbers" data-i18n="options_item1"></label>
+        <input type="number" id="numbers" min=1>
+      </div>
+      <div class="row" data-i18n-title="options_tip_width">
+        <label for="width" data-i18n="options_item49"></label>
+        <input type="number" id="width" min=5>
+      </div>
+      <div class="row" data-i18n-title="options_tip_badge_color">
+        <label for="badge-color" data-i18n="options_item22"></label>
+        <input type="color" id="badge-color">
+      </div>
+      <div class="check" data-i18n-title="options_tip_focus_popup">
+        <input type="checkbox" id="focus-popup">
+        <label for="focus-popup"><span data-i18n="options_item40"></span></label>
+      </div>
+      <div class="check" data-i18n-title="options_tip_simulate_allow">
+        <input type="checkbox" id="simulate-allow">
+        <label for="simulate-allow"><span data-i18n="options_item30"></span></label>
+      </div>
+      <div class="check" data-i18n-title="options_tip_immediate_action">
+        <input type="checkbox" id="immediate-action">
+        <label for="immediate-action"><a data-href="faq15" target="_blank" data-i18n="options_item23"></a></label>
+      </div>
+      <div class="field">
+        <div class="field-head">
+          <a data-href="faq22" target="_blank"><span data-i18n="options_item34" data-i18n-title="options_tip_silent"></span></a>
+        </div>
+        <textarea id="silent" data-i18n-title="options_tip_silent" rows="2" data-i18n="options_t_1" data-i18n-value="placeholder"></textarea>
+      </div>
+      <div class="field">
+        <div class="field-head">
+          <span data-i18n="options_item35" data-i18n-title="options_tip_user_styling"></span>
+        </div>
+        <textarea id="user-styling" data-i18n-title="options_tip_user_styling" rows="4" placeholder="e.g.:
 
 input[data-cmd=white-list] {
   color: red;
 }
 "></textarea>
-  </p>
-  <p class="bc">
-    <button id="import" data-i18n="options_import"></button>
-    <button id="export" data-i18n="options_export"></button>
-  </p>
-  <p class="bc">
-    <button id="review" data-i18n="options_review"></button>
+      </div>
+    </div>
+
+    <div class="group">
+      <h3 data-i18n="options_section_rules"></h3>
+      <div class="field">
+        <div class="field-head">
+          <span><a target="_blank" data-href="faq20"><span data-i18n="options_item27" data-i18n-title="options_tip_protocols"></span></a><sup><a href="#n1">1</a></sup></span>
+          <label class="sync" data-i18n-title="options_tip_sync"><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="protocols"></label>
+        </div>
+        <textarea id="protocols" data-i18n-title="options_tip_protocols" rows="1"></textarea>
+      </div>
+      <div class="field">
+        <div class="field-head">
+          <span><a target="_blank" data-href="faq24"><span data-i18n="options_item41" data-i18n-title="options_tip_rules"></span></a><sup><a href="#n1">1</a></sup></span>
+          <label class="sync" data-i18n-title="options_tip_sync"><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="rules"></label>
+        </div>
+        <textarea id="rules" data-i18n-title="options_tip_rules" rows="4" data-i18n="options_t_3" data-i18n-value="placeholder"></textarea>
+      </div>
+    </div>
+
+    <div class="group">
+      <h3 data-i18n="options_item47"></h3>
+      <div class="field">
+        <div class="field-head">
+          <a target="_blank" data-href="faq26" data-i18n="options_item48" data-i18n-title="options_tip_scope"></a>
+          <label class="sync" data-i18n-title="options_tip_sync"><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="scope"></label>
+        </div>
+        <textarea id="scope" data-i18n-title="options_tip_scope" rows="3" data-i18n="options_t_4" data-i18n-value="placeholder"></textarea>
+      </div>
+    </div>
+
+    <div class="group">
+      <h3 data-i18n="options_item38"></h3>
+      <div class="check" data-i18n-title="options_tip_block_page_redirection">
+        <input type="checkbox" id="block-page-redirection">
+        <label for="block-page-redirection"><a data-href="faq13" target="_blank" data-i18n="options_item15"></a></label>
+      </div>
+      <div class="check sub" data-i18n-title="options_tip_block_automated_redirection">
+        <input type="checkbox" id="block-automated-redirection">
+        <label for="block-automated-redirection" data-i18n="options_item50"></label>
+      </div>
+      <div class="check" data-i18n-title="options_tip_block_page_redirection_same_origin">
+        <input type="checkbox" id="block-page-redirection-same-origin">
+        <label for="block-page-redirection-same-origin" data-i18n="options_item29"></label>
+      </div>
+      <div class="field">
+        <div class="field-head">
+          <span><a target="_blank" data-href="faq23"><span data-i18n="options_item28" data-i18n-title="options_tip_block_page_redirection_hostnames"></span></a><sup><a href="#n1">1</a></sup></span>
+        </div>
+        <textarea id="block-page-redirection-hostnames" data-i18n-title="options_tip_block_page_redirection_hostnames" rows="2" data-i18n="options_t_1" data-i18n-value="placeholder"></textarea>
+      </div>
+    </div>
+  </details>
+
+  <section class="card links">
+    <button id="import" data-i18n-title="options_tip_import" data-i18n="options_import"></button>
+    <button id="export" data-i18n-title="options_tip_export" data-i18n="options_export"></button>
+    <span class="spacer"></span>
     <button id="page" data-i18n="options_page"></button>
-  </p>
-  <p class="bc">
+    <button id="review" data-i18n="options_review"></button>
     <button id="support" data-i18n="options_support"></button>
-    <button id="reset" data-i18n="options_reset"></button>
-    <span style="flex: 1"></span>
-    <span id="status"></span>
-    <button id="save" data-i18n="options_save"></button>
-  </p>
-  <hr>
-  <details>
+  </section>
+
+  <details id="notes">
     <summary data-i18n="options_item25"></summary>
     <p>
       1: <span data-i18n="options_item8" id="n1"></span>
@@ -179,7 +211,16 @@ input[data-cmd=white-list] {
     </p>
   </details>
 
+  <!-- always visible while scrolling -->
+  <footer class="actions">
+    <button id="reset" data-i18n-title="options_tip_reset" data-i18n="options_reset"></button>
+    <span class="spacer"></span>
+    <span id="status"></span>
+    <button id="save" class="primary" data-i18n="options_save"></button>
+  </footer>
+
   <script src="/config.js"></script>
+  <script src="/i18n.js"></script>
   <script src="index.js"></script>
 </body>
 </html>

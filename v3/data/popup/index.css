@@ -48,7 +48,7 @@ a {
 .button:not(:last-child)::after {
   content: '';
   position: absolute;
-  right: 0;
+  inset-inline-end: 0;
   width: 1px;
   height: 14px;
   background-color: var(--border);
@@ -75,7 +75,7 @@ p {
     align-items: center;
 
     #block-automated-redirection {
-      margin-left: 10px;
+      margin-inline-start: 10px;
     }
   }
 }

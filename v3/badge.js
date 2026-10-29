@@ -1,4 +1,4 @@
-/* global config */
+/* global config, i18n */
 
 
 /* update global icon's state */
@@ -12,8 +12,9 @@ const icon = async () => {
     path
   });
   const id = prefs.enabled ? 'bg_msg_state_0' : 'bg_msg_state_3';
+  await i18n.ready;
   chrome.action.setTitle({
-    title: chrome.i18n.getMessage(id)
+    title: i18n.get(id)
   });
 };
 
@@ -32,7 +33,7 @@ config.changed(prefs => {
     });
   }
   //
-  if (prefs.enabled) {
+  if (prefs.enabled || prefs.locale) {
     icon();
   }
 });
@@ -58,7 +59,7 @@ chrome.runtime.onMessage.addListener((request, sender) => {
   }
   else if (request.cmd === 'state') {
     if (sender.tab) {
-      config.get(['enabled']).then(({enabled}) => {
+      config.get(['enabled']).then(async ({enabled}) => {
         let state = 4;
         if (enabled && request.active) {
           state = 1;
@@ -77,9 +78,10 @@ chrome.runtime.onMessage.addListener((request, sender) => {
           tabId: sender.tab.id,
           path
         });
+        await i18n.ready;
         chrome.action.setTitle({
           tabId: sender.tab.id,
-          title: chrome.i18n.getMessage('bg_msg_state_' + state)
+          title: i18n.get('bg_msg_state_' + state)
         });
       });
     }

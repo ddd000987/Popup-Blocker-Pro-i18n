@@ -1,7 +1,8 @@
-/* global config */
+/* global config, i18n */
 
 if (typeof importScripts !== 'undefined') {
   self.importScripts('config.js');
+  self.importScripts('i18n.js');
   self.importScripts('badge.js');
 }
 
@@ -110,7 +111,7 @@ const activate = async () => {
 
     chrome.action.setBadgeBackgroundColor({color: '#b16464'});
     chrome.action.setBadgeText({text: 'E'});
-    chrome.action.setTitle({title: chrome.i18n.getMessage('bg_msg_reg') + '\n\n' + e.message});
+    chrome.action.setTitle({title: i18n.get('bg_msg_reg') + '\n\n' + e.message});
     console.error('Blocker Registration Failed', e);
   }
   activate.busy = false;
@@ -140,7 +141,14 @@ chrome.runtime.onMessage.addListener((request, sender, response) => {
     // "Display Notifications" only controls visibility. The request pipeline
     // (rules, default-action, last-request shortcuts) must always run; when
     // notifications are hidden we keep injecting the interface but invisible
-    config.get(['issue', 'placement', 'width']).then(prefs => {
+    config.get(['issue', 'silent', 'placement', 'width']).then(prefs => {
+      // "silent" hostnames hide the interface on their pages, as if "Display Notifications" is off
+      try {
+        prefs.muted = prefs.silent.includes(new URL(sender.tab.url).hostname);
+      }
+      catch (e) {
+        prefs.muted = false;
+      }
       request.frameId = sender.frameId;
       chrome.tabs.sendMessage(sender.tab.id, request, response => {
         chrome.runtime.lastError;
@@ -172,8 +180,9 @@ chrome.runtime.onMessage.addListener((request, sender, response) => {
 
                   ${prefs.placement.includes('t') ? 'top' : 'bottom'}: 5px !important;
                   ${prefs.placement.includes('l') ? 'left' : 'right'}: 5px !important;
-                  ${prefs.issue === false ? 'display: none' : ''}
+                  ${prefs.issue === false || prefs.muted ? 'display: none' : ''}
                 `;
+                container.muted = prefs.muted;
                 container.addEventListener('load', () => {
                   container.ready = true;
                   post();
@@ -182,6 +191,7 @@ chrome.runtime.onMessage.addListener((request, sender, response) => {
                 args.set('tabId', tabId);
                 args.set('parent', location.href);
                 args.set('placement', prefs.placement);
+                args.set('muted', prefs.muted);
                 container.src = chrome.runtime.getURL('/data/ui/index.html') + '?' + args.toString();
                 // do not attach to body to make sure the notification is visible
                 document.documentElement.append(container);
@@ -341,34 +351,3 @@ chrome.commands.onCommand.addListener(cmd => chrome.tabs.query({
 }, tabs => tabs && tabs[0] && chrome.tabs.sendMessage(tabs[0].id, {
   cmd
 })));
-
-/* FAQs & Feedback */
-{
-  chrome.management = chrome.management || {
-    getSelf(c) {
-      c({installType: 'normal'});
-    }
-  };
-  if (navigator.webdriver !== true) {
-    const {homepage_url: page, name, version} = chrome.runtime.getManifest();
-    chrome.runtime.onInstalled.addListener(({reason, previousVersion}) => {
-      chrome.management.getSelf(({installType}) => installType === 'normal' && chrome.storage.local.get({
-        'faqs': true,
-        'last-update': 0
-      }, prefs => {
-        if (reason === 'install' || (prefs.faqs && reason === 'update')) {
-          const doUpdate = (Date.now() - prefs['last-update']) / 1000 / 60 / 60 / 24 > 45;
-          if (doUpdate && previousVersion !== version) {
-            chrome.tabs.query({active: true, lastFocusedWindow: true}, tbs => chrome.tabs.create({
-              url: page + '?version=' + version + (previousVersion ? '&p=' + previousVersion : '') + '&type=' + reason,
-              active: reason === 'install',
-              ...(tbs && tbs.length && {index: tbs[0].index + 1})
-            }));
-            chrome.storage.local.set({'last-update': Date.now()});
-          }
-        }
-      }));
-    });
-    chrome.runtime.setUninstallURL(page + '?rd=feedback&name=' + encodeURIComponent(name) + '&version=' + version);
-  }
-}

@@ -1,20 +1,24 @@
-/* global config, tldjs, URLPattern */
+/* global config, i18n, tldjs, URLPattern */
 
-// links
+// links (the original project's FAQ still documents every setting)
 for (const a of [...document.querySelectorAll('[data-href]')]) {
   if (a.hasAttribute('href') === false) {
-    a.href = chrome.runtime.getManifest().homepage_url + '#' + a.dataset.href;
+    a.href = 'https://webextension.org/listing/popup-blocker.html#' + a.dataset.href;
   }
 }
 
 // localization
-[...document.querySelectorAll('[data-i18n]')].forEach(e => {
-  if (e.tagName === 'INPUT') {
-    e.value = chrome.i18n.getMessage(e.dataset.i18n);
-  }
-  else {
-    e[e.dataset.i18nv || 'textContent'] = chrome.i18n.getMessage(e.dataset.i18n);
-  }
+i18n.ready.then(() => {
+  document.documentElement.lang = i18n.lang();
+  document.documentElement.dir = i18n.dir();
+  [...document.querySelectorAll('[data-i18n]')].forEach(e => {
+    if (e.tagName === 'INPUT') {
+      e.value = i18n.get(e.dataset.i18n);
+    }
+    else {
+      e[e.dataset.i18nv || 'textContent'] = i18n.get(e.dataset.i18n);
+    }
+  });
 });
 
 // Global

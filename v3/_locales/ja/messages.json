@@ -1,0 +1,419 @@
+{
+  "app_description": {
+    "message": "あらゆるウェブサイトからのポップアップ要求を厳密にブロックします"
+  },
+  "context_item2": {
+    "message": "最後のポップアップ要求を許可する"
+  },
+  "context_item3": {
+    "message": "最後のポップアップ要求を拒否する"
+  },
+  "context_item4": {
+    "message": "最後のポップアップ要求をバックグラウンドタブで開く"
+  },
+  "context_item5": {
+    "message": "現在のタブを最後のポップアップ要求にリダイレクトする"
+  },
+  "context_item6": {
+    "message": "ページから最後のポップアップ要求にフォーカスを移動する"
+  },
+  "options_item1": {
+    "message": "1ページあたりのポップアップ要求の最大数"
+  },
+  "options_item2": {
+    "message": "各ポップアップの表示時間（秒）"
+  },
+  "options_item3": {
+    "message": "同一生成元からのポップアップ要求をブロックしない"
+  },
+  "options_item5": {
+    "message": "ツールバーアイコンにブロックした要求の合計数を表示する"
+  },
+  "options_item6": {
+    "message": "次の生成元からのポップアップをブロックしない："
+  },
+  "options_item7": {
+    "message": "次のページではすべてのポップアップをブロックしない："
+  },
+  "options_item8": {
+    "message": "この変更を有効にするには、タブを更新してください。"
+  },
+  "options_item9": {
+    "message": "最後のアクションを実行するまでのカウントダウン（秒）"
+  },
+  "options_item10": {
+    "message": "カウントダウンを無効にするには、0 を入力してください。"
+  },
+  "options_item13": {
+    "message": "ブロックリストのソース（逆動作モード）："
+  },
+  "options_item15": {
+    "message": "ポップアップが要求された後、2 秒間ページのリダイレクトを防止する"
+  },
+  "options_item17": {
+    "message": "ポップアップが要求されたときのデフォルトのアクション"
+  },
+  "options_item18": {
+    "message": "何もしない"
+  },
+  "options_item19": {
+    "message": "要求を拒否"
+  },
+  "options_item20": {
+    "message": "バックグラウンドで開く"
+  },
+  "options_item21": {
+    "message": "ページをリダイレクト"
+  },
+  "options_item22": {
+    "message": "バッジの背景色"
+  },
+  "options_item23": {
+    "message": "可能な場合はポップアップ通知を無視する（非推奨）"
+  },
+  "options_item25": {
+    "message": "説明"
+  },
+  "options_item26": {
+    "message": "更新時に FAQ ページを表示する"
+  },
+  "options_item27": {
+    "message": "次のプロトコルをブロックしない："
+  },
+  "options_item28": {
+    "message": "次の生成元へのページリダイレクトを許可する："
+  },
+  "options_item29": {
+    "message": "同一生成元へのページリダイレクトを許可する"
+  },
+  "options_item30": {
+    "message": "ブラウザー内蔵のポップアップブロッカーによるブロックを防ぐため、「許可」ボタンをシミュレートする"
+  },
+  "options_item31": {
+    "message": "「信頼」ボタンが押されたとき："
+  },
+  "options_item32": {
+    "message": "ポップアップの生成元を今後ブロックしない"
+  },
+  "options_item33": {
+    "message": "最上位ページでのすべてのポップアップ表示を許可する"
+  },
+  "options_item34": {
+    "message": "次のホスト名では通知をミュートする："
+  },
+  "options_item35": {
+    "message": "ポップアップインターフェースに次のカスタム CSS ルールを適用する："
+  },
+  "options_item40": {
+    "message": "生成された新しいポップアップインターフェースにフォーカスを移す。その後、ショートカットまたは Escape キーで非表示にできます"
+  },
+  "options_item36": {
+    "message": "積極的な静的 IFrame 検出を有効にする"
+  },
+  "options_item37": {
+    "message": "このモードを有効にすると、拡張機能はミューテーションオブザーバーを導入し、'JavaScript:' src 属性を持つ静的 IFrame を監視します。ブロック能力は向上しますが、パフォーマンスに影響があります。"
+  },
+  "options_item38": {
+    "message": "ページリダイレクト"
+  },
+  "options_item39": {
+    "message": "その他"
+  },
+  "options_item41": {
+    "message": "新しいポップアップ要求時のアクション"
+  },
+  "options_item42": {
+    "message": "ページ上のポップアップ位置"
+  },
+  "options_item43": {
+    "message": "左上"
+  },
+  "options_item44": {
+    "message": "右上"
+  },
+  "options_item45": {
+    "message": "左下"
+  },
+  "options_item46": {
+    "message": "右下"
+  },
+  "options_item47": {
+    "message": "保護範囲"
+  },
+  "options_item48": {
+    "message": "拡張機能の適用範囲の設定方法についてはドキュメントをお読みください。"
+  },
+  "options_item49": {
+    "message": "ポップアップの幅（ピクセル）"
+  },
+  "options_item50": {
+    "message": "ユーザーの操作なしに開始される自動ページリダイレクトをブロックする"
+  },
+  "options_sync": {
+    "message": "この設定を同期する"
+  },
+  "options_support": {
+    "message": "開発を支援する"
+  },
+  "options_import": {
+    "message": "設定をインポート"
+  },
+  "options_export": {
+    "message": "設定をエクスポート"
+  },
+  "options_reset": {
+    "message": "デフォルトに戻す"
+  },
+  "options_save": {
+    "message": "オプションを保存"
+  },
+  "options_msg": {
+    "message": "オプションは保存されました"
+  },
+  "options_review": {
+    "message": "YouTube レビュー"
+  },
+  "options_page": {
+    "message": "FAQ ページ"
+  },
+  "options_t_1": {
+    "message": "ホスト名のカンマ区切りリスト（例：www.google.com, www.yahoo.com）"
+  },
+  "options_t_2": {
+    "message": "ドメインのカンマ区切りリスト（例：google.com, yahoo.com）"
+  },
+  "options_t_3": {
+    "message": "ポップアップ要求に対し、その URL に応じて特定のアクションを実行するよう拡張機能に指示する JSON オブジェクト。例については FAQ ページをお読みください。"
+  },
+  "options_t_4": {
+    "message": "グローバル適用範囲を定義するパターンのカンマ区切りリストを入力してください。誤った値を設定すると拡張機能が動作しなくなるため、内容を理解している場合のみ変更してください。詳しくは FAQ ページをお読みください。"
+  },
+  "ui_msg": {
+    "message": "ポップアップの要求先"
+  },
+  "ui_button_allow": {
+    "message": "このポップアップを許可する（Alt + Shift + A または Control + Option + A）"
+  },
+  "ui_button_allow_value": {
+    "message": "許可"
+  },
+  "ui_button_redirect": {
+    "message": "新しいタブやポップアップで開く代わりに、現在のページを新しい宛先にリダイレクトする（Alt + Shift + R または Control + Option + R）"
+  },
+  "ui_button_redirect_value": {
+    "message": "リダイレクト"
+  },
+  "ui_button_background": {
+    "message": "リンクをバックグラウンドタブで開く（Alt + Shift + B または Control + Option + B）"
+  },
+  "ui_button_background_value": {
+    "message": "バックグラウンド"
+  },
+  "ui_button_deny": {
+    "message": "ポップアップまたはタブのオープンを拒否する（Alt + Shift + D または Control + Option + D）"
+  },
+  "ui_button_deny_value": {
+    "message": "拒否"
+  },
+  "ui_button_trust": {
+    "message": "このドメインをホワイトリストに登録してポップアップを許可する（Alt + Shift + T または Control + Option + T）"
+  },
+  "ui_button_trust_value": {
+    "message": "信頼"
+  },
+  "ui_button_trust_confirm": {
+    "message": "クリックで確認"
+  },
+  "bg_msg_state_0": {
+    "message": "Popup Blocker Pro i18n はグローバルで有効ですが、このタブでは動作していません。内部ページ、適用範囲外のページ、または読み込み中の可能性があります。"
+  },
+  "bg_msg_state_1": {
+    "message": "Popup Blocker Pro i18n はグローバルで有効であり、このタブを保護しています"
+  },
+  "bg_msg_state_2": {
+    "message": "Popup Blocker Pro i18n はグローバルで有効ですが、このタブは保護していません"
+  },
+  "bg_msg_state_3": {
+    "message": "Popup Blocker Pro i18n はグローバルで無効であり、このタブは保護していません"
+  },
+  "bg_msg_state_4": {
+    "message": "Popup Blocker Pro i18n はグローバルで無効ですが、このタブは保護しています"
+  },
+  "bg_msg_reg": {
+    "message": "形式が正しくないルールのため、ブロックフィルターの登録に失敗しました。オプションページで修正してください。"
+  },
+  "pp_enabled_g": {
+    "message": "有効（グローバル）"
+  },
+  "pp_enabled_c": {
+    "message": "有効（このドメイン）"
+  },
+  "pp_enabled_cf": {
+    "message": "サブフレームを含める/除外する"
+  },
+  "pp_silent": {
+    "message": "通知を表示する"
+  },
+  "pp_ignore": {
+    "message": "可能な場合はアクションを実行する"
+  },
+  "pp_redirect": {
+    "message": "ページリダイレクトをブロックする"
+  },
+  "pp_last_request": {
+    "message": "最後の要求"
+  },
+  "pp_test": {
+    "message": "ブロッカーをテスト"
+  },
+  "pp_homepage": {
+    "message": "ホームページ"
+  },
+  "pp_options": {
+    "message": "オプション"
+  },
+  "pp_shadow": {
+    "message": "代替ウィンドウを使用"
+  },
+  "pp_allow": {
+    "message": "許可"
+  },
+  "pp_block": {
+    "message": "ブロック"
+  },
+  "pp_health": {
+    "message": "バックグラウンドスクリプトが応答していないようです。拡張機能を再起動してみますか？"
+  },
+  "pp_block_redirect": {
+    "message": "軽度"
+  },
+  "pp_block_automated": {
+    "message": "厳格"
+  },
+  "pp_redirect_info": {
+    "message": "軽度モードでは、ユーザー操作後の 2 秒間リダイレクトを防止します。厳格モードでは、操作なしで開始されるページリダイレクトもブロックします。"
+  },
+  "options_item51": {
+    "message": "インターフェースと通知の言語"
+  },
+  "options_item52": {
+    "message": "ブラウザーのデフォルト"
+  },
+  "ui_button_close": {
+    "message": "この通知を閉じる"
+  },
+  "ui_button_close_value": {
+    "message": "閉じる"
+  },
+  "options_tip_locale": {
+    "message": "オプションページ、ツールバーポップアップ、ページ内通知で使用する言語。「ブラウザーのデフォルト」はブラウザーの言語に従います。拡張機能名とキーボードショートカットの説明はブラウザーによって表示され、常にブラウザーの言語に従います。"
+  },
+  "options_tip_numbers": {
+    "message": "1つのページ上で通知ボックスが同時に一覧表示するポップアップ要求の数。一覧がいっぱいの状態で新しい要求が届くと、最も古いエントリが削除されます。"
+  },
+  "options_tip_timeout": {
+    "message": "何も選択しない場合、各エントリはこの秒数が経過すると消えます（ポップアップはブロックされたままです）。エントリにカーソルを合わせるとタイマーが一時停止します。"
+  },
+  "options_tip_width": {
+    "message": "ページ内通知ボックスの幅。最小値は 300 ピクセルです。"
+  },
+  "options_tip_countdown": {
+    "message": "エントリに既にアクションがある場合（過去 10 日間にそのポップアップのサイトに対して選択したアクション、またはデフォルトのアクション）、そのボタンがカウントダウンし、0 で自動的に押されます。無効にするには 0 を使用してください。"
+  },
+  "options_tip_default_action": {
+    "message": "新しいポップアップ要求に対して提案されるアクション。「何もしない」は通知のみを表示します。その他のアクションはカウントダウンで実行されるか、「可能な場合はポップアップ通知を無視する」がオンの場合は直ちに実行されます。サイトに対して行った選択は 10 日間記憶され、この設定より優先されます。"
+  },
+  "options_tip_whitelist_mode": {
+    "message": "「信頼」ボタンが行う動作（3 秒以内に2回クリックして確定）。1つ目のオプション：ポップアップのサイトが「次の生成元からのポップアップをブロックしない」に追加されます。2つ目のオプション：現在のページのサイトが「次のページではすべてのポップアップをブロックしない」に追加され、このページでのブロックが直ちに停止します。"
+  },
+  "options_tip_placement": {
+    "message": "通知ボックスが表示されるページの角。"
+  },
+  "options_tip_badge_color": {
+    "message": "ツールバーアイコン上のブロック済み要求カウンターの背景色。"
+  },
+  "options_tip_domain": {
+    "message": "現在のページと同じサイトを開くポップアップを許可します。サブドメインを含みます（例：www.example.com から開かれた shop.example.com）。"
+  },
+  "options_tip_badge": {
+    "message": "現在のタブでブロックしたポップアップ要求の数をツールバーアイコンに表示します。"
+  },
+  "options_tip_immediate_action": {
+    "message": "アクションが既知の場合（記憶された選択またはデフォルトのアクション）、通知をスキップして直ちにアクションを実行します。非推奨：ブロックまたは許可された内容を確認できません。"
+  },
+  "options_tip_simulate_allow": {
+    "message": "ポップアップが許可されると、拡張機能はページに開かせる代わりに、自ら新しいタブでリンクを開きます。これによりブラウザー内蔵のポップアップブロッカーを回避できますが、ページから新しいウィンドウを制御できなくなるため、ページに結果を報告するログインポップアップなどが動作しなくなる場合があります。"
+  },
+  "options_tip_focus_popup": {
+    "message": "新しい通知にキーボードフォーカスを移し、ショートカットキーをすぐに使えるようにします。Escape キーで閉じ、上下の矢印キーでエントリ間を移動できます。"
+  },
+  "options_tip_faqs": {
+    "message": "拡張機能の更新後、作者の FAQ ページ（webextension.org）を新しいタブで開きます。最大で 45 日に1回までです。"
+  },
+  "options_tip_popup_hosts": {
+    "message": "これらのサイトを開くポップアップは、どのページでもブロックされません。サブドメインを含みます（google.com は mail.google.com にも一致します）。「信頼」ボタンは最初のモードでサイトをここに追加します。"
+  },
+  "options_tip_top_hosts": {
+    "message": "これらのサイトではブロッカーは一切動作しません。サブドメインを含みます。このリストを変更した後は、開いているタブを更新してください。"
+  },
+  "options_tip_protocols": {
+    "message": "これらのプロトコルを使用するリンクはブロックされません。例：トレントアプリを開く magnet: リンク。各エントリはコロンで終わる必要があります。"
+  },
+  "options_tip_rules": {
+    "message": "URL ごとの自動アクション。\"pattern\": \"action\" 形式の JSON オブジェクトで指定します。アクション： allow, deny, background, redirect, close, interface（通知のみ表示）。プレフィックスのないパターンはポップアップの URL と完全一致する必要があります。プレフィックス： r: ポップアップ URL に対する正規表現、ro: 現在のページ URL に対する正規表現、p: ポップアップ URL に対する URL パターン、po: 現在のページ URL に対する URL パターン。\n例： {\"p:https://*.example.com/*\": \"deny\", \"ro:youtube\": \"allow\"}"
+  },
+  "options_tip_scope": {
+    "message": "ブロッカーが動作する場所を決める URL マッチパターン（デフォルトの *://*/* はすべてのウェブサイトを意味します）。一部のサイトのみを保護する場合は範囲を狭めてください（例：*://*.example.com/*）。パターンが無効な場合は、代わりにデフォルトが使用されます。"
+  },
+  "options_tip_block_page_redirection": {
+    "message": "ポップアップがブロックされると、多くのサイトは現在のタブを広告に送ります。これをオンにすると、ブロックされたポップアップの後 2 秒間、ページを離れようとする操作に対してブラウザーの「このサイトを離れますか？」ダイアログが表示され、ページに留まることができます。"
+  },
+  "options_tip_block_automated_redirection": {
+    "message": "クリックやキー入力などの操作なしにページが自ら開始するリダイレクトも、常時（ポップアップ後だけでなく）停止します。上のオプションと、Navigation API をサポートするブラウザーが必要です。"
+  },
+  "options_tip_block_page_redirection_same_origin": {
+    "message": "現在のページと同じサイトへのリダイレクトは停止しません。"
+  },
+  "options_tip_block_page_redirection_hostnames": {
+    "message": "これらのサイトへのリダイレクトは停止されません。正確なホスト名を入力してください（サブドメインは含まれません）。"
+  },
+  "options_tip_silent": {
+    "message": "これらのサイトで要求されたポップアップは引き続きブロックされますが、通知は表示されません。"
+  },
+  "options_tip_user_styling": {
+    "message": "ページ内通知ボックス用の独自 CSS。ボタンの非表示や色変更などに使用します。このデバイスにのみ保存され、エクスポートした設定には含まれません。"
+  },
+  "options_tip_sync": {
+    "message": "このリストをブラウザーアカウントの同期ストレージに保存し、すべてのデバイスで同じ内容にします。"
+  },
+  "options_tip_import": {
+    "message": "以前にエクスポートした JSON ファイルから設定を読み込みます。その後、拡張機能は再起動します。"
+  },
+  "options_tip_export": {
+    "message": "すべての設定を JSON ファイルに保存します（カスタム CSS は含まれません）。"
+  },
+  "options_tip_reset": {
+    "message": "フォームにデフォルト値を入力します。「オプションを保存」を押すまで何も変更されません。"
+  },
+  "options_basic": {
+    "message": "基本設定"
+  },
+  "options_advanced": {
+    "message": "詳細設定"
+  },
+  "options_advanced_hint": {
+    "message": "めったに必要ありません。内容を理解している場合のみ変更してください。"
+  },
+  "options_section_general": {
+    "message": "一般"
+  },
+  "options_section_lists": {
+    "message": "許可リスト"
+  },
+  "options_section_notification": {
+    "message": "通知ボックス"
+  },
+  "options_section_rules": {
+    "message": "ルールとプロトコル"
+  }
+}

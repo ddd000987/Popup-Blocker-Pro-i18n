@@ -1,0 +1,419 @@
+{
+  "app_description": {
+    "message": "严格阻止来自任何网站的所有弹出窗口请求"
+  },
+  "context_item2": {
+    "message": "允许最近一次的弹出窗口请求"
+  },
+  "context_item3": {
+    "message": "拒绝最近一次的弹出窗口请求"
+  },
+  "context_item4": {
+    "message": "在后台标签页中打开最近一次的弹出窗口请求"
+  },
+  "context_item5": {
+    "message": "将当前标签页重定向到最近一次的弹出窗口请求"
+  },
+  "context_item6": {
+    "message": "将焦点从页面移到最近一次的弹出窗口请求"
+  },
+  "options_item1": {
+    "message": "单个页面的弹出窗口请求数量上限"
+  },
+  "options_item2": {
+    "message": "每个弹出窗口的显示时长（秒）"
+  },
+  "options_item3": {
+    "message": "不阻止来自同源的弹出窗口请求"
+  },
+  "options_item5": {
+    "message": "在工具栏图标上显示已阻止请求的总数"
+  },
+  "options_item6": {
+    "message": "不阻止以下来源的弹出窗口："
+  },
+  "options_item7": {
+    "message": "在以下页面上不阻止任何弹出窗口："
+  },
+  "options_item8": {
+    "message": "要使此更改生效，请刷新标签页。"
+  },
+  "options_item9": {
+    "message": "执行上一个操作的倒计时（秒）"
+  },
+  "options_item10": {
+    "message": "输入 0 可禁用自动执行上一个操作的倒计时。"
+  },
+  "options_item13": {
+    "message": "黑名单来源（反向操作模式）："
+  },
+  "options_item15": {
+    "message": "在弹出窗口请求后的 2 秒内阻止页面重定向"
+  },
+  "options_item17": {
+    "message": "请求弹出窗口时的默认操作"
+  },
+  "options_item18": {
+    "message": "不做任何事"
+  },
+  "options_item19": {
+    "message": "拒绝请求"
+  },
+  "options_item20": {
+    "message": "在后台打开"
+  },
+  "options_item21": {
+    "message": "重定向页面"
+  },
+  "options_item22": {
+    "message": "工具栏图标计数器的背景颜色"
+  },
+  "options_item23": {
+    "message": "尽可能忽略弹出窗口通知（不推荐）"
+  },
+  "options_item25": {
+    "message": "说明"
+  },
+  "options_item26": {
+    "message": "更新后显示常见问题页面"
+  },
+  "options_item27": {
+    "message": "不阻止以下协议："
+  },
+  "options_item28": {
+    "message": "允许页面重定向到以下来源："
+  },
+  "options_item29": {
+    "message": "允许页面重定向到同源"
+  },
+  "options_item30": {
+    "message": "模拟“允许”按钮，以防止浏览器内置的弹出窗口阻止程序阻止这些请求"
+  },
+  "options_item31": {
+    "message": "按下“信任”按钮时："
+  },
+  "options_item32": {
+    "message": "不再阻止该弹出窗口的来源"
+  },
+  "options_item33": {
+    "message": "允许顶级页面显示任何弹出窗口"
+  },
+  "options_item34": {
+    "message": "在以下主机名上不显示通知："
+  },
+  "options_item35": {
+    "message": "将以下自定义 CSS 规则应用于弹出窗口界面："
+  },
+  "options_item40": {
+    "message": "聚焦新生成的弹出窗口界面。之后可以使用快捷键或 Escape 键将其隐藏"
+  },
+  "options_item36": {
+    "message": "启用激进的静态 IFrame 检测"
+  },
+  "options_item37": {
+    "message": "启用此模式后，扩展程序会安装 mutation observer，用于监视 src 属性为 'JavaScript:' 的静态 IFrame。这会增强阻止能力，但会影响性能。"
+  },
+  "options_item38": {
+    "message": "页面重定向"
+  },
+  "options_item39": {
+    "message": "其他"
+  },
+  "options_item41": {
+    "message": "收到新的弹出窗口请求时的操作"
+  },
+  "options_item42": {
+    "message": "弹出窗口在页面上的位置"
+  },
+  "options_item43": {
+    "message": "左上"
+  },
+  "options_item44": {
+    "message": "右上"
+  },
+  "options_item45": {
+    "message": "左下"
+  },
+  "options_item46": {
+    "message": "右下"
+  },
+  "options_item47": {
+    "message": "保护范围"
+  },
+  "options_item48": {
+    "message": "阅读有关如何配置扩展程序保护范围的文档。"
+  },
+  "options_item49": {
+    "message": "弹出窗口的宽度（像素）"
+  },
+  "options_item50": {
+    "message": "阻止无需用户交互的自动页面重定向"
+  },
+  "options_sync": {
+    "message": "同步此偏好设置"
+  },
+  "options_support": {
+    "message": "支持开发"
+  },
+  "options_import": {
+    "message": "导入偏好设置"
+  },
+  "options_export": {
+    "message": "导出偏好设置"
+  },
+  "options_reset": {
+    "message": "重置为默认值"
+  },
+  "options_save": {
+    "message": "保存选项"
+  },
+  "options_msg": {
+    "message": "选项已保存"
+  },
+  "options_review": {
+    "message": "YouTube 评价"
+  },
+  "options_page": {
+    "message": "常见问题页面"
+  },
+  "options_t_1": {
+    "message": "以逗号分隔的主机名列表（例如：www.google.com, www.yahoo.com）"
+  },
+  "options_t_2": {
+    "message": "以逗号分隔的域名列表（例如：google.com, yahoo.com）"
+  },
+  "options_t_3": {
+    "message": "一个 JSON 对象，可根据弹出窗口请求的 URL 指导扩展程序执行特定操作。示例请参阅常见问题页面。"
+  },
+  "options_t_4": {
+    "message": "输入以逗号分隔的匹配模式列表，以定义全局范围。除非您清楚自己在做什么，否则请勿修改，错误的值可能导致扩展程序无法正常工作。详情请参阅常见问题页面"
+  },
+  "ui_msg": {
+    "message": "收到弹出窗口请求："
+  },
+  "ui_button_allow": {
+    "message": "允许此弹出窗口（Alt + Shift + A 或 Control + Option + A）"
+  },
+  "ui_button_allow_value": {
+    "message": "允许"
+  },
+  "ui_button_redirect": {
+    "message": "将当前页面重定向到新目标，而不是在新标签页或弹出窗口中打开（Alt + Shift + R 或 Control + Option + R）"
+  },
+  "ui_button_redirect_value": {
+    "message": "重定向"
+  },
+  "ui_button_background": {
+    "message": "在后台标签页中打开链接（Alt + Shift + B 或 Control + Option + B）"
+  },
+  "ui_button_background_value": {
+    "message": "后台打开"
+  },
+  "ui_button_deny": {
+    "message": "拒绝打开弹出窗口或标签页（Alt + Shift + D 或 Control + Option + D）"
+  },
+  "ui_button_deny_value": {
+    "message": "拒绝"
+  },
+  "ui_button_trust": {
+    "message": "将此域名列入白名单以允许弹出窗口（Alt + Shift + T 或 Control + Option + T）"
+  },
+  "ui_button_trust_value": {
+    "message": "信任"
+  },
+  "ui_button_trust_confirm": {
+    "message": "点击确认"
+  },
+  "bg_msg_state_0": {
+    "message": "Popup Blocker Pro i18n 已全局启用，但在此标签页中处于非活动状态——可能是因为这是内部页面、超出范围的页面或仍在加载中。"
+  },
+  "bg_msg_state_1": {
+    "message": "Popup Blocker Pro i18n 已全局启用，并正在保护此标签页"
+  },
+  "bg_msg_state_2": {
+    "message": "Popup Blocker Pro i18n 已全局启用，但未保护此标签页"
+  },
+  "bg_msg_state_3": {
+    "message": "Popup Blocker Pro i18n 已全局禁用，且未保护此标签页"
+  },
+  "bg_msg_state_4": {
+    "message": "Popup Blocker Pro i18n 已全局禁用，但仍在保护此标签页"
+  },
+  "bg_msg_reg": {
+    "message": "由于规则格式不正确，注册阻止筛选器失败。请使用选项页面进行修复。"
+  },
+  "pp_enabled_g": {
+    "message": "已启用（全局）"
+  },
+  "pp_enabled_c": {
+    "message": "已启用（此域名）"
+  },
+  "pp_enabled_cf": {
+    "message": "包含/排除子框架"
+  },
+  "pp_silent": {
+    "message": "显示通知"
+  },
+  "pp_ignore": {
+    "message": "尽可能直接执行操作"
+  },
+  "pp_redirect": {
+    "message": "阻止页面重定向"
+  },
+  "pp_last_request": {
+    "message": "上次请求"
+  },
+  "pp_test": {
+    "message": "测试阻止功能"
+  },
+  "pp_homepage": {
+    "message": "主页"
+  },
+  "pp_options": {
+    "message": "选项"
+  },
+  "pp_shadow": {
+    "message": "使用替身窗口"
+  },
+  "pp_allow": {
+    "message": "允许"
+  },
+  "pp_block": {
+    "message": "阻止"
+  },
+  "pp_health": {
+    "message": "后台脚本似乎无响应。是否要尝试重启扩展程序？"
+  },
+  "pp_block_redirect": {
+    "message": "轻度"
+  },
+  "pp_block_automated": {
+    "message": "严格"
+  },
+  "pp_redirect_info": {
+    "message": "轻度模式会在用户交互后的 2 秒内阻止重定向。严格模式还会阻止非交互式页面重定向。"
+  },
+  "options_item51": {
+    "message": "界面和通知语言"
+  },
+  "options_item52": {
+    "message": "浏览器默认"
+  },
+  "ui_button_close": {
+    "message": "关闭此通知"
+  },
+  "ui_button_close_value": {
+    "message": "关闭"
+  },
+  "options_tip_locale": {
+    "message": "选项页面、工具栏弹出窗口和页内通知所使用的语言。“浏览器默认”表示跟随浏览器的语言。扩展程序名称和键盘快捷键说明由浏览器显示，始终跟随浏览器的语言。"
+  },
+  "options_tip_numbers": {
+    "message": "通知框在同一页面上同时列出的弹出窗口请求数量。当列表已满且有新请求时，将移除最早的一条。"
+  },
+  "options_tip_timeout": {
+    "message": "如果您不做任何选择，每条记录将在指定的秒数后消失（弹出窗口仍保持被阻止）。将鼠标悬停在记录上可暂停其计时器。"
+  },
+  "options_tip_width": {
+    "message": "页内通知框的宽度。最小为 300 像素。"
+  },
+  "options_tip_countdown": {
+    "message": "当某条记录已有对应的操作（您在过去 10 天内为该弹出窗口的网站选择的操作，或默认操作）时，该按钮会倒计时并在归零时自动按下。使用 0 可关闭此功能。"
+  },
+  "options_tip_default_action": {
+    "message": "针对新的弹出窗口请求建议执行的操作。“不做任何事”仅显示通知。其他操作会通过倒计时执行，或在开启“尽可能忽略弹出窗口通知”时立即执行。您为某个网站所做的选择会被记住 10 天，并优先于此设置。"
+  },
+  "options_tip_whitelist_mode": {
+    "message": "“信任”按钮的作用（需在 3 秒内点击两次以确认）。第一个选项：弹出窗口的网站会被添加到“不阻止以下来源的弹出窗口”。第二个选项：当前页面的网站会被添加到“在以下页面上不阻止任何弹出窗口”，并立即停止在此页面上的阻止。"
+  },
+  "options_tip_placement": {
+    "message": "通知框显示在页面的哪个角落。"
+  },
+  "options_tip_badge_color": {
+    "message": "工具栏图标上已阻止请求计数器的背景颜色。"
+  },
+  "options_tip_domain": {
+    "message": "允许打开与当前页面相同网站（含子域名）的弹出窗口，例如从 www.example.com 打开的 shop.example.com。"
+  },
+  "options_tip_badge": {
+    "message": "在工具栏图标上显示当前标签页中已阻止的弹出窗口请求数量。"
+  },
+  "options_tip_immediate_action": {
+    "message": "当已知要执行的操作（记住的选择或默认操作）时，跳过通知并立即执行。不建议这样做：您将看不到哪些内容被阻止或被允许。"
+  },
+  "options_tip_simulate_allow": {
+    "message": "当允许弹出窗口时，扩展程序会自己在新标签页中打开链接，而不是让页面打开它。这样可以绕过浏览器自身的弹出窗口阻止程序，但页面无法控制新窗口，这可能导致需要向页面返回结果的登录弹出窗口失效。"
+  },
+  "options_tip_focus_popup": {
+    "message": "将键盘焦点移到新通知，以便您可以立即使用快捷键，按 Escape 将其关闭，并使用上/下方向键在各条记录之间移动。"
+  },
+  "options_tip_faqs": {
+    "message": "扩展程序更新后，在新标签页中打开作者的常见问题页面 (webextension.org)，最多每 45 天一次。"
+  },
+  "options_tip_popup_hosts": {
+    "message": "打开这些网站的弹出窗口在任何页面上都不会被阻止，包括子域名（google.com 也会匹配 mail.google.com）。“信任”按钮的第一种模式会将网站添加到此处。"
+  },
+  "options_tip_top_hosts": {
+    "message": "在这些网站（含子域名）上完全不运行阻止功能。更改此列表后，请刷新已打开的标签页。"
+  },
+  "options_tip_protocols": {
+    "message": "使用这些协议的链接永远不会被阻止，例如打开种子应用的 magnet: 链接。每一项都必须以冒号结尾。"
+  },
+  "options_tip_rules": {
+    "message": "按 URL 自动执行操作，表示为 JSON 对象“模式”: “操作”。操作包括：allow、deny、background、redirect、close、interface（仅显示通知）。没有前缀的模式必须与弹出窗口的 URL 完全相同。前缀：r: 对弹出窗口 URL 使用正则表达式，ro: 对当前页面 URL 使用正则表达式，p: 对弹出窗口 URL 使用 URL 模式，po: 对当前页面 URL 使用 URL 模式。\n示例：{\"p:https://*.example.com/*\": \"deny\", \"ro:youtube\": \"allow\"}"
+  },
+  "options_tip_scope": {
+    "message": "决定阻止功能运行位置的 URL 匹配模式（默认 *://*/* 表示所有网站）。可缩小范围以仅保护部分网站，例如 *://*.example.com/*。如果模式无效，将改用默认值。"
+  },
+  "options_tip_block_page_redirection": {
+    "message": "许多网站在弹出窗口被阻止后，会将当前标签页发送到广告页面。开启后，在弹出窗口被阻止后的 2 秒内，任何离开页面的尝试都会显示浏览器的“要离开此网站吗？”对话框，以便您可以选择留下。"
+  },
+  "options_tip_block_automated_redirection": {
+    "message": "还会阻止页面在未经您点击或按键的情况下自行发起的重定向，且随时有效（不仅限于弹出窗口之后）。需要开启上面的选项，且浏览器支持 Navigation API。"
+  },
+  "options_tip_block_page_redirection_same_origin": {
+    "message": "不阻止到与当前页面相同网站的重定向。"
+  },
+  "options_tip_block_page_redirection_hostnames": {
+    "message": "重定向到这些网站时从不阻止。请输入确切的主机名（不包括子域名）。"
+  },
+  "options_tip_silent": {
+    "message": "在这些网站上请求的弹出窗口仍会被阻止，但不显示通知。"
+  },
+  "options_tip_user_styling": {
+    "message": "用于页内通知框的自定义 CSS，例如隐藏按钮或更改颜色。它仅存储在此设备上，不包含在导出的偏好设置中。"
+  },
+  "options_tip_sync": {
+    "message": "将此列表存储在浏览器帐户的同步存储中，以便在所有设备上保持一致。"
+  },
+  "options_tip_import": {
+    "message": "从以前导出的 JSON 文件加载偏好设置。加载后扩展程序会重启。"
+  },
+  "options_tip_export": {
+    "message": "将所有偏好设置保存到 JSON 文件（不包括自定义 CSS）。"
+  },
+  "options_tip_reset": {
+    "message": "将表单恢复为默认值。在按下“保存选项”之前不会有任何更改。"
+  },
+  "options_basic": {
+    "message": "基本设置"
+  },
+  "options_advanced": {
+    "message": "高级设置"
+  },
+  "options_advanced_hint": {
+    "message": "一般不需要更改，仅在您了解其作用时再修改。"
+  },
+  "options_section_general": {
+    "message": "常规"
+  },
+  "options_section_lists": {
+    "message": "允许列表"
+  },
+  "options_section_notification": {
+    "message": "通知框"
+  },
+  "options_section_rules": {
+    "message": "规则和协议"
+  }
+}
