@@ -2,7 +2,7 @@
 
 ## ![icon](v3/data/icons/32.png) Popup Blocker (strict) — multilingual fork
 
-This is an unofficial fork of [schomery/popup-blocker](https://github.com/schomery/popup-blocker) by Jeremy Schomery. It adds an in-extension language switch, a Traditional Chinese translation and detailed help for every setting, and fixes one bug. Everything else works the same as the original.
+This is an unofficial fork of [schomery/popup-blocker](https://github.com/schomery/popup-blocker) by Jeremy Schomery. It adds an in-extension language switch with 18 languages and a redesigned options page with detailed help for every setting, and fixes a few bugs. Popup blocking itself works the same as the original.
 
 > This fork is not affiliated with or endorsed by the original author. Please report problems with the features listed below in this repository, not upstream.
 
@@ -11,7 +11,9 @@ This is an unofficial fork of [schomery/popup-blocker](https://github.com/schome
 | | Original (0.9.2) | This fork |
 |---|---|---|
 | Interface language | Always follows the browser's language | Pick one of 18 languages on the options page, or "Browser default" (see [Languages](#languages)) |
-| Translations | 7 languages (Korean only partly) | 18 languages: 11 new (including Traditional and Simplified Chinese) and Korean completed. They are also used automatically when the browser is set to that language |
+| Translations | 7 languages (Korean only partly, Spanish missing 4 strings) | 18 languages: 11 new (including Traditional and Simplified Chinese), and Korean and Spanish completed. They are also used automatically when the browser is set to that language |
+| Arabic layout | Left-to-right | Right-to-left on the options page, the toolbar popup and the in-page notification |
+| Options page | One long list of settings | Basic settings first; advanced settings in a section that opens on click. New look with dark mode and a narrow-window layout, and Save always within reach at the bottom |
 | Help for settings | Short labels only | Hover any setting on the options page to see what it does, in every bundled language |
 | "Mute notifications on these hostnames" | Has no effect (the check was removed in upstream commit `1cfbf2e`) | Works again: popups on listed pages are still blocked, but no notification is shown |
 | Close button of the notification | Always in English | Translated |
@@ -20,6 +22,8 @@ Details:
 
 - **Language switch.** The selected language applies to the options page, the toolbar popup, the in-page notification and the toolbar icon's tooltip, and changes take effect without reloading. Text that has no translation yet falls back to English. The extension's name, description and keyboard shortcut descriptions are shown by the browser itself, so they always follow the browser's language.
 - **Setting descriptions.** They are written from the actual code, so they cover details the labels leave out. For example, the countdown presses the action you chose for that site in the last 10 days, "Simulate allow" can break login popups, and "Reset to Defaults" only takes effect after you press Save.
+- **Options page.** Basic settings: language, default action, countdown, display time, position, the "trust" button, toolbar counter, same-site popups, FAQ page and the two allow lists. Advanced settings, collapsed until you open them: the notification box, muted sites, custom CSS, protocols, URL rules, protection scope and page redirection.
+- **Right-to-left.** In Arabic the pages are mirrored, while addresses, hostname lists and code keep left-to-right text.
 - **Muted hostnames.** Matching uses the page's exact hostname, the same as before the upstream regression. Rules and the default action still run on those pages.
 
 This fork is based on upstream commit [`c680634`](https://github.com/schomery/popup-blocker/commit/c680634) (version 0.9.2). Only the Manifest V3 version in [`v3/`](v3) has been changed; [`v2/`](v2) is the original legacy version, left as is.
@@ -102,7 +106,7 @@ The translations added in this fork (German, Indonesian, Italian, Japanese, Kore
 Translations live in [`v3/_locales/<locale>/messages.json`](v3/_locales). To add a language:
 
 1. Copy `v3/_locales/en/messages.json` to a new folder named after the locale (for example `de` or `zh_CN`) and translate the `message` values.
-2. Add the locale and its name in its own language to `i18n.locales` in [`v3/i18n.js`](v3/i18n.js), so it shows up in the language selector.
+2. Add the locale and its name in its own language to `i18n.locales` in [`v3/i18n.js`](v3/i18n.js), so it shows up in the language selector. If the language is written right to left, also add its code to the list in `i18n.dir` in the same file.
 
 The original project collects translations on [Transifex](https://explore.transifex.com/github-7/popup-blocker-strict/). Strings added by this fork (the language selector and the setting descriptions) are not on Transifex.
 
