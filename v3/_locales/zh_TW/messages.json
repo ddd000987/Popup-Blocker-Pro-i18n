@@ -304,5 +304,95 @@
   },
   "ui_button_close_value": {
     "message": "關閉"
+  },
+  "options_tip_locale": {
+    "message": "設定頁、工具列小視窗和網頁通知框使用的語言。「跟隨瀏覽器」會使用瀏覽器的語言。擴充功能名稱與快捷鍵說明由瀏覽器顯示，一律跟隨瀏覽器的語言。"
+  },
+  "options_tip_numbers": {
+    "message": "同一個頁面的通知框最多同時列出幾筆彈出視窗請求。清單滿了又有新請求時，會移除最舊的一筆。"
+  },
+  "options_tip_timeout": {
+    "message": "每一筆請求在這麼多秒內沒有處理就會自動消失（彈出視窗維持封鎖）。滑鼠停在該筆上時會暫停計時。"
+  },
+  "options_tip_width": {
+    "message": "網頁上通知框的寬度，最小 300 像素。"
+  },
+  "options_tip_countdown": {
+    "message": "如果某一筆請求已經有對應的動作（10 天內你對該網站選過的動作，或預設動作），該按鈕會開始倒數，歸零時自動按下。設為 0 可關閉此功能。"
+  },
+  "options_tip_default_action": {
+    "message": "收到新的彈出視窗請求時建議執行的動作。「不做任何事」只會顯示通知；其他動作會透過倒數自動執行，若開啟「盡可能略過彈出視窗通知」則會立即執行。你對某個網站做過的選擇會記住 10 天，並優先於此設定。"
+  },
+  "options_tip_whitelist_mode": {
+    "message": "設定「信任」按鈕的作用（需在 3 秒內按兩次確認）。第一個選項：把彈出視窗的網站加入「不封鎖下列來源的彈出視窗」。第二個選項：把目前頁面的網站加入「在下列頁面不封鎖任何彈出視窗」，並立即停止在此頁面封鎖。"
+  },
+  "options_tip_placement": {
+    "message": "通知框出現在頁面的哪個角落。"
+  },
+  "options_tip_badge_color": {
+    "message": "工具列圖示上封鎖數字的背景顏色。"
+  },
+  "options_tip_domain": {
+    "message": "允許開啟與目前頁面同一網站（含子網域）的彈出視窗，例如從 www.example.com 開啟 shop.example.com。"
+  },
+  "options_tip_badge": {
+    "message": "在工具列圖示上以數字顯示目前分頁已封鎖的彈出視窗請求數量。"
+  },
+  "options_tip_immediate_action": {
+    "message": "已知要執行的動作時（記住的選擇或預設動作），不顯示通知、直接執行。不建議開啟：你將看不到哪些內容被封鎖或放行。"
+  },
+  "options_tip_simulate_allow": {
+    "message": "允許彈出視窗時，由擴充功能自己在新分頁開啟連結，而不是交給網頁開啟。這樣可避開瀏覽器內建的彈出視窗封鎖，但網頁將無法控制新視窗，可能導致需要回傳結果的登入視窗失效。"
+  },
+  "options_tip_focus_popup": {
+    "message": "新通知出現時把鍵盤焦點移到通知上，讓你可以直接使用快速鍵、按 Escape 關閉，或用上下方向鍵在各筆之間移動。"
+  },
+  "options_tip_faqs": {
+    "message": "擴充功能更新後，在新分頁開啟作者的常見問題頁面（webextension.org），最多每 45 天一次。"
+  },
+  "options_tip_popup_hosts": {
+    "message": "開啟這些網站的彈出視窗在任何頁面都不會被封鎖，包含子網域（google.com 也會比對到 mail.google.com）。「信任」按鈕的第一種模式會把網站加到這裡。"
+  },
+  "options_tip_top_hosts": {
+    "message": "在這些網站（含子網域）上完全不執行封鎖。修改清單後，請重新整理已開啟的分頁。"
+  },
+  "options_tip_protocols": {
+    "message": "使用這些通訊協定的連結一律不封鎖，例如開啟 BT 程式的 magnet: 連結。每一項都必須以冒號結尾。"
+  },
+  "options_tip_rules": {
+    "message": "依網址自動執行動作，格式為 JSON 物件 \"比對規則\": \"動作\"。動作可用 allow（允許）、deny（拒絕）、background（背景開啟）、redirect（轉址）、close（關閉）、interface（只顯示通知）。沒有前綴的規則必須與彈出視窗網址完全相同。前綴：r: 以正規表示式比對彈出視窗網址，ro: 以正規表示式比對目前頁面網址，p: 以 URL Pattern 比對彈出視窗網址，po: 以 URL Pattern 比對目前頁面網址。\n範例：{\"p:https://*.example.com/*\": \"deny\", \"ro:youtube\": \"allow\"}"
+  },
+  "options_tip_scope": {
+    "message": "用網址比對模式決定封鎖器在哪些網站運作（預設 *://*/* 代表所有網站）。可縮小範圍只保護部分網站，例如 *://*.example.com/*。模式無效時會改用預設值。"
+  },
+  "options_tip_block_page_redirection": {
+    "message": "很多網站在彈出視窗被擋下後，會把目前分頁導向廣告。開啟後，在彈出視窗被封鎖後的 2 秒內，任何離開頁面的動作都會跳出瀏覽器的「要離開網站嗎？」對話框，讓你選擇留下。"
+  },
+  "options_tip_block_automated_redirection": {
+    "message": "也攔截網頁在你沒有點擊或按鍵時自行發起的轉址，而且隨時有效（不限於彈出視窗之後）。需要先開啟上一個選項，且瀏覽器須支援 Navigation API。"
+  },
+  "options_tip_block_page_redirection_same_origin": {
+    "message": "轉址到與目前頁面相同的網站時不攔截。"
+  },
+  "options_tip_block_page_redirection_hostnames": {
+    "message": "轉址到這些網站時一律不攔截。請輸入完整的主機名稱（不包含子網域）。"
+  },
+  "options_tip_silent": {
+    "message": "在這些網站上的彈出視窗請求仍會被封鎖，但不顯示通知。"
+  },
+  "options_tip_user_styling": {
+    "message": "套用到網頁通知框的自訂 CSS，例如隱藏按鈕或修改顏色。只儲存在這台裝置上，不會包含在匯出的偏好設定中。"
+  },
+  "options_tip_sync": {
+    "message": "把這份清單存到瀏覽器帳號的同步儲存空間，讓所有裝置使用相同的設定。"
+  },
+  "options_tip_import": {
+    "message": "從先前匯出的 JSON 檔載入偏好設定，載入後擴充功能會重新啟動。"
+  },
+  "options_tip_export": {
+    "message": "把所有偏好設定存成 JSON 檔（不含自訂 CSS）。"
+  },
+  "options_tip_reset": {
+    "message": "把表單填回預設值。按下「儲存設定」前不會有任何變更。"
   }
 }

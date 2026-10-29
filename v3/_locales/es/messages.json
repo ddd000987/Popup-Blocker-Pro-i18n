@@ -292,5 +292,95 @@
   },
   "ui_button_close_value": {
     "message": "cerrar"
+  },
+  "options_tip_locale": {
+    "message": "Idioma que usan la página de opciones, la ventana emergente de la barra de herramientas y las notificaciones dentro de la página. \"Predeterminado del navegador\" sigue el idioma del navegador. El nombre de la extensión y las descripciones de los atajos de teclado los muestra el navegador y siempre siguen su idioma."
+  },
+  "options_tip_numbers": {
+    "message": "Cuántas solicitudes de ventanas emergentes muestra a la vez el cuadro de notificaciones en una misma página. Cuando la lista está llena y llega una solicitud nueva, se elimina la entrada más antigua."
+  },
+  "options_tip_timeout": {
+    "message": "Cada entrada desaparece pasados estos segundos si no eliges nada (la ventana emergente sigue bloqueada). Al pasar el cursor sobre una entrada, su temporizador se pausa."
+  },
+  "options_tip_width": {
+    "message": "Ancho del cuadro de notificaciones dentro de la página. El mínimo es de 300 píxeles."
+  },
+  "options_tip_countdown": {
+    "message": "Cuando una entrada ya tiene una acción (la que elegiste para el sitio de esa ventana emergente en los últimos 10 días, o la acción predeterminada), ese botón hace una cuenta atrás y se pulsa automáticamente al llegar a cero. Usa 0 para desactivarlo."
+  },
+  "options_tip_default_action": {
+    "message": "Acción sugerida para las nuevas solicitudes de ventanas emergentes. \"No hacer nada\" solo muestra la notificación. Las demás acciones se ejecutan con la cuenta atrás, o de inmediato cuando \"Ignorar las notificaciones emergentes cuando sea posible\" está activado. La elección que haces para un sitio se recuerda durante 10 días y tiene prioridad sobre este ajuste."
+  },
+  "options_tip_whitelist_mode": {
+    "message": "Qué hace el botón \"confiar\" (púlsalo dos veces en 3 segundos para confirmar). Primera opción: el sitio de la ventana emergente se añade a \"No bloquear las ventanas emergentes de estos orígenes\". Segunda opción: el sitio de la página actual se añade a \"No bloquear ninguna ventana emergente en estas páginas\" y el bloqueo se detiene en esta página de inmediato."
+  },
+  "options_tip_placement": {
+    "message": "Esquina de la página donde aparece el cuadro de notificaciones."
+  },
+  "options_tip_badge_color": {
+    "message": "Color de fondo del contador de solicitudes bloqueadas en el icono de la barra de herramientas."
+  },
+  "options_tip_domain": {
+    "message": "Permite las ventanas emergentes que abren una página del mismo sitio que la página actual, incluidos los subdominios (por ejemplo, shop.example.com abierto desde www.example.com)."
+  },
+  "options_tip_badge": {
+    "message": "Muestra en el icono de la barra de herramientas el número de solicitudes de ventanas emergentes bloqueadas en la pestaña actual."
+  },
+  "options_tip_immediate_action": {
+    "message": "Omite la notificación y ejecuta la acción de inmediato cuando se conoce una (una elección recordada o la acción predeterminada). No recomendado: no verás qué se bloqueó o permitió."
+  },
+  "options_tip_simulate_allow": {
+    "message": "Cuando se permite una ventana emergente, la extensión abre el enlace en una pestaña nueva por sí misma en lugar de dejar que lo abra la página. Así se evita el bloqueador de ventanas emergentes del propio navegador, pero la página no puede controlar la nueva ventana, lo que puede romper las ventanas emergentes de inicio de sesión que devuelven el resultado a la página."
+  },
+  "options_tip_focus_popup": {
+    "message": "Mueve el foco del teclado a una notificación nueva para que puedas usar los atajos de inmediato, pulsar Escape para cerrarla y usar las flechas arriba/abajo para moverte entre las entradas."
+  },
+  "options_tip_faqs": {
+    "message": "Después de actualizar la extensión, abre la página de preguntas frecuentes del autor (webextension.org) en una pestaña nueva, como máximo una vez cada 45 días."
+  },
+  "options_tip_popup_hosts": {
+    "message": "Las ventanas emergentes que abren estos sitios nunca se bloquean, en ninguna página. Se incluyen los subdominios (google.com también coincide con mail.google.com). El botón \"confiar\" añade sitios aquí en su primer modo."
+  },
+  "options_tip_top_hosts": {
+    "message": "El bloqueador no se ejecuta en absoluto en estos sitios, incluidos sus subdominios. Actualiza las pestañas abiertas después de cambiar esta lista."
+  },
+  "options_tip_protocols": {
+    "message": "Los enlaces que usan estos protocolos nunca se bloquean, por ejemplo los enlaces magnet: que abren una aplicación de torrents. Cada entrada debe terminar con dos puntos."
+  },
+  "options_tip_rules": {
+    "message": "Acciones automáticas por URL, como un objeto JSON de \"patrón\": \"acción\". Acciones: allow, deny, background, redirect, close, interface (solo muestra la notificación). Un patrón sin prefijo debe ser igual a la URL de la ventana emergente. Prefijos: r: expresión regular sobre la URL de la ventana emergente, ro: expresión regular sobre la URL de la página actual, p: patrón de URL sobre la URL de la ventana emergente, po: patrón de URL sobre la URL de la página actual.\nEjemplo: {\"p:https://*.example.com/*\": \"deny\", \"ro:youtube\": \"allow\"}"
+  },
+  "options_tip_scope": {
+    "message": "Patrones de coincidencia de URL que deciden dónde se ejecuta el bloqueador (el valor predeterminado *://*/* significa todos los sitios web). Redúcelo para proteger solo algunos sitios, por ejemplo *://*.example.com/*. Si un patrón no es válido, se usa el valor predeterminado."
+  },
+  "options_tip_block_page_redirection": {
+    "message": "Muchos sitios envían la pestaña actual a un anuncio cuando se bloquea su ventana emergente. Con esto activado, durante 2 segundos después de bloquear una ventana emergente, cualquier intento de abandonar la página muestra el cuadro de diálogo \"¿Salir del sitio?\" del navegador para que puedas quedarte."
+  },
+  "options_tip_block_automated_redirection": {
+    "message": "También detiene las redirecciones que la página inicia por su cuenta sin un clic o pulsación de tecla tuya, en cualquier momento (no solo después de una ventana emergente). Requiere la opción anterior y un navegador compatible con la Navigation API."
+  },
+  "options_tip_block_page_redirection_same_origin": {
+    "message": "No detiene las redirecciones al mismo sitio que la página actual."
+  },
+  "options_tip_block_page_redirection_hostnames": {
+    "message": "Las redirecciones a estos sitios nunca se detienen. Introduce nombres de host exactos (los subdominios no se incluyen)."
+  },
+  "options_tip_silent": {
+    "message": "Las ventanas emergentes solicitadas en estos sitios se siguen bloqueando, pero no se muestra ninguna notificación."
+  },
+  "options_tip_user_styling": {
+    "message": "Tu propio CSS para el cuadro de notificaciones dentro de la página, por ejemplo para ocultar o cambiar el color de los botones. Se guarda solo en este dispositivo y no se incluye en las preferencias exportadas."
+  },
+  "options_tip_sync": {
+    "message": "Guarda esta lista en el almacenamiento de sincronización de la cuenta de tu navegador para que sea la misma en todos tus dispositivos."
+  },
+  "options_tip_import": {
+    "message": "Carga las preferencias desde un archivo JSON exportado anteriormente. La extensión se reinicia después."
+  },
+  "options_tip_export": {
+    "message": "Guarda todas las preferencias en un archivo JSON (el CSS personalizado no se incluye)."
+  },
+  "options_tip_reset": {
+    "message": "Rellena el formulario con los valores predeterminados. No cambia nada hasta que pulses \"Guardar Opciones\"."
   }
 }

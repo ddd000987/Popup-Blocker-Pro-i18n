@@ -304,5 +304,95 @@
   },
   "ui_button_close_value": {
     "message": "fermer"
+  },
+  "options_tip_locale": {
+    "message": "Langue utilisée par la page d'options, la fenêtre de la barre d'outils et les notifications dans la page. \"Langue du navigateur\" suit la langue du navigateur. Le nom de l'extension et les descriptions des raccourcis clavier sont affichés par le navigateur et suivent toujours sa langue."
+  },
+  "options_tip_numbers": {
+    "message": "Nombre de demandes de popup que la boîte de notification liste en même temps sur une page. Lorsque la liste est pleine et qu'une nouvelle demande arrive, l'entrée la plus ancienne est supprimée."
+  },
+  "options_tip_timeout": {
+    "message": "Chaque entrée disparaît après ce nombre de secondes si vous ne choisissez rien (le popup reste bloqué). Survoler une entrée met son minuteur en pause."
+  },
+  "options_tip_width": {
+    "message": "Largeur de la boîte de notification dans la page. Le minimum est de 300 pixels."
+  },
+  "options_tip_countdown": {
+    "message": "Lorsqu'une entrée a déjà une action (l'action que vous avez choisie pour le site de ce popup au cours des 10 derniers jours, ou l'action par défaut), ce bouton fait un compte à rebours et est pressé automatiquement à zéro. Utilisez 0 pour désactiver cette fonction."
+  },
+  "options_tip_default_action": {
+    "message": "Action proposée pour les nouvelles demandes de popup. \"Ne rien faire\" affiche seulement la notification. Les autres actions sont exécutées par le compte à rebours, ou immédiatement lorsque \"Ignorer les notifications de popup quand c'est possible\" est activé. Un choix fait pour un site est mémorisé pendant 10 jours et est prioritaire sur ce paramètre."
+  },
+  "options_tip_whitelist_mode": {
+    "message": "Ce que fait le bouton \"faire confiance\" (cliquez deux fois en 3 secondes pour confirmer). Première option : le site du popup est ajouté à \"Ne pas bloquer les popups provenant de ces domaines\". Seconde option : le site de la page actuelle est ajouté à \"Ne pas bloquer les popups sur ces pages\" et le blocage s'arrête immédiatement sur cette page."
+  },
+  "options_tip_placement": {
+    "message": "Coin de la page où apparaît la boîte de notification."
+  },
+  "options_tip_badge_color": {
+    "message": "Couleur d'arrière-plan du compteur de demandes bloquées sur l'icône de la barre d'outils."
+  },
+  "options_tip_domain": {
+    "message": "Autorise les popups qui ouvrent une page du même site que la page actuelle, sous-domaines compris (par exemple shop.example.com ouvert depuis www.example.com)."
+  },
+  "options_tip_badge": {
+    "message": "Affiche sur l'icône de la barre d'outils le nombre de demandes de popup bloquées dans l'onglet actuel."
+  },
+  "options_tip_immediate_action": {
+    "message": "Ignore la notification et exécute l'action immédiatement lorsqu'elle est connue (un choix mémorisé ou l'action par défaut). Déconseillé : vous ne verrez pas ce qui a été bloqué ou autorisé."
+  },
+  "options_tip_simulate_allow": {
+    "message": "Lorsqu'un popup est autorisé, l'extension ouvre elle-même le lien dans un nouvel onglet au lieu de laisser la page l'ouvrir. Cela contourne le bloqueur de popups du navigateur, mais la page ne peut pas contrôler la nouvelle fenêtre, ce qui peut casser les popups de connexion qui renvoient un résultat à la page."
+  },
+  "options_tip_focus_popup": {
+    "message": "Déplace le focus du clavier vers une nouvelle notification pour que vous puissiez utiliser tout de suite les raccourcis, appuyer sur Escape pour la fermer et utiliser les flèches haut/bas pour naviguer entre les entrées."
+  },
+  "options_tip_faqs": {
+    "message": "Ouvre la page FAQ de l'auteur (webextension.org) dans un nouvel onglet après la mise à jour de l'extension, au plus une fois tous les 45 jours."
+  },
+  "options_tip_popup_hosts": {
+    "message": "Les popups qui ouvrent ces sites ne sont jamais bloqués, sur aucune page. Les sous-domaines sont inclus (google.com correspond aussi à mail.google.com). Le bouton \"faire confiance\" ajoute des sites ici dans son premier mode."
+  },
+  "options_tip_top_hosts": {
+    "message": "Le bloqueur ne s'exécute pas du tout sur ces sites, sous-domaines compris. Actualisez les onglets ouverts après avoir modifié cette liste."
+  },
+  "options_tip_protocols": {
+    "message": "Les liens qui utilisent ces protocoles ne sont jamais bloqués, par exemple les liens magnet: qui ouvrent une application de torrent. Chaque entrée doit se terminer par deux-points."
+  },
+  "options_tip_rules": {
+    "message": "Actions automatiques selon l'URL, sous forme d'objet JSON de \"motif\": \"action\". Actions : allow, deny, background, redirect, close, interface (affiche seulement la notification). Un motif sans préfixe doit être égal à l'URL du popup. Préfixes : r: expression régulière sur l'URL du popup, ro: expression régulière sur l'URL de la page actuelle, p: motif d'URL sur l'URL du popup, po: motif d'URL sur l'URL de la page actuelle.\nExemple : {\"p:https://*.example.com/*\": \"deny\", \"ro:youtube\": \"allow\"}"
+  },
+  "options_tip_scope": {
+    "message": "Motifs de correspondance d'URL qui déterminent où le bloqueur s'exécute (la valeur par défaut *://*/* signifie tous les sites web). Restreignez-la pour protéger seulement certains sites, par exemple *://*.example.com/*. Si un motif est invalide, la valeur par défaut est utilisée à la place."
+  },
+  "options_tip_block_page_redirection": {
+    "message": "Beaucoup de sites envoient l'onglet actuel vers une publicité lorsque leur popup est bloqué. Quand cette option est activée, pendant 2 secondes après un popup bloqué, toute tentative de quitter la page affiche la boîte de dialogue \"Quitter ce site ?\" du navigateur afin que vous puissiez rester."
+  },
+  "options_tip_block_automated_redirection": {
+    "message": "Arrête aussi les redirections que la page lance d'elle-même sans clic ni appui sur une touche de votre part, à tout moment (pas seulement après un popup). Nécessite l'option ci-dessus et un navigateur compatible avec la Navigation API."
+  },
+  "options_tip_block_page_redirection_same_origin": {
+    "message": "N'arrête pas les redirections vers le même site que la page actuelle."
+  },
+  "options_tip_block_page_redirection_hostnames": {
+    "message": "Les redirections vers ces sites ne sont jamais arrêtées. Saisissez des noms d'hôte exacts (les sous-domaines ne sont pas inclus)."
+  },
+  "options_tip_silent": {
+    "message": "Les popups demandés sur ces sites sont toujours bloqués, mais aucune notification n'est affichée."
+  },
+  "options_tip_user_styling": {
+    "message": "Votre propre CSS pour la boîte de notification dans la page, par exemple pour masquer ou recolorer des boutons. Il est stocké uniquement sur cet appareil et n'est pas inclus dans les préférences exportées."
+  },
+  "options_tip_sync": {
+    "message": "Stocke cette liste dans l'espace de synchronisation du compte de votre navigateur pour qu'elle soit identique sur tous vos appareils."
+  },
+  "options_tip_import": {
+    "message": "Charge les préférences depuis un fichier JSON exporté précédemment. L'extension redémarre ensuite."
+  },
+  "options_tip_export": {
+    "message": "Enregistre toutes les préférences dans un fichier JSON (le CSS personnalisé n'est pas inclus)."
+  },
+  "options_tip_reset": {
+    "message": "Remplit le formulaire avec les valeurs par défaut. Rien ne change tant que vous n'appuyez pas sur \"Enregistrer les modifications\"."
   }
 }

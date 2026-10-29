@@ -12,6 +12,8 @@ const localize = () => {
       e.textContent = i18n.get(e.dataset.i18n);
     }
   });
+  // detailed descriptions, shown when hovering a setting
+  [...document.querySelectorAll('[data-i18n-title]')].forEach(e => e.title = i18n.get(e.dataset.i18nTitle));
 };
 i18n.ready.then(localize);
 

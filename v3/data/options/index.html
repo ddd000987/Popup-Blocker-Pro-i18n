@@ -12,7 +12,7 @@
       <col>
       <col width="10">
     </colgroup>
-    <tr>
+    <tr data-i18n-title="options_tip_locale">
       <td><label for="locale" data-i18n="options_item51"></label></td>
       <td>
       <select id="locale">
@@ -20,23 +20,23 @@
       </select>
       </td>
     </tr>
-    <tr>
+    <tr data-i18n-title="options_tip_numbers">
       <td><label for="numbers" data-i18n="options_item1"></label></td>
       <td><input type="number" id="numbers" min=1></td>
     </tr>
-    <tr>
+    <tr data-i18n-title="options_tip_timeout">
       <td><label for="timeout" data-i18n="options_item2"></label><sup><a href="#n1">1</a></sup></td>
       <td><input type="number" id="timeout" min=5></td>
     </tr>
-    <tr>
+    <tr data-i18n-title="options_tip_width">
       <td><label for="width" data-i18n="options_item49"></label></td>
       <td><input type="number" id="width" min=5></td>
     </tr>
-    <tr>
+    <tr data-i18n-title="options_tip_countdown">
       <td><label for="countdown" data-i18n="options_item9"></label><sup><a href="#n2">2</a></sup></td>
       <td><input type="number" id="countdown" min=0></td>
     </tr>
-    <tr>
+    <tr data-i18n-title="options_tip_default_action">
       <td><label for="default-action" data-i18n="options_item17"></label></td>
       <td>
       <select id="default-action">
@@ -47,7 +47,7 @@
       </select>
       </td>
     </tr>
-    <tr>
+    <tr data-i18n-title="options_tip_whitelist_mode">
       <td><label for="whitelist-mode" data-i18n="options_item31"></label></td>
       <td>
       <select id="whitelist-mode">
@@ -56,7 +56,7 @@
       </select>
       </td>
     </tr>
-    <tr>
+    <tr data-i18n-title="options_tip_placement">
       <td><label for="placement" data-i18n="options_item42"></label></td>
       <td>
       <select id="placement">
@@ -67,95 +67,95 @@
       </select>
       </td>
     </tr>
-    <tr>
+    <tr data-i18n-title="options_tip_badge_color">
       <td><label for="badge-color" data-i18n="options_item22"></label></td>
       <td><input type="color" id="badge-color"></td>
     </tr>
   </table>
   <div class="checks">
-    <input type="checkbox" id="domain">
-    <label for="domain"><span data-i18n="options_item3"></span><sup><a href="#n1">1</a></sup></label>
-    <input type="checkbox" id="badge">
-    <label for="badge"><span data-i18n="options_item5"></span><sup><a href="#n1">1</a></sup></label>
-    <input type="checkbox" id="immediate-action">
-    <label for="immediate-action"><a data-href="faq15" target="_blank" data-i18n="options_item23"></a></label>
-    <input type="checkbox" id="simulate-allow">
-    <label for="simulate-allow"><span data-i18n="options_item30"></span></label>
-    <input type="checkbox" id="focus-popup">
-    <label for="focus-popup"><span data-i18n="options_item40"></span></label>
-    <input type="checkbox" id="faqs">
-    <label for="faqs"><span data-i18n="options_item26"></span></label>
+    <input type="checkbox" id="domain" data-i18n-title="options_tip_domain">
+    <label for="domain" data-i18n-title="options_tip_domain"><span data-i18n="options_item3"></span><sup><a href="#n1">1</a></sup></label>
+    <input type="checkbox" id="badge" data-i18n-title="options_tip_badge">
+    <label for="badge" data-i18n-title="options_tip_badge"><span data-i18n="options_item5"></span><sup><a href="#n1">1</a></sup></label>
+    <input type="checkbox" id="immediate-action" data-i18n-title="options_tip_immediate_action">
+    <label for="immediate-action" data-i18n-title="options_tip_immediate_action"><a data-href="faq15" target="_blank" data-i18n="options_item23"></a></label>
+    <input type="checkbox" id="simulate-allow" data-i18n-title="options_tip_simulate_allow">
+    <label for="simulate-allow" data-i18n-title="options_tip_simulate_allow"><span data-i18n="options_item30"></span></label>
+    <input type="checkbox" id="focus-popup" data-i18n-title="options_tip_focus_popup">
+    <label for="focus-popup" data-i18n-title="options_tip_focus_popup"><span data-i18n="options_item40"></span></label>
+    <input type="checkbox" id="faqs" data-i18n-title="options_tip_faqs">
+    <label for="faqs" data-i18n-title="options_tip_faqs"><span data-i18n="options_item26"></span></label>
   </div>
   <p>
     <div class="ngx">
       <div>
-        <a target="_blank" data-href="faq19"><span data-i18n="options_item6"></span></a><sup><a href="#n1">1</a></sup>
+        <a target="_blank" data-href="faq19"><span data-i18n="options_item6" data-i18n-title="options_tip_popup_hosts"></span></a><sup><a href="#n1">1</a></sup>
       </div>
-      <label><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="popup-hosts"></label>
+      <label data-i18n-title="options_tip_sync"><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="popup-hosts"></label>
     </div>
-    <textarea id="popup-hosts" rows="4" data-i18n="options_t_1" data-i18n-value="placeholder"></textarea>
+    <textarea id="popup-hosts" data-i18n-title="options_tip_popup_hosts" rows="4" data-i18n="options_t_1" data-i18n-value="placeholder"></textarea>
   </p>
   <p>
     <div class="ngx">
       <div>
-        <a target="_blank" data-href="faq18"><span data-i18n="options_item7"></span></a><sup><a href="#n1">1</a></sup>
+        <a target="_blank" data-href="faq18"><span data-i18n="options_item7" data-i18n-title="options_tip_top_hosts"></span></a><sup><a href="#n1">1</a></sup>
       </div>
-      <label><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="top-hosts"></label>
+      <label data-i18n-title="options_tip_sync"><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="top-hosts"></label>
     </div>
-    <textarea id="top-hosts" rows="4" data-i18n="options_t_2" data-i18n-value="placeholder"></textarea>
+    <textarea id="top-hosts" data-i18n-title="options_tip_top_hosts" rows="4" data-i18n="options_t_2" data-i18n-value="placeholder"></textarea>
   </p>
   <p>
     <div class="ngx">
       <div>
-        <a target="_blank" data-href="faq20"><span data-i18n="options_item27"></span></a><sup><a href="#n1">1</a></sup>
+        <a target="_blank" data-href="faq20"><span data-i18n="options_item27" data-i18n-title="options_tip_protocols"></span></a><sup><a href="#n1">1</a></sup>
       </div>
-      <label><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="protocols"></label>
+      <label data-i18n-title="options_tip_sync"><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="protocols"></label>
     </div>
-    <textarea id="protocols" rows="1"></textarea>
+    <textarea id="protocols" data-i18n-title="options_tip_protocols" rows="1"></textarea>
   </p>
   <p>
     <div class="ngx">
       <div>
-        <a target="_blank" data-href="faq24"><span data-i18n="options_item41"></span></a><sup><a href="#n1">1</a></sup>
+        <a target="_blank" data-href="faq24"><span data-i18n="options_item41" data-i18n-title="options_tip_rules"></span></a><sup><a href="#n1">1</a></sup>
       </div>
-      <label><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="rules"></label>
+      <label data-i18n-title="options_tip_sync"><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="rules"></label>
     </div>
-    <textarea id="rules" rows="4" data-i18n="options_t_3" data-i18n-value="placeholder"></textarea>
+    <textarea id="rules" data-i18n-title="options_tip_rules" rows="4" data-i18n="options_t_3" data-i18n-value="placeholder"></textarea>
   </p>
   <h1 data-i18n="options_item47"></h1>
   <p>
     <div class="ngx">
       <div>
-        <a target="_blank" data-href="faq26" data-i18n="options_item48"></a>
+        <a target="_blank" data-href="faq26" data-i18n="options_item48" data-i18n-title="options_tip_scope"></a>
       </div>
-      <label><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="scope"></label>
+      <label data-i18n-title="options_tip_sync"><span data-i18n="options_sync"></span> <input type="checkbox" name="synced" value="scope"></label>
     </div>
-    <textarea id="scope" rows="6" data-i18n="options_t_4" data-i18n-value="placeholder"></textarea>
+    <textarea id="scope" data-i18n-title="options_tip_scope" rows="6" data-i18n="options_t_4" data-i18n-value="placeholder"></textarea>
   </p>
   <h1 data-i18n="options_item38"></h1>
   <div class="checks">
-    <input type="checkbox" id="block-page-redirection">
-    <label for="block-page-redirection"><a data-href="faq13" target="_blank" data-i18n="options_item15"></a></label>
+    <input type="checkbox" id="block-page-redirection" data-i18n-title="options_tip_block_page_redirection">
+    <label for="block-page-redirection" data-i18n-title="options_tip_block_page_redirection"><a data-href="faq13" target="_blank" data-i18n="options_item15"></a></label>
     <span></span>
     <div class="checks">
-      <input type="checkbox" id="block-automated-redirection">
-      <label for="block-automated-redirection" data-i18n="options_item50"></label>
+      <input type="checkbox" id="block-automated-redirection" data-i18n-title="options_tip_block_automated_redirection">
+      <label for="block-automated-redirection" data-i18n-title="options_tip_block_automated_redirection" data-i18n="options_item50"></label>
     </div>
-    <input type="checkbox" id="block-page-redirection-same-origin">
-    <label for="block-page-redirection-same-origin" data-i18n="options_item29"></label>
+    <input type="checkbox" id="block-page-redirection-same-origin" data-i18n-title="options_tip_block_page_redirection_same_origin">
+    <label for="block-page-redirection-same-origin" data-i18n-title="options_tip_block_page_redirection_same_origin" data-i18n="options_item29"></label>
   </div>
   <p>
-    <a target="_blank" data-href="faq23"><span data-i18n="options_item28"></span></a><sup><a href="#n1">1</a></sup>
-    <textarea id="block-page-redirection-hostnames" rows="3" data-i18n="options_t_1" data-i18n-value="placeholder"></textarea>
+    <a target="_blank" data-href="faq23"><span data-i18n="options_item28" data-i18n-title="options_tip_block_page_redirection_hostnames"></span></a><sup><a href="#n1">1</a></sup>
+    <textarea id="block-page-redirection-hostnames" data-i18n-title="options_tip_block_page_redirection_hostnames" rows="3" data-i18n="options_t_1" data-i18n-value="placeholder"></textarea>
   </p>
   <h1 data-i18n="options_item39"></h1>
   <p>
-    <a data-href="faq22" target="_blank"><span data-i18n="options_item34"></span></a>
-    <textarea id="silent" rows="4" data-i18n="options_t_1" data-i18n-value="placeholder"></textarea>
+    <a data-href="faq22" target="_blank"><span data-i18n="options_item34" data-i18n-title="options_tip_silent"></span></a>
+    <textarea id="silent" data-i18n-title="options_tip_silent" rows="4" data-i18n="options_t_1" data-i18n-value="placeholder"></textarea>
   </p>
   <p>
-    <span data-i18n="options_item35"></span>
-    <textarea id="user-styling" rows="5" placeholder="e.g.:
+    <span data-i18n="options_item35" data-i18n-title="options_tip_user_styling"></span>
+    <textarea id="user-styling" data-i18n-title="options_tip_user_styling" rows="5" placeholder="e.g.:
 
 input[data-cmd=white-list] {
   color: red;
@@ -163,8 +163,8 @@ input[data-cmd=white-list] {
 "></textarea>
   </p>
   <p class="bc">
-    <button id="import" data-i18n="options_import"></button>
-    <button id="export" data-i18n="options_export"></button>
+    <button id="import" data-i18n-title="options_tip_import" data-i18n="options_import"></button>
+    <button id="export" data-i18n-title="options_tip_export" data-i18n="options_export"></button>
   </p>
   <p class="bc">
     <button id="review" data-i18n="options_review"></button>
@@ -172,7 +172,7 @@ input[data-cmd=white-list] {
   </p>
   <p class="bc">
     <button id="support" data-i18n="options_support"></button>
-    <button id="reset" data-i18n="options_reset"></button>
+    <button id="reset" data-i18n-title="options_tip_reset" data-i18n="options_reset"></button>
     <span style="flex: 1"></span>
     <span id="status"></span>
     <button id="save" data-i18n="options_save"></button>

@@ -304,5 +304,95 @@
   },
   "ui_button_close_value": {
     "message": "kapat"
+  },
+  "options_tip_locale": {
+    "message": "Seçenekler sayfasında, araç çubuğu açılır penceresinde ve sayfa içi bildirimlerde kullanılan dil. \"Tarayıcı varsayılanı\" tarayıcının dilini izler. Eklenti adı ve klavye kısayolu açıklamaları tarayıcı tarafından gösterilir ve her zaman tarayıcının dilini izler."
+  },
+  "options_tip_numbers": {
+    "message": "Bildirim kutusunun bir sayfada aynı anda kaç popup isteğini listeleyeceği. Liste dolduğunda ve yeni bir istek geldiğinde en eski girdi kaldırılır."
+  },
+  "options_tip_timeout": {
+    "message": "Hiçbir şey seçmezseniz her girdi bu kadar saniye sonra kaybolur (popup engelli kalır). Bir girdinin üzerine gelmek zamanlayıcısını duraklatır."
+  },
+  "options_tip_width": {
+    "message": "Sayfa içi bildirim kutusunun genişliği. Minimum 300 pikseldir."
+  },
+  "options_tip_countdown": {
+    "message": "Bir girdinin zaten bir eylemi olduğunda (o popup'ın sitesi için son 10 gün içinde seçtiğiniz eylem veya varsayılan eylem), o düğme geri sayar ve sıfıra gelince otomatik olarak basılır. Kapatmak için 0 kullanın."
+  },
+  "options_tip_default_action": {
+    "message": "Yeni popup istekleri için önerilen eylem. \"Hiçbir şey yapma\" yalnızca bildirimi gösterir. Diğer eylemler geri sayımla veya \"Mümkünse popup bildirimini yoksay\" açıksa hemen çalıştırılır. Bir site için yaptığınız seçim 10 gün hatırlanır ve bu ayara göre önceliklidir."
+  },
+  "options_tip_whitelist_mode": {
+    "message": "\"güven\" düğmesinin ne yaptığı (onaylamak için 3 saniye içinde iki kez tıklayın). İlk seçenek: popup'ın sitesi \"Bu kaynakların popup'larını engelleme\" listesine eklenir. İkinci seçenek: geçerli sayfanın sitesi \"Bu sayfalardaki hiçbir pop-up'ı engelleme\" listesine eklenir ve engelleme bu sayfada hemen durur."
+  },
+  "options_tip_placement": {
+    "message": "Bildirim kutusunun görüneceği sayfa köşesi."
+  },
+  "options_tip_badge_color": {
+    "message": "Araç çubuğu simgesindeki engellenen istek sayacının arka plan rengi."
+  },
+  "options_tip_domain": {
+    "message": "Geçerli sayfayla aynı sitede bir sayfa açan popup'lara izin verir, alt alan adları dahil (örneğin www.example.com'dan açılan shop.example.com)."
+  },
+  "options_tip_badge": {
+    "message": "Geçerli sekmede engellenen popup isteklerinin sayısını araç çubuğu simgesinde gösterir."
+  },
+  "options_tip_immediate_action": {
+    "message": "Bildirimi atlar ve bir eylem biliniyorsa (hatırlanan bir seçim veya varsayılan eylem) onu hemen çalıştırır. Önerilmez: neyin engellendiğini veya izin verildiğini görmezsiniz."
+  },
+  "options_tip_simulate_allow": {
+    "message": "Bir popup'a izin verildiğinde eklenti, sayfanın açmasına izin vermek yerine bağlantıyı kendisi yeni bir sekmede açar. Bu, tarayıcının kendi popup engelleyicisini aşar, ancak sayfa yeni pencereyi kontrol edemez; bu da sonucu sayfaya bildiren giriş popup'larını bozabilir."
+  },
+  "options_tip_focus_popup": {
+    "message": "Kısayol tuşlarını hemen kullanabilmeniz, kapatmak için Escape tuşuna basabilmeniz ve girdiler arasında gezinmek için yukarı/aşağı ok tuşlarını kullanabilmeniz için klavye odağını yeni bildirime taşır."
+  },
+  "options_tip_faqs": {
+    "message": "Eklenti güncellendikten sonra, yazarın SSS sayfasını (webextension.org) yeni bir sekmede açar; en fazla 45 günde bir."
+  },
+  "options_tip_popup_hosts": {
+    "message": "Bu siteleri açan popup'lar hiçbir sayfada asla engellenmez. Alt alan adları dahildir (google.com, mail.google.com ile de eşleşir). \"güven\" düğmesi ilk modunda siteleri buraya ekler."
+  },
+  "options_tip_top_hosts": {
+    "message": "Engelleyici bu sitelerde, alt alan adları dahil, hiç çalışmaz. Bu listeyi değiştirdikten sonra açık sekmeleri yenileyin."
+  },
+  "options_tip_protocols": {
+    "message": "Bu protokolleri kullanan bağlantılar asla engellenmez; örneğin bir torrent uygulaması açan magnet: bağlantıları. Her girdi iki nokta üst üste ile bitmelidir."
+  },
+  "options_tip_rules": {
+    "message": "URL'ye göre otomatik eylemler, \"desen\": \"eylem\" biçiminde bir JSON nesnesi olarak. Eylemler: allow, deny, background, redirect, close, interface (yalnızca bildirimi gösterir). Önek içermeyen bir desen popup URL'sine eşit olmalıdır. Önekler: r: popup URL'sinde düzenli ifade, ro: geçerli sayfa URL'sinde düzenli ifade, p: popup URL'sinde URL deseni, po: geçerli sayfa URL'sinde URL deseni.\nÖrnek: {\"p:https://*.example.com/*\": \"deny\", \"ro:youtube\": \"allow\"}"
+  },
+  "options_tip_scope": {
+    "message": "Engelleyicinin nerede çalışacağını belirleyen URL eşleşme desenleri (varsayılan *://*/* tüm web siteleri anlamına gelir). Yalnızca bazı siteleri korumak için daraltın, örneğin *://*.example.com/*. Bir desen geçersizse bunun yerine varsayılan kullanılır."
+  },
+  "options_tip_block_page_redirection": {
+    "message": "Birçok site, popup'ları engellendiğinde geçerli sekmeyi bir reklama yönlendirir. Bu açıkken, engellenen bir popup'tan sonraki 2 saniye boyunca sayfadan ayrılma girişimi tarayıcının \"Siteden ayrılsın mı?\" iletişim kutusunu gösterir, böylece kalabilirsiniz."
+  },
+  "options_tip_block_automated_redirection": {
+    "message": "Sayfanın sizin tıklamanız veya tuşa basmanız olmadan kendi başına başlattığı yönlendirmeleri de, herhangi bir zamanda (yalnızca popup'tan sonra değil) durdurur. Yukarıdaki seçeneği ve Navigation API destekleyen bir tarayıcı gerektirir."
+  },
+  "options_tip_block_page_redirection_same_origin": {
+    "message": "Geçerli sayfayla aynı siteye yönlendirmeleri durdurmaz."
+  },
+  "options_tip_block_page_redirection_hostnames": {
+    "message": "Bu sitelere yönlendirmeler asla durdurulmaz. Tam ana bilgisayar adlarını girin (alt alan adları dahil değildir)."
+  },
+  "options_tip_silent": {
+    "message": "Bu sitelerde istenen popup'lar yine engellenir, ancak bildirim gösterilmez."
+  },
+  "options_tip_user_styling": {
+    "message": "Sayfa içi bildirim kutusu için kendi CSS kodunuz, örneğin düğmeleri gizlemek veya yeniden renklendirmek için. Yalnızca bu cihazda saklanır ve dışa aktarılan tercihlere dahil edilmez."
+  },
+  "options_tip_sync": {
+    "message": "Bu listeyi tarayıcı hesabınızın eşitleme depolamasında saklar, böylece tüm cihazlarınızda aynı olur."
+  },
+  "options_tip_import": {
+    "message": "Daha önce dışa aktarılmış bir JSON dosyasından tercihleri yükler. Eklenti sonrasında yeniden başlar."
+  },
+  "options_tip_export": {
+    "message": "Tüm tercihleri bir JSON dosyasına kaydeder (özel CSS dahil değildir)."
+  },
+  "options_tip_reset": {
+    "message": "Formu varsayılan değerlerle doldurur. \"Ayarları Kaydet\" düğmesine basana kadar hiçbir şey değişmez."
   }
 }
