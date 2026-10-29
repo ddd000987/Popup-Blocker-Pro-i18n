@@ -4,6 +4,7 @@
 // localization
 const localize = () => {
   document.documentElement.lang = i18n.lang();
+  document.documentElement.dir = i18n.dir();
   [...document.querySelectorAll('[data-i18n]')].forEach(e => {
     if (e.dataset.i18nValue) {
       e.setAttribute(e.dataset.i18nValue, i18n.get(e.dataset.i18n));

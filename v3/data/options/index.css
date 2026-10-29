@@ -99,7 +99,7 @@ h3 {
   grid-column: 2;
   width: 8px;
   height: 8px;
-  margin-right: 4px;
+  margin-inline-end: 4px;
   border-right: 2px solid var(--muted);
   border-bottom: 2px solid var(--muted);
   transform: rotate(45deg);
@@ -144,7 +144,7 @@ h3 {
   padding: 6px 0;
 }
 .check.sub {
-  margin-left: 30px;
+  margin-inline-start: 30px;
 }
 .check input {
   width: 16px;
@@ -174,7 +174,7 @@ label {
 }
 sup a {
   font-size: 0.7rem;
-  margin-left: 2px;
+  margin-inline-start: 2px;
 }
 
 /* controls */
@@ -215,6 +215,8 @@ textarea {
   font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
   font-size: 0.85rem;
   resize: vertical;
+  /* hostnames and code stay left-to-right in right-to-left languages */
+  unicode-bidi: plaintext;
 }
 textarea::placeholder {
   color: var(--muted);

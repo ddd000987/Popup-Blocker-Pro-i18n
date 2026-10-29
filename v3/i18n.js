@@ -7,10 +7,21 @@ const i18n = {
   locales: {
     'en': 'English',
     'ar': 'العربية',
+    'de': 'Deutsch',
     'es': 'Español',
     'fr': 'Français',
+    'id': 'Bahasa Indonesia',
+    'it': 'Italiano',
+    'ja': '日本語',
+    'ko': '한국어',
+    'nl': 'Nederlands',
+    'pl': 'Polski',
     'pt_BR': 'Português (Brasil)',
+    'ru': 'Русский',
     'tr': 'Türkçe',
+    'uk': 'Українська',
+    'vi': 'Tiếng Việt',
+    'zh_CN': '简体中文',
     'zh_TW': '繁體中文'
   },
   messages: null, // null means "use chrome.i18n"
@@ -44,6 +55,9 @@ i18n.get = id => {
 
 // "lang" attribute value for the current language
 i18n.lang = () => i18n.locale === 'auto' ? chrome.i18n.getUILanguage() : i18n.locale.replace('_', '-');
+
+// "dir" attribute value; only the bundled right-to-left locales switch the layout
+i18n.dir = () => ['ar'].includes(i18n.lang().split('-')[0]) ? 'rtl' : 'ltr';
 
 i18n.ready = config.get(['locale']).then(prefs => i18n.load(prefs.locale));
 

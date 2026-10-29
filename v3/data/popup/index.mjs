@@ -10,6 +10,7 @@ for (const a of [...document.querySelectorAll('[data-href]')]) {
 // localization
 i18n.ready.then(() => {
   document.documentElement.lang = i18n.lang();
+  document.documentElement.dir = i18n.dir();
   [...document.querySelectorAll('[data-i18n]')].forEach(e => {
     if (e.tagName === 'INPUT') {
       e.value = i18n.get(e.dataset.i18n);

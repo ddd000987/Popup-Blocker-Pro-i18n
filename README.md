@@ -10,8 +10,8 @@ This is an unofficial fork of [schomery/popup-blocker](https://github.com/schome
 
 | | Original (0.9.2) | This fork |
 |---|---|---|
-| Interface language | Always follows the browser's language | Pick one on the options page: English, العربية, Español, Français, Português (Brasil), Türkçe, 繁體中文, or "Browser default" |
-| Traditional Chinese | Not included | Full translation (`zh_TW`), also used automatically when the browser is set to Traditional Chinese |
+| Interface language | Always follows the browser's language | Pick one of 18 languages on the options page, or "Browser default" (see [Languages](#languages)) |
+| Translations | 7 languages (Korean only partly) | 18 languages: 11 new (including Traditional and Simplified Chinese) and Korean completed. They are also used automatically when the browser is set to that language |
 | Help for settings | Short labels only | Hover any setting on the options page to see what it does, in every bundled language |
 | "Mute notifications on these hostnames" | Has no effect (the check was removed in upstream commit `1cfbf2e`) | Works again: popups on listed pages are still blocked, but no notification is shown |
 | Close button of the notification | Always in English | Translated |
@@ -90,6 +90,12 @@ There is no build step: the `v3` folder is the extension. To create an archive f
 ```bash
 cd v3 && zip -r ../popup-blocker.zip .
 ```
+
+### Languages
+
+English, العربية (Arabic), Deutsch (German), Español (Spanish), Français (French), Bahasa Indonesia (Indonesian), Italiano (Italian), 日本語 (Japanese), 한국어 (Korean), Nederlands (Dutch), Polski (Polish), Português (Brasil) (Brazilian Portuguese), Русский (Russian), Türkçe (Turkish), Українська (Ukrainian), Tiếng Việt (Vietnamese), 简体中文 (Simplified Chinese) and 繁體中文 (Traditional Chinese).
+
+The translations added in this fork (German, Indonesian, Italian, Japanese, Korean, Dutch, Polish, Russian, Ukrainian, Vietnamese and both Chinese variants) were machine-assisted and reviewed only for consistency. Corrections from native speakers are welcome.
 
 ### Translations
 

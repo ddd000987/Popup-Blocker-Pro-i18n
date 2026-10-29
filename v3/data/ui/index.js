@@ -329,6 +329,7 @@ const prepare = async c => {
   ]);
   await i18n.ready;
   document.documentElement.lang = i18n.lang();
+  document.documentElement.dir = i18n.dir();
   c();
 };
 

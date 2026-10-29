@@ -1,0 +1,419 @@
+{
+  "app_description": {
+    "message": "Alle pop-upverzoeken van elke website strikt blokkeren"
+  },
+  "context_item2": {
+    "message": "Het laatste pop-upverzoek toestaan"
+  },
+  "context_item3": {
+    "message": "Het laatste pop-upverzoek weigeren"
+  },
+  "context_item4": {
+    "message": "Het laatste pop-upverzoek openen in een achtergrondtabblad"
+  },
+  "context_item5": {
+    "message": "Het huidige tabblad omleiden naar het laatste pop-upverzoek"
+  },
+  "context_item6": {
+    "message": "Focus verplaatsen van de pagina naar het laatste pop-upverzoek"
+  },
+  "options_item1": {
+    "message": "Maximumaantal pop-upverzoeken voor één pagina"
+  },
+  "options_item2": {
+    "message": "Time-out voor het weergeven van elke pop-up (in seconden)"
+  },
+  "options_item3": {
+    "message": "Pop-upverzoeken van dezelfde origin niet blokkeren"
+  },
+  "options_item5": {
+    "message": "Het totale aantal geblokkeerde verzoeken weergeven in het werkbalkpictogram"
+  },
+  "options_item6": {
+    "message": "Pop-ups van deze origins niet blokkeren:"
+  },
+  "options_item7": {
+    "message": "Geen enkele pop-up op deze pagina's blokkeren:"
+  },
+  "options_item8": {
+    "message": "Vernieuw het tabblad om deze wijziging toe te passen."
+  },
+  "options_item9": {
+    "message": "Aftellen voor het uitvoeren van de laatste actie (in seconden)"
+  },
+  "options_item10": {
+    "message": "Gebruik het getal nul om het aftellen voor het uitvoeren van de vorige actie uit te schakelen."
+  },
+  "options_item13": {
+    "message": "Blacklistbronnen (omgekeerde werkingsmodus):"
+  },
+  "options_item15": {
+    "message": "Paginaomleiding 2 seconden voorkomen nadat een pop-up is aangevraagd"
+  },
+  "options_item17": {
+    "message": "Standaardactie wanneer een pop-up wordt aangevraagd"
+  },
+  "options_item18": {
+    "message": "Niets doen"
+  },
+  "options_item19": {
+    "message": "Verzoek weigeren"
+  },
+  "options_item20": {
+    "message": "Openen op de achtergrond"
+  },
+  "options_item21": {
+    "message": "Pagina omleiden"
+  },
+  "options_item22": {
+    "message": "Achtergrondkleur van badge"
+  },
+  "options_item23": {
+    "message": "Pop-upmelding waar mogelijk negeren (niet aanbevolen)"
+  },
+  "options_item25": {
+    "message": "Beschrijvingen"
+  },
+  "options_item26": {
+    "message": "FAQ-pagina weergeven bij updates"
+  },
+  "options_item27": {
+    "message": "Deze protocollen niet blokkeren:"
+  },
+  "options_item28": {
+    "message": "Paginaomleiding naar de volgende origins toestaan:"
+  },
+  "options_item29": {
+    "message": "Paginaomleiding naar dezelfde origin toestaan"
+  },
+  "options_item30": {
+    "message": "Simuleer de knop 'toestaan' om te voorkomen dat de interne pop-upblokkering van je browser deze verzoeken blokkeert"
+  },
+  "options_item31": {
+    "message": "Wanneer op de knop \"vertrouwen\" wordt gedrukt:"
+  },
+  "options_item32": {
+    "message": "De pop-uporigin niet meer blokkeren"
+  },
+  "options_item33": {
+    "message": "De pagina op het hoogste niveau toestaan alle pop-ups te tonen"
+  },
+  "options_item34": {
+    "message": "Meldingen op deze hostnamen dempen:"
+  },
+  "options_item35": {
+    "message": "De volgende aangepaste CSS-regels toepassen op de pop-upinterface:"
+  },
+  "options_item40": {
+    "message": "Focus de nieuw gegenereerde pop-upinterface. Je kunt dan sneltoetsen of de Escape-toets gebruiken om te verbergen"
+  },
+  "options_item36": {
+    "message": "Agressieve detectie van statische IFrame inschakelen"
+  },
+  "options_item37": {
+    "message": "Wanneer deze modus is ingeschakeld, installeert de extensie een mutation observer om statische IFrames met 'JavaScript:' src-attributen te controleren. Dit versterkt de blokkering maar heeft prestatienadelen."
+  },
+  "options_item38": {
+    "message": "Paginaomleiding"
+  },
+  "options_item39": {
+    "message": "Overig"
+  },
+  "options_item41": {
+    "message": "Actie bij een nieuw pop-upverzoek"
+  },
+  "options_item42": {
+    "message": "Pop-uppositie op de pagina"
+  },
+  "options_item43": {
+    "message": "Linksboven"
+  },
+  "options_item44": {
+    "message": "Rechtsboven"
+  },
+  "options_item45": {
+    "message": "Linksonder"
+  },
+  "options_item46": {
+    "message": "Rechtsonder"
+  },
+  "options_item47": {
+    "message": "Beschermingsbereik"
+  },
+  "options_item48": {
+    "message": "Lees de documentatie over het configureren van het bereik van de extensie."
+  },
+  "options_item49": {
+    "message": "Breedte van de pop-up (in pixels)"
+  },
+  "options_item50": {
+    "message": "Automatische paginaomleidingen zonder gebruikersinteractie blokkeren"
+  },
+  "options_sync": {
+    "message": "Deze voorkeur synchroniseren"
+  },
+  "options_support": {
+    "message": "Ontwikkeling ondersteunen"
+  },
+  "options_import": {
+    "message": "Voorkeuren importeren"
+  },
+  "options_export": {
+    "message": "Voorkeuren exporteren"
+  },
+  "options_reset": {
+    "message": "Herstellen naar standaardwaarden"
+  },
+  "options_save": {
+    "message": "Opties opslaan"
+  },
+  "options_msg": {
+    "message": "Opties zijn opgeslagen"
+  },
+  "options_review": {
+    "message": "YouTube-recensie"
+  },
+  "options_page": {
+    "message": "FAQ-pagina"
+  },
+  "options_t_1": {
+    "message": "komma-gescheiden lijst met hostnamen (bijv.: www.google.com, www.yahoo.com)"
+  },
+  "options_t_2": {
+    "message": "komma-gescheiden lijst met domeinen (bijv.: google.com, yahoo.com)"
+  },
+  "options_t_3": {
+    "message": "Een JSON-object dat de extensie leidt bij het uitvoeren van een specifieke actie als reactie op een pop-upverzoek, bepaald door de URL ervan. Lees de FAQ-pagina voor voorbeelden."
+  },
+  "options_t_4": {
+    "message": "Voer een komma-gescheiden lijst met patronen in om het globale bereik te definiëren. Wijzig dit alleen als je weet wat je doet, want onjuiste waarden kunnen de extensie breken. Lees de FAQ-pagina voor meer info"
+  },
+  "ui_msg": {
+    "message": "Pop-up is aangevraagd voor"
+  },
+  "ui_button_allow": {
+    "message": "Deze pop-up toestaan (Alt + Shift + A of Control + Option + A)"
+  },
+  "ui_button_allow_value": {
+    "message": "toestaan"
+  },
+  "ui_button_redirect": {
+    "message": "Huidige pagina omleiden naar de nieuwe bestemming in plaats van deze in een nieuw tabblad of pop-up te openen (Alt + Shift + R of Control + Option + R)"
+  },
+  "ui_button_redirect_value": {
+    "message": "omleiden"
+  },
+  "ui_button_background": {
+    "message": "De link openen in een achtergrondtabblad (Alt + Shift + B of Control + Option + B)"
+  },
+  "ui_button_background_value": {
+    "message": "achtergrond"
+  },
+  "ui_button_deny": {
+    "message": "De pop-up of het openen van het tabblad weigeren (Alt + Shift + D of Control + Option + D)"
+  },
+  "ui_button_deny_value": {
+    "message": "weigeren"
+  },
+  "ui_button_trust": {
+    "message": "Dit domein op de allowlist zetten om pop-ups te openen (Alt + Shift + T of Control + Option + T)"
+  },
+  "ui_button_trust_value": {
+    "message": "vertrouwen"
+  },
+  "ui_button_trust_confirm": {
+    "message": "Bevestigen"
+  },
+  "bg_msg_state_0": {
+    "message": "Popup Blocker is globaal ingeschakeld, maar niet actief in dit tabblad—waarschijnlijk omdat het een interne pagina, buiten-bereikpagina is of nog laadt."
+  },
+  "bg_msg_state_1": {
+    "message": "Popup Blocker is globaal ingeschakeld en beschermt dit tabblad"
+  },
+  "bg_msg_state_2": {
+    "message": "Popup Blocker is globaal ingeschakeld maar beschermt dit tabblad niet"
+  },
+  "bg_msg_state_3": {
+    "message": "Popup Blocker is globaal uitgeschakeld en beschermt dit tabblad niet"
+  },
+  "bg_msg_state_4": {
+    "message": "Popup Blocker is globaal uitgeschakeld maar beschermt dit tabblad"
+  },
+  "bg_msg_reg": {
+    "message": "Registreren van blokkeerfilter mislukt vanwege een onjuist opgemaakte regel. Gebruik de optiepagina om dit te corrigeren."
+  },
+  "pp_enabled_g": {
+    "message": "Ingeschakeld (globaal)"
+  },
+  "pp_enabled_c": {
+    "message": "Ingeschakeld (dit domein)"
+  },
+  "pp_enabled_cf": {
+    "message": "Subframes in-/uitsluiten"
+  },
+  "pp_silent": {
+    "message": "Meldingen weergeven"
+  },
+  "pp_ignore": {
+    "message": "Actie uitvoeren indien mogelijk"
+  },
+  "pp_redirect": {
+    "message": "Paginaomleiding blokkeren"
+  },
+  "pp_last_request": {
+    "message": "Laatste verzoek"
+  },
+  "pp_test": {
+    "message": "Blokkering testen"
+  },
+  "pp_homepage": {
+    "message": "Homepage"
+  },
+  "pp_options": {
+    "message": "Opties"
+  },
+  "pp_shadow": {
+    "message": "Vervangend venster gebruiken"
+  },
+  "pp_allow": {
+    "message": "Toestaan"
+  },
+  "pp_block": {
+    "message": "Blokkeren"
+  },
+  "pp_health": {
+    "message": "Het achtergrondscript lijkt niet te reageren. Wil je proberen de extensie opnieuw te starten?"
+  },
+  "pp_block_redirect": {
+    "message": "Licht"
+  },
+  "pp_block_automated": {
+    "message": "Streng"
+  },
+  "pp_redirect_info": {
+    "message": "De modus Licht voorkomt omleidingen 2 seconden na gebruikersinteractie. De modus Streng blokkeert ook niet-interactieve paginaomleidingen."
+  },
+  "options_item51": {
+    "message": "Taal van interface en meldingen"
+  },
+  "options_item52": {
+    "message": "Browserstandaard"
+  },
+  "ui_button_close": {
+    "message": "Deze melding sluiten"
+  },
+  "ui_button_close_value": {
+    "message": "sluiten"
+  },
+  "options_tip_locale": {
+    "message": "Taal die wordt gebruikt door de optiepagina, de werkbalkpop-up en de meldingen op de pagina. \"Browserstandaard\" volgt de taal van de browser. De extensienaam en de beschrijvingen van sneltoetsen worden door de browser getoond en volgen altijd zijn taal."
+  },
+  "options_tip_numbers": {
+    "message": "Hoeveel pop-upverzoeken het meldingsvak tegelijk op één pagina vermeldt. Wanneer de lijst vol is en er een nieuw verzoek binnenkomt, wordt het oudste item verwijderd."
+  },
+  "options_tip_timeout": {
+    "message": "Elk item verdwijnt na dit aantal seconden als je niets kiest (de pop-up blijft geblokkeerd). Zweven boven een item pauzeert de timer."
+  },
+  "options_tip_width": {
+    "message": "Breedte van het meldingsvak op de pagina. Het minimum is 300 pixels."
+  },
+  "options_tip_countdown": {
+    "message": "Wanneer een item al een actie heeft (de actie die je voor de site van die pop-up in de afgelopen 10 dagen hebt gekozen, of de standaardactie), telt die knop af en wordt automatisch ingedrukt bij nul. Gebruik 0 om dit uit te schakelen."
+  },
+  "options_tip_default_action": {
+    "message": "Voorgestelde actie voor nieuwe pop-upverzoeken. \"Niets doen\" toont alleen de melding. Andere acties worden door het aftellen uitgevoerd, of onmiddellijk wanneer \"Pop-upmelding waar mogelijk negeren\" aan staat. Een keuze die je voor een site maakt, wordt 10 dagen onthouden en heeft voorrang op deze instelling."
+  },
+  "options_tip_whitelist_mode": {
+    "message": "Wat de knop \"vertrouwen\" doet (klik deze twee keer binnen 3 seconden om te bevestigen). Eerste optie: de site van de pop-up wordt toegevoegd aan \"Pop-ups van deze origins niet blokkeren\". Tweede optie: de site van de huidige pagina wordt toegevoegd aan \"Geen enkele pop-up op deze pagina's blokkeren\" en blokkeren stopt meteen op deze pagina."
+  },
+  "options_tip_placement": {
+    "message": "Hoek van de pagina waar het meldingsvak verschijnt."
+  },
+  "options_tip_badge_color": {
+    "message": "Achtergrondkleur van de teller voor geblokkeerde verzoeken op het werkbalkpictogram."
+  },
+  "options_tip_domain": {
+    "message": "Pop-ups toestaan die een pagina openen op dezelfde site als de huidige pagina, inclusief subdomeinen (bijvoorbeeld shop.example.com geopend vanaf www.example.com)."
+  },
+  "options_tip_badge": {
+    "message": "Het aantal geblokkeerde pop-upverzoeken in het huidige tabblad weergeven op het werkbalkpictogram."
+  },
+  "options_tip_immediate_action": {
+    "message": "De melding overslaan en de actie meteen uitvoeren wanneer er een bekend is (een onthouden keuze of de standaardactie). Niet aanbevolen: je ziet niet wat is geblokkeerd of toegestaan."
+  },
+  "options_tip_simulate_allow": {
+    "message": "Wanneer een pop-up wordt toegestaan, opent de extensie de link zelf in een nieuw tabblad in plaats van de pagina deze te laten openen. Dit omzeilt de eigen pop-upblokkering van de browser, maar de pagina kan het nieuwe venster niet besturen, wat loginpop-ups die terugkoppelen naar de pagina kan breken."
+  },
+  "options_tip_focus_popup": {
+    "message": "Toetsenbordfocus verplaatsen naar een nieuwe melding zodat je meteen de sneltoetsen kunt gebruiken, druk op Escape om deze te sluiten en gebruik de pijltjestoetsen omhoog/omlaag om tussen items te bewegen."
+  },
+  "options_tip_faqs": {
+    "message": "Na het bijwerken van de extensie de FAQ-pagina van de auteur (webextension.org) openen in een nieuw tabblad, maximaal eenmaal per 45 dagen."
+  },
+  "options_tip_popup_hosts": {
+    "message": "Pop-ups die deze sites openen worden nooit geblokkeerd, op geen enkele pagina. Subdomeinen zijn inbegrepen (google.com komt ook overeen met mail.google.com). De knop \"vertrouwen\" voegt hier sites toe in zijn eerste modus."
+  },
+  "options_tip_top_hosts": {
+    "message": "De blokkering werkt helemaal niet op deze sites, inclusief hun subdomeinen. Vernieuw open tabbladen na het wijzigen van deze lijst."
+  },
+  "options_tip_protocols": {
+    "message": "Links die deze protocollen gebruiken worden nooit geblokkeerd, bijvoorbeeld magnet:-links die een torrent-app openen. Elk item moet eindigen met een dubbele punt."
+  },
+  "options_tip_rules": {
+    "message": "Automatische acties per URL, als JSON-object van \"patroon\": \"actie\". Acties: allow, deny, background, redirect, close, interface (toon alleen de melding). Een patroon zonder voorvoegsel moet gelijk zijn aan de pop-up-URL. Voorvoegsels: r: reguliere expressie op de pop-up-URL, ro: reguliere expressie op de URL van de huidige pagina, p: URL-patroon op de pop-up-URL, po: URL-patroon op de URL van de huidige pagina.\nVoorbeeld: {\"p:https://*.example.com/*\": \"deny\", \"ro:youtube\": \"allow\"}"
+  },
+  "options_tip_scope": {
+    "message": "URL-overeenkomstpatronen die bepalen waar de blokkering werkt (de standaard *://*/* betekent alle websites). Beperk dit om alleen sommige sites te beschermen, bijvoorbeeld *://*.example.com/*. Als een patroon ongeldig is, wordt in plaats daarvan de standaard gebruikt."
+  },
+  "options_tip_block_page_redirection": {
+    "message": "Veel sites sturen het huidige tabblad naar een advertentie wanneer hun pop-up wordt geblokkeerd. Als dit aan staat, toont elke poging om de pagina te verlaten gedurende 2 seconden na een geblokkeerde pop-up het dialoogvenster \"Site verlaten?\" van de browser zodat je kunt blijven."
+  },
+  "options_tip_block_automated_redirection": {
+    "message": "Stop ook omleidingen die de pagina zelf start zonder een klik of toetsaanslag van jou, op elk moment (niet alleen na een pop-up). Vereist de bovenstaande optie en een browser die de Navigation API ondersteunt."
+  },
+  "options_tip_block_page_redirection_same_origin": {
+    "message": "Omleidingen naar dezelfde site als de huidige pagina niet stoppen."
+  },
+  "options_tip_block_page_redirection_hostnames": {
+    "message": "Omleidingen naar deze sites worden nooit gestopt. Voer exacte hostnamen in (subdomeinen zijn niet inbegrepen)."
+  },
+  "options_tip_silent": {
+    "message": "Pop-ups die op deze sites worden aangevraagd, worden nog steeds geblokkeerd, maar er wordt geen melding getoond."
+  },
+  "options_tip_user_styling": {
+    "message": "Je eigen CSS voor het meldingsvak op de pagina, bijvoorbeeld om knoppen te verbergen of opnieuw te kleuren. Het wordt alleen op dit apparaat opgeslagen en is niet inbegrepen in geëxporteerde voorkeuren."
+  },
+  "options_tip_sync": {
+    "message": "Deze lijst opslaan in de sync-opslag van je browseraccount zodat deze op al je apparaten hetzelfde is."
+  },
+  "options_tip_import": {
+    "message": "Voorkeuren laden uit een eerder geëxporteerd JSON-bestand. De extensie start daarna opnieuw op."
+  },
+  "options_tip_export": {
+    "message": "Alle voorkeuren opslaan in een JSON-bestand (de aangepaste CSS is niet inbegrepen)."
+  },
+  "options_tip_reset": {
+    "message": "Vul het formulier met de standaardwaarden. Er verandert niets totdat je op \"Opties opslaan\" drukt."
+  },
+  "options_basic": {
+    "message": "Basisinstellingen"
+  },
+  "options_advanced": {
+    "message": "Geavanceerde instellingen"
+  },
+  "options_advanced_hint": {
+    "message": "Zelden nodig. Wijzig deze alleen als je weet wat ze doen."
+  },
+  "options_section_general": {
+    "message": "Algemeen"
+  },
+  "options_section_lists": {
+    "message": "Allowlijsten"
+  },
+  "options_section_notification": {
+    "message": "Meldingsvak"
+  },
+  "options_section_rules": {
+    "message": "Regels en protocollen"
+  }
+}

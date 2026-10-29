@@ -1,0 +1,419 @@
+{
+  "app_description": {
+    "message": "Chặn nghiêm ngặt mọi yêu cầu cửa sổ bật lên từ bất kỳ trang web nào"
+  },
+  "context_item2": {
+    "message": "Cho phép yêu cầu cửa sổ bật lên gần nhất"
+  },
+  "context_item3": {
+    "message": "Từ chối yêu cầu cửa sổ bật lên gần nhất"
+  },
+  "context_item4": {
+    "message": "Mở yêu cầu cửa sổ bật lên gần nhất trong thẻ nền"
+  },
+  "context_item5": {
+    "message": "Chuyển hướng thẻ hiện tại đến yêu cầu cửa sổ bật lên gần nhất"
+  },
+  "context_item6": {
+    "message": "Chuyển tiêu điểm từ trang sang yêu cầu cửa sổ bật lên gần nhất"
+  },
+  "options_item1": {
+    "message": "Số lượng yêu cầu cửa sổ bật lên tối đa cho một trang"
+  },
+  "options_item2": {
+    "message": "Thời gian hiển thị mỗi cửa sổ bật lên (tính bằng giây)"
+  },
+  "options_item3": {
+    "message": "Không chặn yêu cầu cửa sổ bật lên từ cùng nguồn gốc"
+  },
+  "options_item5": {
+    "message": "Hiển thị tổng số yêu cầu đã chặn trong biểu tượng thanh công cụ"
+  },
+  "options_item6": {
+    "message": "Không chặn cửa sổ bật lên của các nguồn gốc này:"
+  },
+  "options_item7": {
+    "message": "Không chặn bất kỳ cửa sổ bật lên nào trên các trang này:"
+  },
+  "options_item8": {
+    "message": "Để thay đổi này có hiệu lực, hãy tải lại thẻ."
+  },
+  "options_item9": {
+    "message": "Đếm ngược để thực hiện hành động gần nhất (tính bằng giây)"
+  },
+  "options_item10": {
+    "message": "Dùng số 0 để tắt đếm ngược thực hiện hành động trước đó."
+  },
+  "options_item13": {
+    "message": "Nguồn trong danh sách chặn (chế độ hoạt động đảo ngược):"
+  },
+  "options_item15": {
+    "message": "Ngăn chuyển hướng trang trong 2 giây sau khi có yêu cầu cửa sổ bật lên"
+  },
+  "options_item17": {
+    "message": "Hành động mặc định khi có yêu cầu cửa sổ bật lên"
+  },
+  "options_item18": {
+    "message": "Không làm gì"
+  },
+  "options_item19": {
+    "message": "Từ chối yêu cầu"
+  },
+  "options_item20": {
+    "message": "Mở trong nền"
+  },
+  "options_item21": {
+    "message": "Chuyển hướng trang"
+  },
+  "options_item22": {
+    "message": "Màu nền của huy hiệu"
+  },
+  "options_item23": {
+    "message": "Bỏ qua thông báo cửa sổ bật lên khi có thể (không nên dùng)"
+  },
+  "options_item25": {
+    "message": "Mô tả"
+  },
+  "options_item26": {
+    "message": "Hiển thị trang Câu hỏi thường gặp khi cập nhật"
+  },
+  "options_item27": {
+    "message": "Không chặn các giao thức này:"
+  },
+  "options_item28": {
+    "message": "Cho phép chuyển hướng trang đến các nguồn gốc sau:"
+  },
+  "options_item29": {
+    "message": "Cho phép chuyển hướng trang đến cùng nguồn gốc"
+  },
+  "options_item30": {
+    "message": "Mô phỏng nút 'Cho phép' để ngăn trình chặn cửa sổ bật lên tích hợp sẵn của trình duyệt chặn các yêu cầu này"
+  },
+  "options_item31": {
+    "message": "Khi nhấn nút \"Tin cậy\":"
+  },
+  "options_item32": {
+    "message": "Không chặn nguồn gốc của cửa sổ bật lên nữa"
+  },
+  "options_item33": {
+    "message": "Cho phép trang cấp cao nhất hiển thị mọi cửa sổ bật lên"
+  },
+  "options_item34": {
+    "message": "Tắt thông báo trên các tên máy chủ này:"
+  },
+  "options_item35": {
+    "message": "Áp dụng các quy tắc CSS tùy chỉnh sau cho giao diện cửa sổ bật lên:"
+  },
+  "options_item40": {
+    "message": "Tập trung vào giao diện cửa sổ bật lên mới tạo. Sau đó bạn có thể dùng phím tắt hoặc phím Escape để ẩn"
+  },
+  "options_item36": {
+    "message": "Bật phát hiện IFrame tĩnh tích cực"
+  },
+  "options_item37": {
+    "message": "Khi bật chế độ này, tiện ích mở rộng sẽ cài đặt một trình quan sát đột biến (mutation observer) để theo dõi các IFrame tĩnh có thuộc tính src 'JavaScript:'. Điều này tăng khả năng chặn nhưng có nhược điểm về hiệu suất."
+  },
+  "options_item38": {
+    "message": "Chuyển hướng trang"
+  },
+  "options_item39": {
+    "message": "Khác"
+  },
+  "options_item41": {
+    "message": "Hành động khi có yêu cầu cửa sổ bật lên mới"
+  },
+  "options_item42": {
+    "message": "Vị trí cửa sổ bật lên trên trang"
+  },
+  "options_item43": {
+    "message": "Trên cùng bên trái"
+  },
+  "options_item44": {
+    "message": "Trên cùng bên phải"
+  },
+  "options_item45": {
+    "message": "Dưới cùng bên trái"
+  },
+  "options_item46": {
+    "message": "Dưới cùng bên phải"
+  },
+  "options_item47": {
+    "message": "Phạm vi bảo vệ"
+  },
+  "options_item48": {
+    "message": "Đọc tài liệu về cách định cấu hình phạm vi của tiện ích mở rộng."
+  },
+  "options_item49": {
+    "message": "Chiều rộng của cửa sổ bật lên (tính bằng pixel)"
+  },
+  "options_item50": {
+    "message": "Chặn chuyển hướng trang tự động mà không có tương tác của người dùng"
+  },
+  "options_sync": {
+    "message": "Đồng bộ hóa tùy chọn này"
+  },
+  "options_support": {
+    "message": "Hỗ trợ phát triển"
+  },
+  "options_import": {
+    "message": "Nhập tùy chọn"
+  },
+  "options_export": {
+    "message": "Xuất tùy chọn"
+  },
+  "options_reset": {
+    "message": "Đặt lại về mặc định"
+  },
+  "options_save": {
+    "message": "Lưu tùy chọn"
+  },
+  "options_msg": {
+    "message": "Đã lưu tùy chọn"
+  },
+  "options_review": {
+    "message": "Đánh giá trên YouTube"
+  },
+  "options_page": {
+    "message": "Trang Câu hỏi thường gặp"
+  },
+  "options_t_1": {
+    "message": "danh sách tên máy chủ phân tách bằng dấu phẩy (ví dụ: www.google.com, www.yahoo.com)"
+  },
+  "options_t_2": {
+    "message": "danh sách miền phân tách bằng dấu phẩy (ví dụ: google.com, yahoo.com)"
+  },
+  "options_t_3": {
+    "message": "Một đối tượng JSON hướng dẫn tiện ích mở rộng thực hiện một hành động cụ thể để đáp ứng yêu cầu cửa sổ bật lên, dựa trên URL của nó. Đọc trang Câu hỏi thường gặp để xem ví dụ."
+  },
+  "options_t_4": {
+    "message": "Nhập danh sách mẫu phân tách bằng dấu phẩy để xác định phạm vi toàn cục. Chỉ thay đổi nếu bạn biết mình đang làm gì, vì giá trị không đúng có thể làm hỏng tiện ích mở rộng. Đọc trang Câu hỏi thường gặp để biết thêm thông tin"
+  },
+  "ui_msg": {
+    "message": "Đã yêu cầu cửa sổ bật lên cho"
+  },
+  "ui_button_allow": {
+    "message": "Cho phép cửa sổ bật lên này (Alt + Shift + A hoặc Control + Option + A)"
+  },
+  "ui_button_allow_value": {
+    "message": "Cho phép"
+  },
+  "ui_button_redirect": {
+    "message": "Chuyển hướng trang hiện tại đến đích mới thay vì mở trong thẻ hoặc cửa sổ bật lên mới (Alt + Shift + R hoặc Control + Option + R)"
+  },
+  "ui_button_redirect_value": {
+    "message": "Chuyển hướng"
+  },
+  "ui_button_background": {
+    "message": "Mở liên kết trong thẻ nền (Alt + Shift + B hoặc Control + Option + B)"
+  },
+  "ui_button_background_value": {
+    "message": "Nền"
+  },
+  "ui_button_deny": {
+    "message": "Từ chối mở cửa sổ bật lên hoặc thẻ (Alt + Shift + D hoặc Control + Option + D)"
+  },
+  "ui_button_deny_value": {
+    "message": "Từ chối"
+  },
+  "ui_button_trust": {
+    "message": "Đưa miền này vào danh sách cho phép để mở cửa sổ bật lên (Alt + Shift + T hoặc Control + Option + T)"
+  },
+  "ui_button_trust_value": {
+    "message": "Tin cậy"
+  },
+  "ui_button_trust_confirm": {
+    "message": "Nhấp để xác nhận"
+  },
+  "bg_msg_state_0": {
+    "message": "Popup Blocker được bật trên toàn cục, nhưng không hoạt động trong thẻ này — có thể vì đây là trang nội bộ, trang ngoài phạm vi hoặc vẫn đang tải."
+  },
+  "bg_msg_state_1": {
+    "message": "Popup Blocker được bật trên toàn cục và đang bảo vệ thẻ này"
+  },
+  "bg_msg_state_2": {
+    "message": "Popup Blocker được bật trên toàn cục nhưng không bảo vệ thẻ này"
+  },
+  "bg_msg_state_3": {
+    "message": "Popup Blocker bị tắt trên toàn cục và không bảo vệ thẻ này"
+  },
+  "bg_msg_state_4": {
+    "message": "Popup Blocker bị tắt trên toàn cục nhưng vẫn bảo vệ thẻ này"
+  },
+  "bg_msg_reg": {
+    "message": "Đăng ký bộ lọc chặn không thành công do quy tắc có định dạng không đúng. Dùng trang tùy chọn để sửa."
+  },
+  "pp_enabled_g": {
+    "message": "Đã bật (Trên toàn cục)"
+  },
+  "pp_enabled_c": {
+    "message": "Đã bật (Miền này)"
+  },
+  "pp_enabled_cf": {
+    "message": "Bao gồm/Loại trừ khung phụ"
+  },
+  "pp_silent": {
+    "message": "Hiển thị thông báo"
+  },
+  "pp_ignore": {
+    "message": "Chạy hành động khi có thể"
+  },
+  "pp_redirect": {
+    "message": "Chặn chuyển hướng trang"
+  },
+  "pp_last_request": {
+    "message": "Yêu cầu gần nhất"
+  },
+  "pp_test": {
+    "message": "Kiểm tra trình chặn"
+  },
+  "pp_homepage": {
+    "message": "Trang chủ"
+  },
+  "pp_options": {
+    "message": "Tùy chọn"
+  },
+  "pp_shadow": {
+    "message": "Dùng cửa sổ thay thế"
+  },
+  "pp_allow": {
+    "message": "Cho phép"
+  },
+  "pp_block": {
+    "message": "Chặn"
+  },
+  "pp_health": {
+    "message": "Tập lệnh nền dường như không phản hồi. Bạn có muốn thử khởi động lại tiện ích mở rộng không?"
+  },
+  "pp_block_redirect": {
+    "message": "Nhẹ"
+  },
+  "pp_block_automated": {
+    "message": "Nghiêm ngặt"
+  },
+  "pp_redirect_info": {
+    "message": "Chế độ Nhẹ ngăn chuyển hướng trong 2 giây sau tương tác của người dùng. Chế độ Nghiêm ngặt còn chặn cả chuyển hướng trang không có tương tác."
+  },
+  "options_item51": {
+    "message": "Ngôn ngữ giao diện và thông báo"
+  },
+  "options_item52": {
+    "message": "Mặc định của trình duyệt"
+  },
+  "ui_button_close": {
+    "message": "Đóng thông báo này"
+  },
+  "ui_button_close_value": {
+    "message": "Đóng"
+  },
+  "options_tip_locale": {
+    "message": "Ngôn ngữ dùng cho trang tùy chọn, cửa sổ bật lên trên thanh công cụ và các thông báo trong trang. \"Mặc định của trình duyệt\" tuân theo ngôn ngữ của trình duyệt. Tên tiện ích mở rộng và mô tả phím tắt do trình duyệt hiển thị và luôn tuân theo ngôn ngữ của nó."
+  },
+  "options_tip_numbers": {
+    "message": "Số yêu cầu cửa sổ bật lên mà hộp thông báo liệt kê cùng lúc trên một trang. Khi danh sách đầy và có yêu cầu mới đến, mục cũ nhất sẽ bị xóa."
+  },
+  "options_tip_timeout": {
+    "message": "Mỗi mục sẽ biến mất sau số giây này nếu bạn không chọn gì (cửa sổ bật lên vẫn bị chặn). Di chuột lên một mục sẽ tạm dừng bộ hẹn giờ của nó."
+  },
+  "options_tip_width": {
+    "message": "Chiều rộng của hộp thông báo trong trang. Giá trị tối thiểu là 300 pixel."
+  },
+  "options_tip_countdown": {
+    "message": "Khi một mục đã có hành động (hành động bạn đã chọn cho trang web của cửa sổ bật lên đó trong 10 ngày qua, hoặc hành động mặc định), nút đó sẽ đếm ngược và được tự động nhấn khi về 0. Dùng 0 để tắt tính năng này."
+  },
+  "options_tip_default_action": {
+    "message": "Hành động được đề xuất cho các yêu cầu cửa sổ bật lên mới. \"Không làm gì\" chỉ hiển thị thông báo. Các hành động khác được chạy bởi bộ đếm ngược, hoặc ngay lập tức khi bật \"Bỏ qua thông báo cửa sổ bật lên khi có thể\". Lựa chọn bạn đưa ra cho một trang web được ghi nhớ trong 10 ngày và được ưu tiên hơn cài đặt này."
+  },
+  "options_tip_whitelist_mode": {
+    "message": "Chức năng của nút \"Tin cậy\" (nhấp hai lần trong 3 giây để xác nhận). Tùy chọn đầu tiên: trang web của cửa sổ bật lên được thêm vào \"Không chặn cửa sổ bật lên của các nguồn gốc này\". Tùy chọn thứ hai: trang web của trang hiện tại được thêm vào \"Không chặn bất kỳ cửa sổ bật lên nào trên các trang này\" và việc chặn sẽ dừng ngay trên trang này."
+  },
+  "options_tip_placement": {
+    "message": "Góc của trang nơi hộp thông báo xuất hiện."
+  },
+  "options_tip_badge_color": {
+    "message": "Màu nền của bộ đếm yêu cầu đã chặn trên biểu tượng thanh công cụ."
+  },
+  "options_tip_domain": {
+    "message": "Cho phép cửa sổ bật lên mở trang trên cùng trang web với trang hiện tại, bao gồm cả tên miền phụ (ví dụ shop.example.com được mở từ www.example.com)."
+  },
+  "options_tip_badge": {
+    "message": "Hiển thị số yêu cầu cửa sổ bật lên đã chặn trong thẻ hiện tại trên biểu tượng thanh công cụ."
+  },
+  "options_tip_immediate_action": {
+    "message": "Bỏ qua thông báo và chạy hành động ngay khi đã biết (lựa chọn đã ghi nhớ hoặc hành động mặc định). Không nên dùng: bạn sẽ không thấy nội dung đã bị chặn hay được cho phép."
+  },
+  "options_tip_simulate_allow": {
+    "message": "Khi một cửa sổ bật lên được cho phép, tiện ích mở rộng sẽ tự mở liên kết trong thẻ mới thay vì để trang tự mở. Điều này tránh được trình chặn cửa sổ bật lên tích hợp sẵn của trình duyệt, nhưng trang không thể điều khiển cửa sổ mới, điều này có thể làm hỏng các cửa sổ bật lên đăng nhập cần báo lại cho trang."
+  },
+  "options_tip_focus_popup": {
+    "message": "Chuyển tiêu điểm bàn phím sang thông báo mới để bạn có thể dùng phím tắt ngay, nhấn Escape để đóng và dùng phím mũi tên lên/xuống để di chuyển giữa các mục."
+  },
+  "options_tip_faqs": {
+    "message": "Sau khi tiện ích mở rộng được cập nhật, mở trang Câu hỏi thường gặp của tác giả (webextension.org) trong thẻ mới, tối đa một lần mỗi 45 ngày."
+  },
+  "options_tip_popup_hosts": {
+    "message": "Cửa sổ bật lên mở các trang web này không bao giờ bị chặn, trên mọi trang. Bao gồm cả tên miền phụ (google.com cũng khớp với mail.google.com). Nút \"Tin cậy\" thêm trang web vào đây ở chế độ đầu tiên."
+  },
+  "options_tip_top_hosts": {
+    "message": "Trình chặn không chạy chút nào trên các trang web này, bao gồm cả tên miền phụ của chúng. Tải lại các thẻ đang mở sau khi thay đổi danh sách này."
+  },
+  "options_tip_protocols": {
+    "message": "Các liên kết dùng các giao thức này không bao giờ bị chặn, ví dụ liên kết magnet: mở ứng dụng torrent. Mỗi mục phải kết thúc bằng dấu hai chấm."
+  },
+  "options_tip_rules": {
+    "message": "Hành động tự động theo URL, dưới dạng đối tượng JSON gồm \"mẫu\": \"hành động\". Các hành động: allow, deny, background, redirect, close, interface (chỉ hiển thị thông báo). Mẫu không có tiền tố phải khớp hoàn toàn với URL của cửa sổ bật lên. Các tiền tố: r: biểu thức chính quy trên URL của cửa sổ bật lên, ro: biểu thức chính quy trên URL của trang hiện tại, p: mẫu URL trên URL của cửa sổ bật lên, po: mẫu URL trên URL của trang hiện tại.\nVí dụ: {\"p:https://*.example.com/*\": \"deny\", \"ro:youtube\": \"allow\"}"
+  },
+  "options_tip_scope": {
+    "message": "Các mẫu khớp URL quyết định nơi trình chặn chạy (mặc định *://*/* nghĩa là mọi trang web). Thu hẹp để chỉ bảo vệ một số trang web, ví dụ *://*.example.com/*. Nếu mẫu không hợp lệ, giá trị mặc định sẽ được dùng thay thế."
+  },
+  "options_tip_block_page_redirection": {
+    "message": "Nhiều trang web chuyển thẻ hiện tại sang quảng cáo khi cửa sổ bật lên của chúng bị chặn. Khi bật, trong 2 giây sau khi chặn cửa sổ bật lên, mọi nỗ lực rời khỏi trang sẽ hiển thị hộp thoại \"Rời khỏi trang web?\" của trình duyệt để bạn có thể ở lại."
+  },
+  "options_tip_block_automated_redirection": {
+    "message": "Đồng thời chặn các chuyển hướng mà trang tự bắt đầu mà không cần bạn nhấp chuột hay nhấn phím, vào bất kỳ lúc nào (không chỉ sau khi có cửa sổ bật lên). Yêu cầu tùy chọn ở trên và trình duyệt hỗ trợ Navigation API."
+  },
+  "options_tip_block_page_redirection_same_origin": {
+    "message": "Không chặn chuyển hướng đến cùng trang web với trang hiện tại."
+  },
+  "options_tip_block_page_redirection_hostnames": {
+    "message": "Chuyển hướng đến các trang web này không bao giờ bị chặn. Nhập tên máy chủ chính xác (không bao gồm tên miền phụ)."
+  },
+  "options_tip_silent": {
+    "message": "Cửa sổ bật lên được yêu cầu trên các trang web này vẫn bị chặn, nhưng không hiển thị thông báo."
+  },
+  "options_tip_user_styling": {
+    "message": "CSS của riêng bạn cho hộp thông báo trong trang, ví dụ để ẩn hoặc đổi màu nút. Nó chỉ được lưu trên thiết bị này và không có trong tùy chọn đã xuất."
+  },
+  "options_tip_sync": {
+    "message": "Lưu danh sách này trong bộ nhớ đồng bộ hóa của tài khoản trình duyệt để nó giống nhau trên mọi thiết bị của bạn."
+  },
+  "options_tip_import": {
+    "message": "Tải tùy chọn từ tệp JSON đã xuất trước đó. Tiện ích mở rộng sẽ khởi động lại sau đó."
+  },
+  "options_tip_export": {
+    "message": "Lưu mọi tùy chọn vào tệp JSON (không bao gồm CSS tùy chỉnh)."
+  },
+  "options_tip_reset": {
+    "message": "Điền biểu mẫu bằng các giá trị mặc định. Không có gì thay đổi cho đến khi bạn nhấn \"Lưu tùy chọn\"."
+  },
+  "options_basic": {
+    "message": "Cài đặt cơ bản"
+  },
+  "options_advanced": {
+    "message": "Cài đặt nâng cao"
+  },
+  "options_advanced_hint": {
+    "message": "Hiếm khi cần. Chỉ thay đổi nếu bạn biết chúng có tác dụng gì."
+  },
+  "options_section_general": {
+    "message": "Chung"
+  },
+  "options_section_lists": {
+    "message": "Danh sách cho phép"
+  },
+  "options_section_notification": {
+    "message": "Hộp thông báo"
+  },
+  "options_section_rules": {
+    "message": "Quy tắc và giao thức"
+  }
+}

@@ -158,6 +158,9 @@
    "options_item5": {
       "message": "Mostrar el número total de solicitudes bloqueadas en el icono de la barra de herramientas"
    },
+   "options_item50": {
+      "message": "Bloquear las redirecciones automáticas de página sin interacción del usuario"
+   },
    "options_item6": {
       "message": "No bloquear las ventanas emergentes de estos orígenes:"
    },
@@ -209,6 +212,12 @@
    "pp_block": {
       "message": "Bloquear"
    },
+   "pp_block_automated": {
+      "message": "Estricto"
+   },
+   "pp_block_redirect": {
+      "message": "Ligero"
+   },
    "pp_enabled_c": {
       "message": "Habilitado (Este Dominio)"
    },
@@ -235,6 +244,9 @@
    },
    "pp_redirect": {
       "message": "Bloquear Redireccionamiento de Página"
+   },
+   "pp_redirect_info": {
+      "message": "El modo ligero evita las redirecciones durante 2 segundos tras la interacción del usuario. El modo estricto también bloquea las redirecciones de página no interactivas."
    },
    "pp_shadow": {
       "message": "Usar Sombra"
