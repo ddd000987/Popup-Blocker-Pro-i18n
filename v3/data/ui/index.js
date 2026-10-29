@@ -269,8 +269,8 @@ const onPopupRequest = async request => {
       // only perform automatic action when there is no native request
       // to prevent the native popup blocker catch our request
       // the countdown is meaningless when the interface is hidden
-      // ("Display Notifications" is off)
-      if (prefs.issue !== false && prefs.countdown && request.sameContext !== true) {
+      // ("Display Notifications" is off or the page is in the "silent" list)
+      if (prefs.issue !== false && args.get('muted') !== 'true' && prefs.countdown && request.sameContext !== true) {
         if (action) {
           // to prevent internal popup blocker from rejecting the request
           if (action !== 'popup-accepted' || prefs['simulate-allow']) {

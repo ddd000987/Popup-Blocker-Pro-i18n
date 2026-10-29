@@ -141,7 +141,14 @@ chrome.runtime.onMessage.addListener((request, sender, response) => {
     // "Display Notifications" only controls visibility. The request pipeline
     // (rules, default-action, last-request shortcuts) must always run; when
     // notifications are hidden we keep injecting the interface but invisible
-    config.get(['issue', 'placement', 'width']).then(prefs => {
+    config.get(['issue', 'silent', 'placement', 'width']).then(prefs => {
+      // "silent" hostnames hide the interface on their pages, as if "Display Notifications" is off
+      try {
+        prefs.muted = prefs.silent.includes(new URL(sender.tab.url).hostname);
+      }
+      catch (e) {
+        prefs.muted = false;
+      }
       request.frameId = sender.frameId;
       chrome.tabs.sendMessage(sender.tab.id, request, response => {
         chrome.runtime.lastError;
@@ -173,8 +180,9 @@ chrome.runtime.onMessage.addListener((request, sender, response) => {
 
                   ${prefs.placement.includes('t') ? 'top' : 'bottom'}: 5px !important;
                   ${prefs.placement.includes('l') ? 'left' : 'right'}: 5px !important;
-                  ${prefs.issue === false ? 'display: none' : ''}
+                  ${prefs.issue === false || prefs.muted ? 'display: none' : ''}
                 `;
+                container.muted = prefs.muted;
                 container.addEventListener('load', () => {
                   container.ready = true;
                   post();
@@ -183,6 +191,7 @@ chrome.runtime.onMessage.addListener((request, sender, response) => {
                 args.set('tabId', tabId);
                 args.set('parent', location.href);
                 args.set('placement', prefs.placement);
+                args.set('muted', prefs.muted);
                 container.src = chrome.runtime.getURL('/data/ui/index.html') + '?' + args.toString();
                 // do not attach to body to make sure the notification is visible
                 document.documentElement.append(container);
